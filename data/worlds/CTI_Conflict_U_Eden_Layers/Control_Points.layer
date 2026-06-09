@@ -1,0 +1,252 @@
+$grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et" {
+ CP_CalvaryHill {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_CalvaryHill"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_CalvaryHill-UC"
+   }
+  }
+  coords 3505.951 181.91 5817.967
+  angles 0 -40.546 0
+  {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_fAILimitThreshold 0.95
+     }
+    }
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iSpawnDistanceOverride 500
+      m_iDespawnDistanceOverride 600
+      m_fAILimitThreshold 0.95
+     }
+    }
+    coords 12.131 0.058 3.003
+   }
+  }
+ }
+ CP_LevieMilitaryBase {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_iRadius 75
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Levie_Base"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Levie_Base-UC"
+   }
+  }
+  coords 7500.099 165.496 4302.559
+  angles 0 106.017 0
+  {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iSpawnDistanceOverride 500
+      m_iDespawnDistanceOverride 600
+      m_fAILimitThreshold 0.95
+     }
+    }
+    coords -24.344 0.254 15.492
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_fAILimitThreshold 0.85
+     }
+    }
+    coords 8.221 0.248 5.966
+   }
+  }
+ }
+ CP_MontignacTown {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_iRadius 200
+   }
+   SCR_ResourceComponent "{621EB97024DABA92}" {
+    m_aConsumers {
+     SCR_ResourceConsumer "{621EB97024DABAFB}" {
+      m_fResourceRange 200
+     }
+    }
+    m_aGenerators {
+     SCR_ResourceGenerator "{6646761298C7F125}" {
+      m_fStorageRange 200
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 200
+    m_bSeizedByMajority 1
+    m_sBaseName "#AR-Campaign_MapLocation_Montignac"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Montignac-UC"
+   }
+  }
+  coords 4825.609 166.812 7094.843
+  angles 0 -29.632 0
+  {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iSpawnDistanceOverride 300
+      m_iDespawnDistanceOverride 400
+      m_fAILimitThreshold 0.95
+     }
+    }
+    coords -19.93 -3.97 48.592
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_fAILimitThreshold 0.95
+     }
+    }
+    coords 52.37 -2.178 3.004
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "621EB97024DABAFF"
+    coords 6.987 -0.156 -9.736
+    angles 0 -90.468 0
+   }
+  }
+ }
+ CP_PowerPlant {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_PowerPlant"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_PowerPlant-UC"
+   }
+  }
+  coords 5784.08 7.385 9767.163
+  {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_fAILimitThreshold 0.85
+     }
+    }
+    coords -11.474 -1.677 17.145
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iSpawnDistanceOverride 200
+      m_iDespawnDistanceOverride 300
+      m_fAILimitThreshold 0.95
+     }
+    }
+    coords 59.135 -2.357 -64.179
+   }
+  }
+ }
+ CP_ProvinsTransformerStation {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_iRadius 200
+   }
+   SCR_ResourceComponent "{621EB97024DABA92}" {
+    m_aConsumers {
+     SCR_ResourceConsumer "{621EB97024DABAFB}" {
+      m_fResourceRange 200
+     }
+    }
+    m_aGenerators {
+     SCR_ResourceGenerator "{6646761298C7F125}" {
+      m_fStorageRange 200
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRadius 200
+    m_sBaseName "#AR-Campaign_MapLocation_TransformerStation"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_TransformerStation-UC"
+   }
+  }
+  coords 5610.476 90.375 5892.061
+  angles 0 -24.133 0
+  {
+   GenericEntity {
+    coords 14.688 0.583 -1.086
+    angles 0 94.134 0
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    coords 9.061 2.455 3.003
+   }
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iSpawnDistanceOverride 500
+      m_iDespawnDistanceOverride 600
+      m_fAILimitThreshold 0.95
+     }
+    }
+    coords -38.413 -1.653 36.419
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "621EB97024DABAFF"
+    coords 28.255 0.145 -1.278
+    angles 0 11.095 0
+   }
+  }
+ }
+ CP_Regina {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Regina"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Regina-UC"
+   }
+  }
+  coords 7193.323 137.782 2274.595
+  {
+   GenericEntity {
+    ID "622086ACB9D1E3B2"
+    coords -3.213 0.216 11.384
+   }
+   GenericEntity {
+    ID "622086ACBB849B49"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iSpawnDistanceOverride 200
+      m_iDespawnDistanceOverride 300
+      m_fAILimitThreshold 0.95
+     }
+    }
+    coords -29.126 -0.092 74.099
+    {
+     SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+      coords 33.558 -1.046 -38.938
+     }
+    }
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "621EB97024DABAFF"
+    angles 1.887 -3.215 1.686
+   }
+  }
+ }
+ CP_SaulesIsland {
+  components {
+   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+    m_bCapturingRequiresPlayer 1
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Saules"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Saules-UC"
+   }
+  }
+  coords 2843.544 7.877 2238.298
+ }
+}
