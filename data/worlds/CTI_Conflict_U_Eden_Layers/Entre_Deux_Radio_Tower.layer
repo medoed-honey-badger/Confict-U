@@ -77,3 +77,7 @@ GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_01_sh
  coords 5853.391 235.945 7255.608
  angles -1.255 -159.355 1.797
 }
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ coords 5845.197 235.007 7255.72
+ angles 7.353 125.508 9.507
+}

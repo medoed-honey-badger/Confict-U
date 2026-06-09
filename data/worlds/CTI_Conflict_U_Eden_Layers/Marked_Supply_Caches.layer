@@ -221,3 +221,7 @@ $grp GenericEntity : "{CBCF93346A850481}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   angles 0 61.365 0
  }
 }
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ coords 4963.855 25.228 9980.959
+ angles 3.265 -65.889 1.46
+}

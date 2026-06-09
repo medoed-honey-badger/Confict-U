@@ -12,13 +12,6 @@ GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicl
    }
   }
  }
- coords 7395.837 136.219 4715.22
- angles 0 -11.872 0
-}
-GenericEntity : "{152E7C3355906BA9}Prefabs/Compositions/Locations/Eden/SupplyCache_Levie_FIA_01.et" {
- coords 7464.442 142.167 4738.911
-}
-GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
- coords 7508.814 134.102 4793.763
- angles 11.368 -152.375 4.908
+ coords 3112.394 118.793 5220.697
+ angles 0 81.872 0
 }

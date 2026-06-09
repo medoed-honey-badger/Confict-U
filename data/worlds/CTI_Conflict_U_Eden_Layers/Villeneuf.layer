@@ -2,6 +2,27 @@ GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/Sa
  coords 2817.325 82.102 6478.756
  angles -2.879 -26.065 0
 }
+GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_iRespawnPeriod 600
+   m_aIncludedEditableEntityLabels {
+    TRAIT_PASSENGERS_SMALL
+    TRAIT_PASSENGERS_LARGE
+   }
+   m_aExcludedEditableEntityLabels +{
+    VEHICLE_HELICOPTER
+    VEHICLE_AIRPLANE
+   }
+  }
+ }
+ coords 2839.563 86.448 6343.815
+ angles 0 92.084 0
+}
 GenericEntity : "{B923EE8B7D881891}Prefabs/Compositions/Locations/Eden/SupplyCache_Villeneuf_FIA_01.et" {
  coords 2838.686 86.345 6339.803
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ coords 2916.18 77.651 6458.024
+ angles 1.893 61.611 9.071
 }

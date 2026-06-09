@@ -1,3 +1,20 @@
+$grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_CAR
+    }
+   }
+  }
+  coords 8825.435 95.321 2767.429
+  angles 1.704 31.826 -1.049
+ }
+ {
+  coords 8910.895 96.312 2735.259
+  angles 2.226 -167.307 2.334
+ }
+}
 GenericEntity : "{D523CF2B952C71A9}Prefabs/Compositions/Locations/Eden/SupplyCache_Durras_FIA_01.et" {
  coords 8826.849 94.671 2745.832
 }
