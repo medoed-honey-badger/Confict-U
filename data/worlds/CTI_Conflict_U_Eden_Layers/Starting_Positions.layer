@@ -1,0 +1,203 @@
+$grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et" {
+ StartingPos05 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRegularSuppliesIncomeBase 400
+   }
+  }
+  coords 11623.614 16.695 1499.46
+  angles 0 -116.769 0
+ }
+ StartingPos07 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRegularSuppliesIncomeBase 350
+   }
+  }
+  coords 8215.48 223.703 2181.153
+  angles 0 119.253 0
+ }
+ StartingPos09 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRegularSuppliesIncomeBase 200
+   }
+  }
+  coords 7535.541 6.253 6058.447
+  angles 0 -106.699 0
+ }
+ StartingPos12 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRegularSuppliesIncomeBase 300
+   }
+  }
+  coords 5375.401 42.452 11056.79
+  angles 0 -106.828 0
+ }
+ StartingPos14 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRegularSuppliesIncomeBase 200
+   }
+  }
+  coords 4172.32 25.16 9063.661
+  angles 0 -106.49 0
+ }
+ StartingPos15 {
+  coords 2539.377 50.218 7303.734
+  angles 0 62.186 0
+ }
+ StartingPos19 {
+  coords 2745.402 11.616 4032.816
+  angles 0 -106.784 0
+ }
+ StartingPos21 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_iRegularSuppliesIncomeBase 750
+   }
+  }
+  coords 7583.852 6.817 8874.553
+  angles 0 -75.015 0
+  {
+   $grp SCR_DestructibleBuildingEntity : "{2D0A93C80A6A5C5D}Prefabs/Structures/Infrastructure/Naval/Piers/PierWooden_02/PierWooden_02_bridge.et" {
+    {
+     coords 23.148 -6.019 -60.163
+     angles -2.894 -14.24 -1.359
+     HouseNumber -2
+    }
+    {
+     coords 35.479 -5.194 -108.465
+     angles 0.947 -14.332 -1.357
+     HouseNumber -2
+    }
+    {
+     coords 47.859 -6.02 -156.923
+     angles 0.947 -14.332 -1.357
+     HouseNumber -2
+    }
+   }
+   SCR_DestructibleBuildingEntity : "{401E516FD6CA886B}Prefabs/Structures/Infrastructure/Naval/Piers/PierWooden_02/PierWooden_02_pier.et" {
+    coords 56.378 -6.514 -187.055
+    angles -0.943 165.503 1.36
+    HouseNumber -2
+   }
+   GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
+    components {
+     SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+      m_bOrientChildrenToTerrain 0
+     }
+    }
+    coords 15.251 -3.874 -29.275
+    angles 0 75.015 0
+    {
+     GenericEntity {
+      ID "5D1ED92199D182AF"
+      coords 0.695 -0.576 4.464
+      angles 0 -4.819 0
+     }
+     GenericEntity {
+      ID "5E3316C6561A64FE"
+      coords -3.157 0.867 -5.721
+      angles 0 -172 0
+      {
+       GenericEntity {
+        ID "5D1ED92C8FCFAAB4"
+        coords 0 0.001 0
+        angles 0 180 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D1ED92199D1829B"
+      coords -3.169 0.725 -4.25
+      angles 0 -178.041 0
+     }
+     GenericEntity {
+      ID "5E330D6CD4B41385"
+      coords -2.752 0.648 -3.651
+      angles 1.801 2.88 1.368
+     }
+     GenericEntity {
+      ID "5D45393949376AB5"
+      coords -0.061 0.512 -5.44
+      {
+       GenericEntity {
+        ID "5D4539397A9246E8"
+        coords 1.366 -0.115 0.165
+        angles 0 -0.315 0
+       }
+       GenericEntity {
+        ID "5D4539397A9246EE"
+        coords -1.26 -0.098 0.099
+        angles 0 0.367 0
+       }
+      }
+     }
+     GenericEntity {
+      ID "5D1ED92199D1824C"
+      coords 1.665 -0.611 3.786
+      angles 0 51.904 0
+     }
+     GenericEntity {
+      ID "5D1ED92199D1825C"
+      coords 1.56 -0.732 5.114
+      angles 0 -59.899 0
+     }
+     GenericEntity {
+      ID "5D1ED92199D1827B"
+      coords 2.493 -0.872 5.424
+     }
+     GenericEntity {
+      ID "5D1ED92199D182E9"
+      coords 3.054 0.197 -4.186
+      angles 0 -10.521 0
+     }
+     GenericEntity {
+      ID "5D1ED92199D182F7"
+      coords 3.073 0.288 -4.994
+      angles 0 -57.298 0
+     }
+     GenericEntity {
+      ID "5D1ED92199D18226"
+      coords 2.237 -0.755 4.532
+      angles 0 39.053 0
+     }
+     GenericEntity {
+      ID "5D1ED92199D18124"
+      coords -3.621 0.847 -4.958
+      angles 0 0 -90
+     }
+     GenericEntity {
+      ID "5D1ED92199D182C3"
+      coords -2.586 -0.207 4.523
+     }
+     GenericEntity {
+      ID "5D1ED92199D182D3"
+      coords -4.064 -0.021 4.504
+      angles 0 -4.021 0
+     }
+     GenericEntity {
+      ID "5E5CB30FE628C0E3"
+      coords 4.732 0.201 -4.977
+      angles 0 -94.637 0
+     }
+     StaticModelEntity {
+      ID "5D1ED92199D18266"
+      coords 3.238 0.378 -6.075
+     }
+     StaticModelEntity {
+      ID "5D1ED92199D1823E"
+      coords 3.62 -0.961 4.883
+      angles 0 14.646 0
+     }
+    }
+   }
+   GenericEntity : "{D6D5331B30A2C7C6}Prefabs/Compositions/Misc/FreeRoamBuilding/CamoNetMedium_S_US_01.et" {
+    coords 8.091 -3.124 -30.713
+    angles 0 75.015 0
+   }
+  }
+ }
+}
