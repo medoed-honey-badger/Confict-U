@@ -1,0 +1,213 @@
+$grp GenericEntity : "{1804DADC1C7C9893}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign_HQC.et" {
+ {
+  coords 9044.778 124.507 2741.715
+  angles 0 -165 0
+ }
+ {
+  coords 6914.712 50.906 4436.838
+  angles 0 -121.473 0
+ }
+ {
+  coords 6947.63 59.075 4481.804
+  angles -2.595 133.048 0
+ }
+ {
+  coords 4760.788 54.106 5842.753
+  angles -2.149 -146.342 0
+ }
+ {
+  coords 4840.767 51.726 5888.263
+  angles -1.968 150 0
+ }
+ {
+  coords 5033.289 26.917 9950.467
+  angles 0 -88.562 0
+ }
+ {
+  coords 4892.171 109.723 8113.824
+  angles 5.616 -132 -2.83
+ }
+ {
+  coords 4881.905 111.905 8142.6
+  angles 9.228 -52.102 -2.121
+ }
+ {
+  coords 3122.97 119.225 5234.888
+  angles -1.498 -134.057 0
+ }
+ {
+  coords 7077.478 156.668 2045.649
+  angles -0.466 165 0
+ }
+ {
+  coords 7069.132 156.812 2067.8
+  angles 0 -11.967 0
+ }
+}
+$grp GenericEntity : "{2EA9E10F2E9C0A36}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign_HQC.et" {
+ {
+  coords 4852.334 52.946 5719.825
+  angles 0 164.811 -1.405
+ }
+ {
+  coords 5018.894 26.27 9988.49
+  angles 0 89.772 0
+ }
+ {
+  coords 6508.112 161.822 6478.687
+  angles 0 73.157 0
+ }
+ {
+  coords 3056.594 118.287 5244.14
+  angles 0 -131.274 0
+ }
+ {
+  coords 7077.042 156.813 2077.013
+  angles 0 157.963 0
+ }
+}
+$grp GenericEntity : "{6010D9A8FCCB7E38}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign_HQC.et" {
+ {
+  coords 6924.792 59.537 4485.83
+  angles 0 -49.201 -1.769
+ }
+ {
+  coords 4771.736 53.932 5843.775
+  angles 0 136.566 0.762
+ }
+ {
+  coords 4974.982 25.874 9873.354
+  angles 0 179.912 0
+ }
+ {
+  coords 4852.032 111.493 8103.602
+  angles 0 24.829 0
+ }
+ {
+  coords 6467.064 162.084 6493.529
+  angles 0 -19.751 0
+ }
+ {
+  coords 6427.175 162.112 6491.897
+  angles 0 155.354 0
+ }
+ {
+  coords 3075.744 118.469 5232.593
+  angles 0 137.005 0
+ }
+}
+$grp GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign_HQC.et" {
+ {
+  coords 9050.172 124.732 2767.866
+  angles 0 12.37 0
+ }
+ {
+  coords 4876.027 52.513 5715.602
+  angles 0 -16.679 0
+ }
+ {
+  coords 5031.582 27.031 9869.461
+  angles 0 -91.816 0
+ }
+ {
+  coords 6488.144 161.786 6516.364
+  angles 0 164.362 0
+ }
+ {
+  coords 6414.536 161.844 6485.855
+  angles 0 154.002 1.554
+ }
+ {
+  coords 3113.86 118.764 5215.264
+  angles 0 -41.113 -0.984
+ }
+ {
+  coords 7082.238 156.812 2067.934
+  angles 0 -16.149 0
+ }
+}
+$grp GenericEntity : "{B3DB90408A32E22A}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_06_Campaign_HQC.et" {
+ {
+  coords 4871.928 52.5 5675.194
+  angles 0 -105 0
+ }
+ {
+  coords 5011.831 26.677 9908.48
+  angles 0 -90.759 0
+ }
+ {
+  coords 5020.932 26.06 10002.021
+  angles 1.796 90 -1.55
+ }
+ {
+  coords 6494.722 161.988 6482.913
+  angles 0 -20.05 0
+ }
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    m_bOrientChildrenToTerrain 0
+   }
+  }
+  coords 3054.258 118.562 5207.084
+  angles 0 -39.4 0
+ }
+}
+$grp GenericEntity : "{CBCF93346A850481}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_02_Campaign_HQC.et" {
+ {
+  coords 9075.662 118.323 2669.573
+  angles 0 -122.08 0
+ }
+ {
+  coords 9038.024 124.563 2746.161
+  angles 0 101.205 0
+ }
+ {
+  coords 6953.945 59.201 4480.212
+  angles -8.057 -137.445 0
+ }
+ {
+  coords 6941.625 54.323 4444.806
+  angles -1.977 -51.323 -11.232
+ }
+ {
+  coords 4741.732 54.596 5834.935
+  angles 0 39.77 -4.309
+ }
+ {
+  coords 4760.327 54.131 5813.492
+  angles -1.413 55.932 -2.654
+ }
+ {
+  coords 4789.626 53.759 5856.382
+  angles 0 -165 -2.119
+ }
+ {
+  coords 5014.078 26.839 9944.229
+  angles 0 79.189 0
+ }
+ {
+  coords 4996.238 26.386 9917.058
+  angles 0 -51.077 0
+ }
+ {
+  coords 4869.616 114.279 8040.725
+  angles 4.806 -88.684 0
+ }
+ {
+  coords 4836.347 118.294 8157.403
+  angles 0 -173.345 -2.556
+ }
+ {
+  coords 6483.949 161.332 6526.778
+  angles 0 -16.163 0
+ }
+ {
+  coords 3099.809 117.636 5188.213
+  angles -4.715 -142.16 0
+ }
+ {
+  coords 7065.577 156.818 2050.177
+  angles 0 61.365 0
+ }
+}

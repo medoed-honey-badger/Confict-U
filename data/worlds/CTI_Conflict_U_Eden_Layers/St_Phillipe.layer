@@ -1,0 +1,9 @@
+GenericEntity : "{CE05A668A373BB44}Prefabs/Compositions/Locations/Eden/SupplyCache_StPhilippe_FIA_01.et" {
+ coords 4502.756 14.702 10771.987
+ {
+  GenericEntity {
+   ID "5E6ACA2329696EE2"
+   Flags 0x100403 0
+  }
+ }
+}

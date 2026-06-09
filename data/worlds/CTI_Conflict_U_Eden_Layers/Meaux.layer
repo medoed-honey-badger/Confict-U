@@ -1,0 +1,9 @@
+GenericEntity : "{2FAFFD858A8315E6}Prefabs/Compositions/Locations/Eden/SupplyCache_Meaux_FIA_01.et" {
+ coords 4520.45 14.178 9467.978
+ {
+  GenericEntity {
+   ID "5E6ACA23A6B54723"
+   Flags 0x100403 0
+  }
+ }
+}

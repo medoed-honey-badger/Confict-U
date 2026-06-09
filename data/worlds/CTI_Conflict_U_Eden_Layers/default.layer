@@ -1768,36 +1768,6 @@ $grp GenericEntity : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSma
   angles 0 -91.012 0
  }
 }
-GenericEntity : "{0A36F69A7D518F10}Prefabs/Compositions/Locations/Eden/Base_MilitaryHospital_FIA_01.et" {
- coords 3901.866 15.249 8450.659
- {
-  GenericEntity {
-   ID "5E6ACA2F09C2D1E6"
-  }
-  GenericEntity {
-   ID "5E6ACA2F09C2D141"
-   Flags 0x100403 0
-   {
-    GenericEntity {
-     ID "5E68EB2C6044E7F4"
-     Flags 0x100403 0
-     {
-      GenericEntity {
-       ID "5D36C61EF5BF6C53"
-       Flags 0x100403 0
-      }
-     }
-    }
-   }
-  }
-  GenericEntity {
-  }
-  SCR_SpawnPoint {
-   ID "5E6ACA2F09C2D12F"
-   Flags 0x100003 0
-  }
- }
-}
 $grp GenericEntity : "{0C923757B8B8306B}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeTriple_S_USSR_01.et" {
  {
   coords 3555.812 173.728 5867.342
@@ -3435,9 +3405,6 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angles 0 44.361 0
  }
 }
-GenericEntity : "{0E2B16A0A7DF365D}Prefabs/Compositions/Locations/Eden/SupplyCache_Morton_FIA_01.et" {
- coords 5135.238 13.126 4011.78
-}
 GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pile.et" {
  coords 5858.746 235.887 7264.536
  angles 0 23.474 0
@@ -4177,52 +4144,6 @@ GenericEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitar
  coords 7682.25 340.608 3067.401
  angles 0 0 0
 }
-$grp GenericEntity : "{1804DADC1C7C9893}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign_HQC.et" {
- {
-  coords 9044.778 124.507 2741.715
-  angles 0 -165 0
- }
- {
-  coords 6914.712 50.906 4436.838
-  angles 0 -121.473 0
- }
- {
-  coords 6947.63 59.075 4481.804
-  angles -2.595 133.048 0
- }
- {
-  coords 4760.788 54.106 5842.753
-  angles -2.149 -146.342 0
- }
- {
-  coords 4840.767 51.726 5888.263
-  angles -1.968 150 0
- }
- {
-  coords 5033.289 26.917 9950.467
-  angles 0 -88.562 0
- }
- {
-  coords 4892.171 109.723 8113.824
-  angles 5.616 -132 -2.83
- }
- {
-  coords 4881.905 111.905 8142.6
-  angles 9.228 -52.102 -2.121
- }
- {
-  coords 3122.97 119.225 5234.888
-  angles -1.498 -134.057 0
- }
- {
-  coords 7077.478 156.668 2045.649
-  angles -0.466 165 0
- }
- {
-  coords 7069.132 156.812 2067.8
-  angles 0 -11.967 0
- }
-}
 $grp GenericEntity : "{18B92018CF634D22}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_US_03.et" {
  {
   coords 3876.591 15.281 8414.389
@@ -4387,80 +4308,6 @@ GenericEntity : "{1CF4014D7086BE9F}Prefabs/Compositions/Locations/Eden/Base_Airp
 }
 $grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
  {
-  coords 4931.403 28.469 11986.469
-  angles 0 -179.952 0
- }
- {
-  coords 4434.091 5.811 11205.86
-  angles 0 85.611 0
- }
- {
-  coords 4474.851 1.531 11132.911
-  angles 0 -151.527 0
- }
- {
-  coords 9985.821 2.359 1523.785
-  angles 0 16.881 0
- }
- {
-  components {
-   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
-    m_bOrientChildrenToTerrain 0
-   }
-  }
-  coords 1054.877 2.821 6058.437
-  angles -0.009 -142.721 0.675
-  {
-   GenericEntity {
-    ID "5D1ED92353BB9FF4"
-    coords 0.72 -0.106 -2.237
-    angles 0 -1.764 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9F82"
-    coords 0.513 0.004 1.841
-    angles 0 -90 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9F95"
-    coords 0.614 -0.012 0.345
-    angles 0 -88.159 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9FE3"
-    coords 0.674 -0.029 -1.573
-    angles 0 176.173 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9E3E"
-    coords -6.087 -0.119 -6.339
-    angles 0 4.513 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9E28"
-    coords 0.21 -0.044 -3.815
-    angles 0 -3.43 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9FD2"
-    coords 0.229 -0.044 -4.991
-    angles 0 -0.492 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9F49"
-    coords -4.464 0.01 0.549
-   }
-  }
- }
- {
-  coords 3917.112 15.312 8418.873
-  angles 0 -82.588 0
- }
- {
-  coords 4297.855 1.13 9532.504
-  angles 0 45.123 0
- }
- {
   coords 4791.313 162.811 7133.942
   angles 0 60.982 0
   {
@@ -4601,10 +4448,6 @@ $grp GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSma
    }
   }
  }
- {
-  coords 7841.875 254.531 4029.39
-  angles 0 -32.721 0
- }
 }
 GenericEntity : "{20D02D188D3E883F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_wall_high_USSR.et" {
  coords 3584.868 172.749 5794.2
@@ -4647,34 +4490,6 @@ $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_
  }
 }
 $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
- {
-  coords 4938.753 28.5 11983.813
-  angles 0 -93.119 0
- }
- {
-  coords 4409.018 1.594 11211.245
-  angles 0 -97.026 0
- }
- {
-  coords 9961.073 2.531 1557.286
-  angles 0 -163.967 0
- }
- {
-  coords 880.68 3.038 6078.892
-  angles 0 33.929 0
- }
- {
-  coords 3722.218 1.281 8513.858
-  angles 0 70.111 0
- }
- {
-  coords 7600.234 166.156 4227.497
-  angles 0 -76.679 0
- }
- {
-  coords 4317.285 1.125 9563.502
-  angles 0 -134.243 0
- }
  {
   coords 5583.657 89.151 5891.404
   angles 0 -74.033 0
@@ -4733,14 +4548,6 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
  {
   coords 2847.179 8.193 2263.299
   angles 0 -177.776 0
- }
- {
-  coords 7829.86 254.531 4020.952
-  angles 0 -35.585 0
- }
- {
-  coords 7890.57 256.625 4006.571
-  angles 0 -51.694 0
  }
 }
 $grp GenericEntity : "{24B7F96197053B39}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_US_01.et" {
@@ -5509,32 +5316,6 @@ $grp GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLar
   }
  }
 }
-$grp GenericEntity : "{2EA9E10F2E9C0A36}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign_HQC.et" {
- {
-  coords 4852.334 52.946 5719.825
-  angles 0 164.811 -1.405
- }
- {
-  coords 5018.894 26.27 9988.49
-  angles 0 89.772 0
- }
- {
-  coords 6508.112 161.822 6478.687
-  angles 0 73.157 0
- }
- {
-  coords 3056.594 118.287 5244.14
-  angles 0 -131.274 0
- }
- {
-  coords 7077.042 156.813 2077.013
-  angles 0 157.963 0
- }
- {
-  coords 7720.512 12.969 8111.982
-  angles 0 -46.095 0
- }
-}
 $grp GenericEntity : "{2F0CCC459889B8EE}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_AP_Small_USSR.et" {
  {
   components {
@@ -5579,15 +5360,6 @@ $grp GenericEntity : "{2F0CCC459889B8EE}PrefabsEditable/EffectsModules/Mine/Effe
 GenericEntity : "{2F2BBFDA3A2C73D4}Prefabs/Props/Civilian/RadioSmall_01_black.et" {
  coords 7679.001 340.768 3054.798
  angles 0 59.602 0
-}
-GenericEntity : "{2FAFFD858A8315E6}Prefabs/Compositions/Locations/Eden/SupplyCache_Meaux_FIA_01.et" {
- coords 4520.45 14.178 9467.978
- {
-  GenericEntity {
-   ID "5E6ACA23A6B54723"
-   Flags 0x100403 0
-  }
- }
 }
 GenericEntity : "{3001B0C35F835714}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_BarbedWire_USSR_01.et" {
  coords 3490.664 177.104 5866.46
@@ -6220,9 +5992,6 @@ $grp Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.
   coords 5796.82 17.698 9790.957
   angles -0.19 -41.397 -0.98
  }
-}
-GenericEntity : "{4239449B3D22E425}Prefabs/Compositions/Locations/Eden/SupplyCache_StPierre_FIA_01.et" {
- coords 9689.018 14.024 1558.482
 }
 GenericEntity : "{42821C4C92A8F6F7}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_Left_USSR_01.et" {
  coords 7681.708 340.733 3070.304
@@ -6928,40 +6697,6 @@ SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManag
 }
 GenericEntity : "{59DE9F68F4D2A490}Prefabs/Compositions/Locations/Eden/SupplyCache_Laruns_FIA_01.et" {
  coords 7558.335 82.526 5540.854
-}
-$grp GenericEntity : "{6010D9A8FCCB7E38}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign_HQC.et" {
- {
-  coords 6924.792 59.537 4485.83
-  angles 0 -49.201 -1.769
- }
- {
-  coords 4771.736 53.932 5843.775
-  angles 0 136.566 0.762
- }
- {
-  coords 4974.982 25.874 9873.354
-  angles 0 179.912 0
- }
- {
-  coords 4852.032 111.493 8103.602
-  angles 0 24.829 0
- }
- {
-  coords 6467.064 162.084 6493.529
-  angles 0 -19.751 0
- }
- {
-  coords 6427.175 162.112 6491.897
-  angles 0 155.354 0
- }
- {
-  coords 3075.744 118.469 5232.593
-  angles 0 137.005 0
- }
- {
-  coords 7714.189 12.969 8100.737
-  angles 0 -52.685 0
- }
 }
 GenericEntity : "{60DE3D0B58E8C7A0}Prefabs/Compositions/Misc/SubCompositions/BarbedCoil_Cluttered_USSR_02.et" {
  coords 5572.853 0 5911.577
@@ -9549,40 +9284,6 @@ $grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSma
  {
   coords 4792.181 118.635 8125.515
   angles 0 -142.213 0
- }
-}
-$grp GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign_HQC.et" {
- {
-  coords 9050.172 124.732 2767.866
-  angles 0 12.37 0
- }
- {
-  coords 4876.027 52.513 5715.602
-  angles 0 -16.679 0
- }
- {
-  coords 5031.582 27.031 9869.461
-  angles 0 -91.816 0
- }
- {
-  coords 6488.144 161.786 6516.364
-  angles 0 164.362 0
- }
- {
-  coords 6414.536 161.844 6485.855
-  angles 0 154.002 1.554
- }
- {
-  coords 3113.86 118.764 5215.264
-  angles 0 -41.113 -0.984
- }
- {
-  coords 7082.238 156.812 2067.934
-  angles 0 -16.149 0
- }
- {
-  coords 7706.73 12.969 8095.992
-  angles 0 -52.037 0
  }
 }
 GenericEntity : "{8950F273E5D8657D}Prefabs/Compositions/Locations/Eden/SupplyCache_Gravette_FIA_01.et" {
@@ -14273,73 +13974,6 @@ $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSma
 }
 $grp GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
  {
-  coords 4944.24 28.416 11863.355
-  angles 0 88.201 0
- }
- {
-  coords 4466.275 5.749 11212.697
-  angles 0 88.861 0
- }
- {
-  coords 4486.781 1.531 11124.681
-  angles 0 -150 0
- }
- {
-  coords 9922.7 3.75 1648.255
-  angles 0 98.159 0
- }
- {
-  coords 925.242 2.75 6058.799
-  angles 0 36.956 0
- }
- {
-  coords 3892.086 15.243 8417.533
-  angles 0 -85.364 0
- }
- {
-  coords 7579.809 166.812 4329.583
-  angles 0 106.904 0
-  {
-   GenericEntity {
-    ID "5D1ED92199D182E9"
-    coords 3.054 -0.063 -4.186
-    angles 0 -10.521 0
-   }
-   GenericEntity {
-    ID "5D1ED92199D182F7"
-    coords 3.073 -0.068 -4.994
-    angles 0 -57.298 0
-   }
-   StaticModelEntity {
-    ID "5D1ED92199D18266"
-    coords 3.238 -0.078 -6.075
-   }
-   StaticModelEntity {
-    ID "5D1ED92199D1823E"
-    coords 3.62 -0.06 4.883
-    angles 0 14.646 0
-   }
-  }
- }
- {
-  coords 7614.017 166.844 4276.842
-  angles 0 105.821 0
-  {
-   GenericEntity {
-    ID "5D1ED92199D1825C"
-    coords 1.493 0 4.78
-   }
-   GenericEntity {
-    ID "5D1ED92199D182C3"
-    coords -2.628 0 4.205
-   }
-  }
- }
- {
-  coords 4313.67 1.125 9491.603
-  angles 0 -14.768 0
- }
- {
   coords 3512.114 179.81 5782.75
   angles 0.134 -8.618 0.885
   {
@@ -14637,14 +14271,6 @@ $grp GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSma
     angles 0 14.646 0
    }
   }
- }
- {
-  coords 7833.848 254.531 4040.59
-  angles 0 56.334 0
- }
- {
-  coords 7877.662 256.625 3992.119
-  angles 0 -51.231 0
  }
 }
 $grp StaticModelEntity : "{9639C7B3CF572320}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_old_V2.et" {
@@ -17230,65 +16856,6 @@ $grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification
   angles 0 -64.752 0
  }
 }
-GenericEntity : "{A9F3C4994839F7A4}Prefabs/Compositions/Locations/Eden/Base_StPierreHarbour_FIA_01.et" {
- coords 9925.094 2.389 1525.324
- {
-  GenericEntity {
-   ID "5E6ACA2FB3B7B67E"
-   {
-    GenericEntity {
-     ID "5E3A731E87593012"
-     Flags 0x100003 0
-    }
-    GenericEntity {
-     ID "5E3A731E87593014"
-     Flags 0x100003 0
-    }
-    GenericEntity {
-     ID "5E3A731E87593015"
-     Flags 0x100003 0
-    }
-   }
-  }
-  GenericEntity {
-   ID "5E6ACA2FB3B7A958"
-   Flags 0x100403 0
-   {
-    GenericEntity {
-     ID "5E68EB2C6044E7F4"
-     Flags 0x100403 0
-     {
-      GenericEntity {
-       ID "5D36C61EF5BF6C53"
-       Flags 0x100403 0
-      }
-     }
-    }
-   }
-  }
-  GenericEntity {
-   ID "5E6ACA2FB3B7B6F8"
-   {
-    GenericEntity {
-     ID "5E6ACA2FF8E39CE6"
-     Flags 0x100003 0
-    }
-    GenericEntity {
-     ID "5E6ACA2FF8E39F02"
-     Flags 0x100003 0
-    }
-    GenericEntity {
-     ID "5E6ACA2FF8E39F15"
-     Flags 0x100003 0
-    }
-    SCR_SpawnPoint {
-     ID "5E6ACA2FF8E39F2B"
-     Flags 0x100003 0
-    }
-   }
-  }
- }
-}
 GenericEntity : "{AB1A97B1BAE8C395}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_01.et" {
  coords 7211.564 137.526 2405.519
  angles -3.486 175.04 1.199
@@ -17573,33 +17140,6 @@ $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_
 GenericEntity : "{B350840088390760}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Stack_01.et" {
  coords 7695.214 340.694 3060.716
  angles 0 -22.137 -3.298
-}
-$grp GenericEntity : "{B3DB90408A32E22A}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_06_Campaign_HQC.et" {
- {
-  coords 4871.928 52.5 5675.194
-  angles 0 -105 0
- }
- {
-  coords 5011.831 26.677 9908.48
-  angles 0 -90.759 0
- }
- {
-  coords 5020.932 26.06 10002.021
-  angles 1.796 90 -1.55
- }
- {
-  coords 6494.722 161.988 6482.913
-  angles 0 -20.05 0
- }
- {
-  components {
-   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
-    m_bOrientChildrenToTerrain 0
-   }
-  }
-  coords 3054.258 118.562 5207.084
-  angles 0 -39.4 0
- }
 }
 GenericEntity : "{B44BBBE082275ACD}Prefabs/Compositions/Misc/SubCompositions/WoodenBoxCluttered_04.et" {
  coords 7682.346 340.598 3066.94
@@ -18685,64 +18225,6 @@ $grp DecalEntity : "{CA8AB522F7C90A28}Prefabs/Decals/Miscellaneous/CigarButts_01
   angles -89.98 -79.813 180
  }
 }
-$grp GenericEntity : "{CBCF93346A850481}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_02_Campaign_HQC.et" {
- {
-  coords 9075.662 118.323 2669.573
-  angles 0 -122.08 0
- }
- {
-  coords 9038.024 124.563 2746.161
-  angles 0 101.205 0
- }
- {
-  coords 6953.945 59.201 4480.212
-  angles -8.057 -137.445 0
- }
- {
-  coords 6941.625 54.323 4444.806
-  angles -1.977 -51.323 -11.232
- }
- {
-  coords 4741.732 54.596 5834.935
-  angles 0 39.77 -4.309
- }
- {
-  coords 4760.327 54.131 5813.492
-  angles -1.413 55.932 -2.654
- }
- {
-  coords 4789.626 53.759 5856.382
-  angles 0 -165 -2.119
- }
- {
-  coords 5014.078 26.839 9944.229
-  angles 0 79.189 0
- }
- {
-  coords 4996.238 26.386 9917.058
-  angles 0 -51.077 0
- }
- {
-  coords 4869.616 114.279 8040.725
-  angles 4.806 -88.684 0
- }
- {
-  coords 4836.347 118.294 8157.403
-  angles 0 -173.345 -2.556
- }
- {
-  coords 6483.949 161.332 6526.778
-  angles 0 -16.163 0
- }
- {
-  coords 3099.809 117.636 5188.213
-  angles -4.715 -142.16 0
- }
- {
-  coords 7065.577 156.818 2050.177
-  angles 0 61.365 0
- }
-}
 $grp GenericEntity : "{CC5453CCC311603B}Prefabs/Props/Military/Sandbags/Sandbag_01_end_burlap.et" {
  {
   coords 3581.894 174.419 5816.447
@@ -19137,15 +18619,6 @@ $grp GenericEntity : "{CD67070EFAFC28C7}Prefabs/Props/Military/Sandbags/Sandbag_
  {
   coords 3458.739 176.423 5783.563
   angles 0 70.774 0
- }
-}
-GenericEntity : "{CE05A668A373BB44}Prefabs/Compositions/Locations/Eden/SupplyCache_StPhilippe_FIA_01.et" {
- coords 4502.756 14.702 10771.987
- {
-  GenericEntity {
-   ID "5E6ACA2329696EE2"
-   Flags 0x100403 0
-  }
  }
 }
 $grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
@@ -20104,9 +19577,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   coords 5106.086 40.154 10426.477
   angles 0 121.801 0
  }
-}
-GenericEntity : "{D523CF2B952C71A9}Prefabs/Compositions/Locations/Eden/SupplyCache_Durras_FIA_01.et" {
- coords 8826.849 94.671 2745.832
 }
 $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {
  {
@@ -22402,15 +21872,6 @@ GenericEntity : "{E432A2B14E69DA5E}Prefabs/Compositions/Misc/SubCompositions/Cab
  coords 5856.431 235.967 7257.868
  angles 0 -40.317 0
 }
-GenericEntity : "{E4D8BE67FA5175A3}Prefabs/Compositions/Locations/Eden/SupplyCache_Lamentin_FIA_01.et" {
- coords 1279.669 37.386 5940.503
- {
-  GenericEntity {
-   ID "5E6ACA23963C1EBF"
-   Flags 0x100403 0
-  }
- }
-}
 $grp GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
  {
   coords 4967.312 29.171 10624.505
@@ -23278,138 +22739,6 @@ $grp GenericEntity : "{F56391ADF56E2604}Prefabs/Compositions/Slotted/SlotFlatSma
 }
 $grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
  {
-  coords 4431.428 5.813 11236.194
-  angles 0 176.963 0
- }
- {
-  coords 10028.925 2.687 1594.854
-  angles 0 106.207 0
- }
- {
-  coords 9941.11 2.541 1562.344
-  angles 0 175.303 0
-  {
-   GenericEntity {
-    ID "5D4539393E1536C3"
-    coords -0.757 -0.01 0.04
-    {
-     GenericEntity {
-      ID "5D45393936823FC0"
-      coords -1.418 -0.022 0.305
-      angles -0.427 0.022 -0.001
-     }
-     GenericEntity {
-      ID "5D45393936823FC3"
-      coords 1.183 -0.021 0.211
-      angles 0.427 179.947 0
-     }
-    }
-   }
-   GenericEntity {
-    ID "5E330D6CFA231272"
-    coords 2.08 -0.041 2.544
-    angles 0 9.495 0
-   }
-   GenericEntity {
-    ID "5D1ED922875C41AD"
-    coords -4.152 -0.01 -1.065
-    angles 0 -2.198 0
-   }
-   GenericEntity {
-    ID "5D1ED922875C415B"
-    coords -3.977 -0.02 1.365
-    angles -0.895 4.848 -0.002
-   }
-   GenericEntity {
-    ID "5D1ED922875C4178"
-    coords 2.757 -0.003 -2.315
-    angles -0.335 -63.329 0.83
-   }
-   GenericEntity {
-    ID "5D1ED922875C418B"
-    coords 4.292 -0.029 1.205
-    angles -0.785 33.372 -0.43
-   }
-   GenericEntity {
-    ID "5D1ED922875C41BB"
-    coords 4.293 -0.041 2.094
-    angles 0 -27.21 0
-   }
-   GenericEntity {
-    ID "5D1ED922875C4149"
-    coords -4.221 -0.01 0.156
-    angles 0 -87.751 0
-   }
-   GenericEntity {
-    ID "5D1ED922875C4163"
-    coords 2.83 -0.015 0.414
-    angles -0.893 0.671 0.063
-   }
-   GenericEntity {
-    ID "5E5CB3055E6F9068"
-    coords 4.3 -0.01 -0.075
-    angles 0 3.351 0
-   }
-   GenericEntity {
-    ID "5E5CB3055E6F9048"
-    coords -4.481 -0.041 2.834
-    angles 0 -94.951 0
-   }
-  }
- }
- {
-  components {
-   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
-    m_bOrientChildrenToTerrain 0
-   }
-  }
-  coords 1075.962 2.905 6084.289
-  angles 0 -56.136 0
- }
- {
-  components {
-   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
-    m_bOrientChildrenToTerrain 0
-   }
-  }
-  coords 1013.766 2.857 6049.547
-  angles 0 -174.751 0
- }
- {
-  coords 5022.725 15.375 3946.365
-  angles 0 13.511 0
-  {
-   GenericEntity {
-    ID "5D1ED922875C418B"
-    coords 4.183 0 -1.673
-   }
-   GenericEntity {
-    ID "5D1ED922875C41BB"
-    coords 4.184 0 -0.784
-   }
-  }
- }
- {
-  coords 3905.828 15.219 8416.606
-  angles 0 -84.701 0
- }
- {
-  coords 7589.939 166.832 4326.863
-  angles 0 -165.551 0
- }
- {
-  coords 7604.24 166.156 4234.91
-  angles 0 -74.936 0
- }
- {
-  coords 4331.587 1.125 9512.366
-  angles 0 -108.471 0
- }
- {
-  coords 7429.979 9.688 6796.036
-  angles 0 125.189 0
- }
- {
   coords 3489.981 179.716 5794.16
   angles 0 -162.217 0
   {
@@ -23479,10 +22808,6 @@ $grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSma
     }
    }
   }
- }
- {
-  coords 7817.885 254.531 4030.388
-  angles 0 145.234 0
  }
 }
 GenericEntity : "{FB04C4D5947808F1}Prefabs/Compositions/Locations/Eden/Base_MontignacWarehouses_FIA_01.et" {

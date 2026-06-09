@@ -1,0 +1,30 @@
+GenericEntity : "{0A36F69A7D518F10}Prefabs/Compositions/Locations/Eden/Base_MilitaryHospital_FIA_01.et" {
+ coords 3901.866 15.249 8450.659
+ {
+  GenericEntity {
+   ID "5E6ACA2F09C2D1E6"
+  }
+  GenericEntity {
+   ID "5E6ACA2F09C2D141"
+   Flags 0x100403 0
+   {
+    GenericEntity {
+     ID "5E68EB2C6044E7F4"
+     Flags 0x100403 0
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 0x100403 0
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+  }
+  SCR_SpawnPoint {
+   ID "5E6ACA2F09C2D12F"
+   Flags 0x100003 0
+  }
+ }
+}
