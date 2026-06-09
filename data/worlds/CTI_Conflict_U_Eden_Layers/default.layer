@@ -3813,9 +3813,6 @@ $grp GenericEntity : "{144F1136AB4DB0E8}Prefabs/Compositions/Slotted/SlotFlatSma
   angles 0.895 178.061 -0.03
  }
 }
-GenericEntity : "{152E7C3355906BA9}Prefabs/Compositions/Locations/Eden/SupplyCache_Levie_FIA_01.et" {
- coords 7464.442 142.167 4738.911
-}
 $grp GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
  {
   coords 10251.262 7.737 1593.027
@@ -4236,12 +4233,6 @@ GenericEntity : "{1A7FB3493A1B029F}Prefabs/Compositions/Locations/Eden/Base_Levi
    }
   }
  }
-}
-GenericEntity : "{1A9D75D98DC825E7}Prefabs/Compositions/Locations/Eden/SupplyCache_Provins_FIA_01.et" {
- coords 5486.487 96.127 6087.397
-}
-GenericEntity : "{1CA1A82176D652AD}Prefabs/Compositions/Locations/Eden/SupplyCache_EntreDeux_FIA_01.et" {
- coords 5766.788 215.153 7035.573
 }
 GenericEntity : "{1CF4014D7086BE9F}Prefabs/Compositions/Locations/Eden/Base_Airport_FIA_01.et" {
  coords 4900.952 28.595 11787.412
@@ -6116,9 +6107,6 @@ GenericEntity : "{4510C273B794F3AA}Prefabs/Compositions/Slotted/SlotFlatMedium/V
   }
  }
 }
-GenericEntity : "{458D1E40FD79C36D}Prefabs/Compositions/Locations/Eden/SupplyCache_Montignac_FIA_01.et" {
- coords 4773.455 164.342 7094.566
-}
 $grp GenericEntity : "{487FD3194F5D0C61}Prefabs/Props/Industrial/ConcretePanel_01_C.et" {
  {
   coords 5859.757 236.093 7259.424
@@ -6689,14 +6677,8 @@ GenericEntity : "{567515087F8ED05F}Prefabs/Compositions/Locations/Eden/Base_Lame
   }
  }
 }
-GenericEntity : "{58CF761823C96210}Prefabs/Compositions/Locations/Eden/SupplyCache_Tyrone_FIA_01.et" {
- coords 4927.979 36.042 9092.888
-}
 SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
  coords 0 0 0
-}
-GenericEntity : "{59DE9F68F4D2A490}Prefabs/Compositions/Locations/Eden/SupplyCache_Laruns_FIA_01.et" {
- coords 7558.335 82.526 5540.854
 }
 GenericEntity : "{60DE3D0B58E8C7A0}Prefabs/Compositions/Misc/SubCompositions/BarbedCoil_Cluttered_USSR_02.et" {
  coords 5572.853 0 5911.577
@@ -9286,9 +9268,6 @@ $grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSma
   angles 0 -142.213 0
  }
 }
-GenericEntity : "{8950F273E5D8657D}Prefabs/Compositions/Locations/Eden/SupplyCache_Gravette_FIA_01.et" {
- coords 4120.761 35.406 7796.203
-}
 $grp GenericEntity : "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagWallSolidBurlap_S_USSR_01.et" {
  {
   coords 3512.536 175.563 5876.907
@@ -9682,9 +9661,6 @@ $grp GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSma
   coords 6871.241 41.384 4429.408
   angles 0 -149.444 0
  }
-}
-GenericEntity : "{908CD23C9EF20E3B}Prefabs/Compositions/Locations/Eden/SupplyCache_Chotain_FIA_01.et" {
- coords 7086.131 129.414 6012.347
 }
 $grp GenericEntity : "{910D0810DB232ED5}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_LoiterPoint.et" {
  {
@@ -17676,9 +17652,6 @@ $grp GenericEntity : "{B86FFB24E23D8055}PrefabsEditable/EffectsModules/Mine/Effe
   angles 0 121.769 0
  }
 }
-GenericEntity : "{B923EE8B7D881891}Prefabs/Compositions/Locations/Eden/SupplyCache_Villeneuf_FIA_01.et" {
- coords 2838.686 86.345 6339.803
-}
 $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
  {
   components {
@@ -18083,9 +18056,6 @@ $grp StaticModelEntity : "{C16C62041E2AAAB2}Prefabs/Structures/Military/Fortific
   coords 7185.367 0 2260.495
   angles 0.892 0.056 3.577
  }
-}
-GenericEntity : "{C634CB20BED9C7D5}Prefabs/Compositions/Locations/Eden/SupplyCache_LeMoule_FIA_01.et" {
- coords 2615.962 92.06 5378.784
 }
 $grp GenericEntity : "{C731CC083B954825}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Antenna_S_FIA_01.et" {
  {
@@ -19088,9 +19058,6 @@ GenericEntity : "{D3BED8377828FFCC}Prefabs/Compositions/Locations/Eden/Base_Powe
    }
   }
  }
-}
-GenericEntity : "{D48B49DC4F0BCB66}Prefabs/Compositions/Locations/Eden/SupplyCache_Figari_FIA_01.et" {
- coords 5250.764 73.061 5337.823
 }
 $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  {
@@ -22543,9 +22510,6 @@ $grp GenericEntity : "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Composition
   coords 5857.091 273.385 7259.216
   angles 0 -113.324 0
  }
-}
-GenericEntity : "{F31EFE6539E2D14F}Prefabs/Compositions/Locations/Eden/SupplyCache_Regina_FIA_01.et" {
- coords 7205.023 145.19 2324.232
 }
 $grp GenericEntity : "{F3DE8994BAE6915A}Prefabs/Compositions/Misc/FreeRoamBuilding/CzechHedgehogPainted_S_01.et" {
  {
