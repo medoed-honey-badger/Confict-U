@@ -1,0 +1,8 @@
+GameProject {
+ ID "ConfictU"
+ GUID "699313833A08E10B"
+ TITLE "Confict U"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
