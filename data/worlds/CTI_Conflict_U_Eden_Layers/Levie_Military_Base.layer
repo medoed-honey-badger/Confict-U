@@ -1,0 +1,8 @@
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 7359.513 163.998 4274.676
+ angles 0 -68.172 0
+}
+Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.et" {
+ coords 7473.892 172.731 4257.61
+ angles 0 147.099 0
+}

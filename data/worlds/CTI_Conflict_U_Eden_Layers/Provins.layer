@@ -1,3 +1,7 @@
+GenericEntity : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_Scoped_S_USSR_01.et" {
+ coords 5632.392 87.552 5786.831
+ angles 0 -141.561 0
+}
 GenericEntity : "{1A9D75D98DC825E7}Prefabs/Compositions/Locations/Eden/SupplyCache_Provins_FIA_01.et" {
  coords 5486.487 96.127 6087.397
 }

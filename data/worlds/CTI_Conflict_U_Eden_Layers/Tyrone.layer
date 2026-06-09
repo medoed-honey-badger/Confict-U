@@ -1,3 +1,7 @@
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 4915.191 49.294 8944.543
+ angles 0 -2.558 0
+}
 GenericEntity : "{58CF761823C96210}Prefabs/Compositions/Locations/Eden/SupplyCache_Tyrone_FIA_01.et" {
  coords 4927.979 36.042 9092.888
 }

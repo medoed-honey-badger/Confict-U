@@ -1,3 +1,143 @@
+GenericEntity : "{00D81DF03240564B}Prefabs/Structures/Military/Camps/Canvas_Covers/Soviet/CanvasCover_Small_A_Soviet.et" {
+ components {
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   ResponseIndex "HugeDestructible"
+  }
+  SCR_SlotCompositionComponent "{5706EA5ABD7C240B}" : "{F27DCA13BB9C3F3B}Prefabs/Editor/Components/SlotCompositionComponent.ct" {
+   m_bOrientChildrenToTerrain 0
+  }
+  Hierarchy "{5654C1ECF3147863}" {
+   Enabled 1
+  }
+ }
+ coords 7679.29 340.689 3054.545
+ angles -1.839 -37.295 0.538
+ {
+  GenericEntity {
+   components {
+    Hierarchy "{58B2DA4A03286F87}" {
+    }
+   }
+   coords -0.134 0.097 1.328
+  }
+  $grp GenericEntity : "{013297BA01640EB9}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_02.et" {
+   {
+    components {
+     Hierarchy "{5654C1ECF3123B83}" {
+      Enabled 1
+     }
+    }
+    coords 0.34 0.1 0.762
+    angles 0 178.916 0
+   }
+   {
+    components {
+     Hierarchy "{5654C1ECF3135A21}" {
+      Enabled 1
+     }
+    }
+    coords 1.353 0.1 1.29
+    angles 0 178.916 0
+   }
+  }
+  GenericEntity : "{1DE88E6E3B4FEC8D}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V3_covered.et" {
+   coords -0.791 0.065 -0.079
+   angles 0 -88.633 0
+  }
+  GameEntity : "{2CB0AA2A87842C18}Prefabs/Props/Civilian/LampKerosene_01/LampKerosene_01_military_USSR.et" {
+   components {
+    Hierarchy "{5706F8D0FFBB74A0}" {
+     Enabled 1
+    }
+   }
+   coords -0.595 0.411 -1.497
+   angles 0 -33.453 0
+  }
+  GenericEntity : "{4CF66B5FBFD0C6EB}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Folded_Soviet.et" {
+   components {
+    Hierarchy "{5654C1ECF347588A}" {
+     Enabled 1
+    }
+   }
+   coords -1.677 0.1 -1.252
+   angles 0 178.916 0
+  }
+  $grp GenericEntity : "{6D66A35ABDA08197}Prefabs/Props/Garbage/Military/Ammo/GarbageAmmunition_USSR_01.et" {
+   {
+    components {
+     Hierarchy "{5654C1ECF34190BB}" {
+      Enabled 1
+     }
+    }
+    coords 1.004 0.1 0.404
+    angles 0 151.102 0
+   }
+   {
+    components {
+     Hierarchy "{5654C1ECF35D0FD1}" {
+      Enabled 1
+     }
+    }
+    coords 0.475 0.1 -0.199
+    angles 0 153.91 0
+   }
+  }
+  GenericEntity : "{890EE5FB23BA713E}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V2_covered.et" {
+   coords -0.717 0.08 -1.222
+  }
+  GenericEntity : "{A0ACD52C934CFA92}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V5_covered.et" {
+   coords -0.134 0.097 1.328
+  }
+  GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+   components {
+    Hierarchy "{5654C1ECF3A3C358}" {
+     Enabled 1
+    }
+   }
+   coords -0.85 0.411 -1.55
+   angles 0 72.125 0
+  }
+  $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+   {
+    components {
+     Hierarchy "{5654C1ECF3A09529}" {
+      Enabled 1
+     }
+    }
+    coords -0.12 0 -1.183
+    angles 0 90.173 0
+   }
+   {
+    components {
+     Hierarchy "{5654C1ECF3BCF095}" {
+      Enabled 1
+     }
+    }
+    coords 0.001 0 0.051
+    angles 0 -90.112 0
+   }
+   {
+    components {
+     Hierarchy "{5654C1ECF3BEADEF}" {
+      Enabled 1
+     }
+    }
+    coords 0.007 0 1.31
+    angles 0 -90.888 0
+   }
+  }
+ }
+}
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 7678.649 340.6 3059.578
+ {
+  GenericEntity {
+   ID "5CCCBEEF82F88CEF"
+   coords 3.068 -0.009 0.724
+   angles 0 39.972 0
+  }
+ }
+}
 GenericEntity Relay4 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
  components {
   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {

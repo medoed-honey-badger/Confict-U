@@ -1,3 +1,13 @@
+$grp GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ {
+  coords 4801.93 119.512 8158.622
+  angles -1.268 -30.076 2.834
+ }
+ {
+  coords 3093.548 118.296 5221.799
+  angles 0 -127.182 0
+ }
+}
 $grp GenericEntity : "{1804DADC1C7C9893}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign_HQC.et" {
  {
   coords 9044.778 124.507 2741.715

@@ -1,0 +1,37 @@
+$grp GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ {
+  coords 5238.511 35.028 10668.831
+  angles 0 -124.783 0
+ }
+ {
+  coords 5078.837 177.69 7034.13
+  angles 0 -47.903 0
+ }
+ {
+  coords 9090.266 79.253 2372.775
+  angles 0 -36.985 -3.193
+  {
+   GenericEntity {
+    ID "5CD2AC4DDB8764D9"
+    coords 1.682 0.014 0.736
+    angles 0 93.99 0
+   }
+   GenericEntity {
+    ID "5CD2AC4DDB8764B7"
+    coords -1.896 0.092 -0.855
+    angles 0 -146.054 0
+   }
+  }
+ }
+ {
+  coords 9451.981 42.227 1854.905
+  angles 0 -28.525 0
+  {
+   GenericEntity {
+    ID "5CCCBEEF82F88F6C"
+    coords -1.817 -0.126 -0.823
+    angles 4.985 -1.96 0
+   }
+  }
+ }
+}

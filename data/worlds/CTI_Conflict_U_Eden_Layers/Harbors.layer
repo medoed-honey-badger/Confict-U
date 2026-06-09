@@ -1353,6 +1353,44 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
   }
  }
 }
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 8024.596 31.009 1411.929
+ angles 0 -123.507 0
+ {
+  GenericEntity {
+   ID "5CCCBEEF82F88EBB"
+   {
+    GenericEntity {
+     ID "5CB0D991CA4DA7E4"
+     coords -1.289 -0.217 -0.792
+    }
+    StaticModelEntity {
+     ID "5CB0D991CA4DA7EE"
+     coords 0.015 -0.562 -2.177
+     angles -21.619 82.602 0
+    }
+    StaticModelEntity {
+     ID "5CB0D991CA4DA7E5"
+     coords -1.045 -0.219 -2.606
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CCCBEEF82F88CEF"
+   coords 3.355 -0.024 0.667
+   angles 0 39.972 0
+  }
+  GenericEntity {
+   ID "5CCCBEEF82F88F6C"
+   coords -2.105 0 -0.833
+  }
+  StaticModelEntity {
+   ID "5CCCBEEF82F88CC4"
+   coords 2.476 0.206 1.066
+   angles 0 -107.493 0
+  }
+ }
+}
 $grp GenericEntity : "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T1Harbor.et" {
  SP_T1H_StPhillipe {
   components {

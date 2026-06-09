@@ -1,3 +1,293 @@
+GenericEntity : "{08313D18309DAC02}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_Wall_medium_Soviet.et" {
+ coords 7063.971 150.537 2337.959
+ angles 0 -52.395 0
+ scale 1.04
+}
+GenericEntity : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_Scoped_S_USSR_01.et" {
+ coords 7062.367 150.761 2343.545
+ angles 0 34.832 0
+ {
+  GenericEntity {
+   ID "605ECD8CFCEFBA36"
+   coords -1.764 -0.221 -1.167
+   angles -1.455 134.764 -7.872
+  }
+  GenericEntity {
+   ID "605ECD8CFCEFBA37"
+   coords -1.72 -0.248 -0.896
+   angles 7.741 -110.003 2.043
+  }
+  GenericEntity {
+   ID "605ECD8CFCEFBA03"
+   coords 1.817 -1.264 1.625
+   angles -2.065 39.808 2.051
+  }
+  GenericEntity {
+   ID "605ECD8CFCEFBA06"
+   coords -4.127 0.085 1.011
+   angles 21.447 -4.233 0
+  }
+  GenericEntity {
+   ID "605ECD8CFCEFBA1B"
+   {
+    GenericEntity {
+     ID "5CB0D991ADDD9E49"
+     coords -1.579 0 -0.457
+     angles 0 -29.042 0
+    }
+    GenericEntity {
+     ID "5CB0D991ADDD9E4F"
+     coords -2.706 0 -1.263
+     angles 0 135.958 0
+    }
+    GenericEntity {
+     ID "5CB0D991ADDD9E44"
+     coords -3.143 0 -2.416
+     angles 0 85.767 0
+    }
+    StaticModelEntity {
+     ID "5CB0D991ADDD9E40"
+     coords -3.361 0.712 -2.365
+     angles 0 9.844 0
+    }
+    StaticModelEntity {
+     ID "5CB0D991ADDD9E41"
+     coords -2.432 1.29 -0.863
+     angles 0 55.767 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "605ECD8CFCE822A1"
+   {
+    GenericEntity {
+     ID "570C9564D02F5C92"
+     coords -2.598 0 -1.907
+     angles 0 85.955 0
+    }
+    GenericEntity {
+     ID "570CFD743B9A8A19"
+     coords -1.257 -0.314 -1.849
+     angles 0 -146.035 0
+    }
+    GenericEntity {
+     ID "570CFD743B9A8A64"
+     coords -3.911 0 -2.128
+     angles 0 123.965 0
+    }
+    GenericEntity {
+     ID "570CFD7463457874"
+     coords -1.192 -0.314 -1.837
+     angles 0 -173.893 0
+    }
+    GenericEntity {
+     ID "570CFD7463457953"
+     coords 0.45 -0.241 -1.058
+     angles -2.836 97.587 -0.652
+    }
+    GenericEntity {
+     ID "570CFD746345798D"
+     coords -3.948 0 -1.909
+     angles 0 -6.315 0
+    }
+    GenericEntity {
+     ID "570CFD74634579FD"
+     coords -4.302 0 -2.343
+     angles 0 101.95 0
+    }
+    GenericEntity {
+     ID "5C5AC612D4755239"
+     coords -2.801 0.367 -1.11
+     angles 0 175.767 0
+    }
+    GenericEntity {
+     ID "5C5AC612D47552FB"
+     coords -2.649 0.202 -0.988
+     angles 0 -4.233 0
+    }
+    StaticModelEntity {
+     ID "570CFD7476FFB12E"
+     coords -2.923 -0.045 -1.353
+     angles 0 -4.139 0
+    }
+    StaticModelEntity {
+     ID "570CFD7463457965"
+     coords -2.107 -0.08 -1.312
+     angles 0 -9.748 0
+    }
+    Turret {
+     ID "605ECD8C01B355D2"
+     coords -2.593 0.656 -2.054
+     angles 0 -4.233 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "605ECD8CFCEFBA13"
+   coords -2.317 -0.146 -1.304
+   angles 7.999 -126.947 -0.294
+  }
+  GenericEntity {
+   ID "605ECD8CFCE8214C"
+   coords 3.068 -1.089 0.581
+   angles -2.784 67.708 0.847
+  }
+  GenericEntity {
+   ID "605ECD8CFCE822B3"
+   coords -5.358 0.1 -0.519
+   angles 0 -45.847 0
+  }
+  GenericEntity {
+   ID "605ECD8CFCEFBA16"
+   coords 4.881 -0.502 -1.035
+   angles 22.441 61.606 1.257
+  }
+  GenericEntity {
+   ID "605ECD8CFCE822B7"
+   coords 1.437 -0.288 0.107
+   angles -1.291 20.949 2.608
+   {
+    GenericEntity {
+     ID "5CB0D991699F2EE1"
+     coords -0.001 0.001 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "605ECD8CFCE822BB"
+   coords -2.419 0 -1.284
+   angles 0 -4.233 0
+  }
+  GenericEntity {
+   ID "605ECD8CFCE82291"
+   {
+    DecalEntity {
+     ID "56E0B29E17039037"
+     coords -2.625 0 -1.562
+     angles -90 141.366 169.38
+    }
+   }
+  }
+  GenericEntity {
+   ID "605ECD8CFCE82298"
+   coords -1.562 0 -4.388
+   angles 0 1.183 0
+  }
+  GenericEntity {
+   ID "605ECD8CFCE82299"
+   coords -2.653 0 -4.413
+   angles 0 175.767 0
+  }
+  GenericEntity {
+   ID "605ECD8CFCE8229E"
+   coords 3.293 -0.421 -0.837
+   angles -2.344 48.272 1.725
+  }
+  GenericEntity {
+   ID "605ECD8CFCE8229F"
+   coords 1.014 -1.496 2.375
+   angles 9.755 -2.534 0.138
+  }
+  GenericEntity {
+   ID "605ECD8CFCE808C1"
+   coords -7.741 0 -2.99
+   angles 0 -108.27 0
+  }
+  GenericEntity {
+   ID "605ECD8CFCE808C6"
+   coords 4.052 -0.413 -1.399
+   angles -1.796 32.736 2.29
+  }
+  GenericEntity {
+   ID "605ECD8CFCE8B968"
+   coords -6.455 0 -1.475
+   angles 0 -40.379 0
+  }
+  StaticModelEntity {
+   ID "605ECD8CFCEFBA0D"
+   coords -4.733 0.193 -1.927
+   angles 0 -29.277 0
+  }
+  StaticModelEntity {
+   ID "605ECD8CFCE82293"
+   coords 1.876 -0.31 0.12
+   angles -1.647 29.085 2.399
+  }
+  StaticModelEntity {
+   ID "605ECD8CFCE808C3"
+   coords -0.339 0 -4.32
+  }
+  StaticModelEntity {
+   ID "605ECD8CFCE82282"
+   coords 3.681 -0.395 -1.128
+   angles -1.976 37.401 2.136
+  }
+  StaticModelEntity {
+   ID "605ECD8CFCE82283"
+   coords -1.85 0 -4.362
+   angles 0 3.716 0
+  }
+  StaticModelEntity {
+   ID "605ECD8CFCE8B965"
+   coords -7.817 0 -3.406
+   angles 0 -123.173 0
+  }
+  StaticModelEntity {
+   ID "605ECD8CFCE8B966"
+   coords 2.149 -0.899 1.556
+   angles 2.508 -64.845 1.477
+  }
+  StaticModelEntity {
+   ID "605ECD8CFCE8DDE2"
+   coords 3.369 -1.338 0.847
+   angles 1.592 -38.505 2.436
+  }
+ }
+}
+GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
+ coords 7172.355 140.099 2241.961
+ angles 0 -169.212 0
+ {
+  GenericEntity {
+   ID "570CFD743B9A8A19"
+   coords 1.05 0 -0.354
+  }
+  GenericEntity {
+   ID "570CFD7463457953"
+   coords -4.275 -0.667 -3.443
+   angles 0 -69.721 0
+  }
+ }
+}
+GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
+ components {
+  Hierarchy "{5CCCBEF31976DC75}" {
+   Enabled 1
+  }
+ }
+ coords 7170.977 139.953 2244.068
+ angles 0 -71.686 2.953
+}
+$grp GenericEntity : "{CC5453CCC311603B}Prefabs/Props/Military/Sandbags/Sandbag_01_end_burlap.et" {
+ {
+  components {
+   Hierarchy "{5CCCBEF3197D678F}" {
+    Enabled 1
+   }
+  }
+  coords 7176.331 139.715 2243.692
+  angles 0 -30.334 0
+ }
+ {
+  components {
+   Hierarchy "{5CCCBEF31945E05A}" {
+    Enabled 1
+   }
+  }
+  coords 7175.294 139.715 2243.085
+  angles 0 149.666 0
+ }
+}
 GenericEntity : "{F31EFE6539E2D14F}Prefabs/Compositions/Locations/Eden/SupplyCache_Regina_FIA_01.et" {
  coords 7205.023 145.19 2324.232
 }

@@ -1,3 +1,7 @@
+GenericEntity : "{047B9C8AAB50CE0F}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_MachineGunNest_S_USSR_01.et" {
+ coords 1061.874 2.75 6010.628
+ angles 0 179.818 0
+}
 GenericEntity : "{E4D8BE67FA5175A3}Prefabs/Compositions/Locations/Eden/SupplyCache_Lamentin_FIA_01.et" {
  coords 1279.669 37.386 5940.503
  {
