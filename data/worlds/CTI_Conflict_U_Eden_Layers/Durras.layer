@@ -1,3 +1,7 @@
+GenericEntity : "{0D6A1225534F164D}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_Small_USSR.et" {
+ coords 8703.976 118.251 3152.03
+ angles 0 -3.32 0
+}
 $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
  {
   components {
@@ -32,6 +36,22 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 8862.33 92.797 2620.671
   angles 0 76.081 0
+ }
+}
+GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
+ coords 8830.251 94.754 2732.313
+ angles 0 145.413 0
+ {
+  GenericEntity {
+   ID "5CC6B4BF606E2876"
+   coords -2.487 0.109 -1.15
+   angles 0 88.49 0
+  }
+  GenericEntity {
+   ID "5CC6B4BF606E2850"
+   coords 1.255 -0.01 -1.752
+   angles 0 -102.765 0
+  }
  }
 }
 $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {

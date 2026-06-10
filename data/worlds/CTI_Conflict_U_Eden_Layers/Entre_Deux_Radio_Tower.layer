@@ -1,3 +1,252 @@
+GenericEntity {
+ components {
+  FactionAffiliationComponent "{5EBE94BB9A9E28CE}" {
+   "faction affiliation" "USSR"
+  }
+  RigidBody "{5EBE94BB9A9E299F}" {
+   ResponseIndex "NoCollision"
+   Geometries {
+    PhysicsBoxGeometry UserAction {
+     LayerPreset "Interaction"
+     Extents 7 0.5 6
+    }
+   }
+   Static 1
+  }
+  SCR_CampaignBuildingCompositionComponent "{5EBE94BB9A9E2245}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{5EBE94BB9A9E2C40}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_BUILD_SANDBAG"
+   }
+   m_AudioSourceConfigurationDespawn SCR_AudioSourceConfiguration "{5EBE94BB9A9E2252}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_DESTROY_SANDBAG"
+    m_eFlags 5
+   }
+  }
+  SCR_SlotCompositionComponent "{5EBE94BB9A9E22B5}" {
+  }
+  ActionsManagerComponent "{5EBE94BB9A9E2323}" {
+   ActionContexts {
+    UserActionContext "{5EBE94BB9A9E22E5}" {
+     ContextName "Disassembly"
+     Position PointInfo "{5EBE94BB9A9E22F3}" {
+      Offset 0 0.5 0
+     }
+     Radius 5
+    }
+   }
+   additionalActions {
+    SCR_CampaignBuildingDisassemblyUserAction "{5EBE94BB9A9E233D}" {
+     ParentContextList {
+      "Disassembly"
+     }
+     UIInfo UIInfo "{5EBE94BB9A9E22C3}" {
+      Name "#AR-FreeRoamBuilding_Action_Disassembly-UC"
+     }
+     Duration 20
+    }
+   }
+  }
+  RplComponent "{5EBE94BB9A9E2302}" {
+  }
+  Hierarchy "{5EBE94BB9A9E230B}" {
+  }
+ }
+ Flags 0x403 0
+ coords 5853.309 235.926 7258.07
+ angles -1.255 -159.355 1.797
+ {
+  GenericEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitary_USSR_01.et" {
+   components {
+    Hierarchy "{5CCCBEF0E2E4B006}" {
+     Enabled 1
+    }
+   }
+   coords -2.59 0 1.314
+   angles 0 -42.931 0
+  }
+  $grp GenericEntity : "{18982CB5D0D29247}Prefabs/Props/Civilian/BeerBottle_01_empty_brown.et" {
+   {
+    coords -2.066 0 1.375
+   }
+   {
+    coords 0.28 0.044 -0.507
+    angles 0 0 -90
+   }
+   {
+    coords -2.205 0 1.447
+   }
+  }
+  GenericEntity : "{1EC801E208CB16C6}Prefabs/Vegetation/Cuttings/Rubus_idaeus_small_01.et" {
+   coords -4.578 0.1 2.647
+   angles 39.161 -67.729 0
+  }
+  GenericEntity : "{4A09EF1D855AF2C4}Prefabs/Vegetation/Cuttings/Rosa_canina_small_01.et" {
+   coords -4.017 0 2.971
+   angles 15.233 -26.753 0
+  }
+  $grp GenericEntity : "{74843BB0BF08A845}Prefabs/Vegetation/Cuttings/Corylus_avellana_small_01.et" {
+   {
+    coords -1.882 0 2.802
+   }
+   {
+    coords 1.237 0.226 2.577
+    angles 0 46.498 0
+   }
+   {
+    coords 3.908 0.084 -3.548
+    angles 37.075 150 0
+   }
+  }
+  GenericEntity : "{894A1AFDCB71CD0D}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_02.et" {
+   coords 0.697 0 0.088
+  }
+  $grp StaticModelEntity : "{B03F9691E961C4CA}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v3.et" {
+   {
+    components {
+     Hierarchy "{5CCCBEF0E2C2880A}" {
+      Enabled 1
+     }
+    }
+    coords -2.509 0 2.36
+    angles 0 1.122 0
+   }
+   {
+    components {
+     Hierarchy "{5CCCBEF0E2C52FB7}" {
+      Enabled 1
+     }
+    }
+    coords 0.538 0 2.3
+    angles 0 1.122 0
+   }
+  }
+  $grp GenericEntity : "{B47E3FC5BE1D443A}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_05.et" {
+   {
+    coords -3.035 0 2.816
+   }
+   {
+    coords 0.422 0 2.957
+   }
+   {
+    coords 4.335 0 -1.556
+    angles 0 87.657 0
+   }
+   {
+    coords 3.155 0 2.325
+    angles 0 41.086 0
+   }
+  }
+  $grp GenericEntity : "{B898D2A1F45058F6}Prefabs/Props/Garbage/Military/Food/GarbageFoodMilitaryUSSR_01.et" {
+   {
+    components {
+     Hierarchy "{5CCCBEF0E2D880E3}" {
+      Enabled 1
+     }
+    }
+    coords -2.757 -0.031 0.879
+    angles 0 -26.463 0
+   }
+   {
+    components {
+     Hierarchy "{5CCCBEF0E2DB29DB}" {
+      Enabled 1
+     }
+    }
+    coords 2.376 0.03 -0.331
+    angles 0 8.411 0
+   }
+  }
+  GenericEntity : "{BE7B5BAFE1A16A50}Prefabs/Props/Military/Fortification/BarbedTape_Coil.et" {
+   components {
+    Hierarchy "{5CCCBEF0E2DFD163}" {
+     Enabled 1
+    }
+   }
+   coords -3.545 -0.058 1.268
+   angles 0 -12.135 0
+  }
+  GenericEntity : "{C11CE4B95EA336C3}Prefabs/Vegetation/Cuttings/Sambucus_Nigra_medium_01.et" {
+   coords 3.61 0 0.985
+   angles 0 45.459 0
+  }
+  StaticModelEntity : "{C1576E5555582214}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_short.et" {
+   components {
+    Hierarchy "{5CCCBEF0E12278F4}" {
+     Enabled 1
+    }
+   }
+   coords 2.976 -0.232 1.311
+   angles 0 49.486 0
+  }
+  GenericEntity : "{DDF59362051B28BC}Prefabs/Props/Military/Fortification/BarbedTape_KnifeRest.et" {
+   components {
+    Hierarchy "{5CCCBEF0E12AC8FC}" {
+     Enabled 1
+    }
+   }
+   coords 3.217 0 2.519
+   angles 0 -58.204 0
+  }
+  GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
+   components {
+    Hierarchy "{5CD2AC4E7234ED79}" {
+     Enabled 1
+    }
+   }
+   coords 1.963 0 1.045
+   angles 0 133.336 0
+  }
+  GenericEntity : "{E51E2E1D77B54223}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_01.et" {
+   coords -2.061 0 0.836
+  }
+  GenericEntity : "{E8181E2E360A8AF4}Prefabs/Vegetation/Cuttings/Juniperus_communis_medium_01.et" {
+   coords 3.148 0 2.317
+   angles 0 -44.882 0
+  }
+  $grp StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
+   {
+    components {
+     Hierarchy "{5CCCBEF0E12D72EF}" {
+      Enabled 1
+     }
+    }
+    coords 4.31 0 0.829
+    angles 0 178.709 0
+   }
+   {
+    components {
+     Hierarchy "{5CCCBEF0E1312A9A}" {
+      Enabled 1
+     }
+    }
+    coords 1.141 0 3.218
+    angles 0 -93.906 0
+   }
+  }
+  $grp GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
+   {
+    components {
+     Hierarchy "{5CD2AC4E7234B0E9}" {
+      Enabled 1
+     }
+    }
+    coords 1.391 0 -2.525
+    angles 0 4.293 0
+   }
+   {
+    components {
+     Hierarchy "{5CD2AC4E723527A0}" {
+      Enabled 1
+     }
+    }
+    coords -1.269 0 0.646
+    angles 0 -82.385 0
+   }
+  }
+ }
+}
 $grp GenericEntity : "{01969A28078FCA69}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_02.et" {
  {
   coords 5853.927 235.935 7260.064
@@ -6,6 +255,10 @@ $grp GenericEntity : "{01969A28078FCA69}Prefabs/Compositions/Misc/SubComposition
  {
   coords 5859.806 235.802 7265.744
  }
+}
+GenericEntity : "{1112756E8A13445B}Prefabs/Props/Industrial/Pallets/Pallet_01_Pile.et" {
+ coords 5858.746 235.887 7264.536
+ angles 0 23.474 0
 }
 GenericEntity Relay15 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
  components {

@@ -15,3 +15,7 @@ GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  coords 7228.174 136.625 2321.684
  angles 0 12.839 0
 }
+GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ coords 7681.506 13.688 8103.358
+ angles 0 -54.043 0
+}

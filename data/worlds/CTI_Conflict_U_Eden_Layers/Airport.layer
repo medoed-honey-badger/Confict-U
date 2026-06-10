@@ -34,6 +34,16 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angles 0 95.854 0
  }
 }
+GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
+ coords 4913.443 27.585 11545.98
+ angles 0 164.501 0
+ {
+  StaticModelEntity {
+   ID "5CC6B49A31F9DD1D"
+   coords -3.973 0 1.988
+  }
+ }
+}
 GenericEntity SP_A_EveronAirport : "{1739B43A3702BB84}Prefabs/Systems/MilitaryBase/ConflictSourceBase_Airfield.et" {
  components {
   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
@@ -195,6 +205,69 @@ GenericEntity SP_A_EveronAirport : "{1739B43A3702BB84}Prefabs/Systems/MilitaryBa
     StaticModelEntity {
      ID "5D1ED92199D1823E"
      coords 2.448 0 0.395
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{1CF4014D7086BE9F}Prefabs/Compositions/Locations/Eden/Base_Airport_FIA_01.et" {
+ coords 4900.952 28.595 11787.412
+ {
+  GenericEntity {
+   ID "5E6ACA2CDC303E03"
+   Flags 0x100403 0
+   {
+    GenericEntity {
+     ID "5E6ACA2CDC303E0D"
+     Flags 0x100403 0
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 0x100403 0
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2CDC303FD8"
+   {
+    GenericEntity {
+     ID "5E3A7310C995AE11"
+     Flags 0x100403 0
+    }
+    GenericEntity {
+     ID "5E3A7311796AB459"
+     Flags 0x100003 0
+    }
+    GenericEntity {
+     ID "5E3A7311796AB47F"
+     Flags 0x100003 0
+    }
+    GenericEntity {
+     ID "5E3A7311796AB5B3"
+     Flags 0x100003 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2CDC303E8F"
+   {
+    GenericEntity {
+     ID "5E6ACA2FF8E39CE6"
+     Flags 0x100003 0
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F02"
+     Flags 0x100003 0
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F15"
+     Flags 0x100003 0
+    }
+    SCR_SpawnPoint {
+     ID "5E6ACA2FF8E39F2B"
+     Flags 0x100003 0
     }
    }
   }

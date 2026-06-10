@@ -138,6 +138,14 @@ GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/Sa
   }
  }
 }
+GenericEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitary_USSR_01.et" {
+ coords 7682.25 340.608 3067.401
+ angles 0 0 0
+}
+GenericEntity : "{2F2BBFDA3A2C73D4}Prefabs/Props/Civilian/RadioSmall_01_black.et" {
+ coords 7679.001 340.768 3054.798
+ angles 0 59.602 0
+}
 GenericEntity Relay4 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
  components {
   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {

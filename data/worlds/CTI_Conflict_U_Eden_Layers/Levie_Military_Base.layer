@@ -2,6 +2,111 @@ GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/Sa
  coords 7359.513 163.998 4274.676
  angles 0 -68.172 0
 }
+GenericEntity : "{144F1136AB4DB0E8}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_FIA_01.et" {
+ coords 7517.488 166.827 4262.007
+ angles 0 16.899 0
+}
+GenericEntity : "{1A7FB3493A1B029F}Prefabs/Compositions/Locations/Eden/Base_LevieMilitary_FIA_01.et" {
+ coords 7505.482 165.761 4283.153
+ {
+  GenericEntity {
+   ID "5E6ACA2F4A7016D5"
+   Flags 0x100403 0
+   {
+    GenericEntity {
+     ID "5E68EB2C6044E7F4"
+     Flags 0x100403 0
+     {
+      GenericEntity {
+       ID "5D36C61EF5BF6C53"
+       Flags 0x100403 0
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A701731"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 0x100403 0
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 0x100403 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A701748"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 0x100403 0
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 0x100403 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A701784"
+   {
+    GenericEntity {
+     ID "5E3A731E4FBE0623"
+     Flags 0x100403 0
+    }
+    GenericEntity {
+     ID "5E3A731E4FBE0621"
+     Flags 0x100403 0
+    }
+   }
+  }
+  GenericEntity {
+  }
+  GenericEntity {
+   ID "5E6ACA2F4A701664"
+   {
+    GenericEntity {
+     ID "5E6ACA2FF8E39CE6"
+     Flags 0x100003 0
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F02"
+     Flags 0x100003 0
+    }
+    GenericEntity {
+     ID "5E6ACA2FF8E39F15"
+     Flags 0x100003 0
+    }
+    SCR_SpawnPoint {
+     ID "5E6ACA2FF8E39F2B"
+     Flags 0x100003 0
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+ {
+  coords 7464.252 172.086 4270.646
+  angles 0 -79.329 0
+ }
+ {
+  coords 7465.741 172.085 4258.921
+  angles 0 10.932 0
+ }
+ {
+  coords 7472.039 172.085 4257.731
+  angles 0 10.932 0
+ }
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 7492.978 165.76 4243.532
+ angles 0 -161.833 0
+}
 Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.et" {
  coords 7473.892 172.731 4257.61
  angles 0 147.099 0

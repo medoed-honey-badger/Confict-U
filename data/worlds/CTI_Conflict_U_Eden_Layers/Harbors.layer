@@ -1408,6 +1408,82 @@ GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  coords 6265.878 3.659 9653.224
  angles 0 -44.477 0
 }
+GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et" {
+ coords 4327.016 1.173 9547.003
+ angles 0 117.353 0
+ {
+  GenericEntity {
+   ID "5CCCBEDC9EB800A3"
+   coords 0.858 -0.013 0.56
+   angles -1.216 46.342 2.22
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB800B1"
+   coords 0.927 -0.023 0.166
+   angles 1.673 -20.66 1.097
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB8008E"
+   coords 0.816 -0.029 -0.29
+   angles 1.351 -101.478 -1.477
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB800BC"
+   coords 0.285 -0.007 0.076
+   angles 1.988 -60.496 -0.229
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB8034B"
+   coords -3.179 0.1 -1.641
+   {
+    DecalEntity {
+     ID "56E0B29E17039037"
+     coords 0 0.11 0
+     angles -90 0 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB803CC"
+   coords -4.334 0.287 0.348
+   angles 2.599 151.458 -2.719
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB803F4"
+   coords -2.822 0.397 1.193
+   angles -1.697 150.55 -4.13
+  }
+  StaticModelEntity {
+   ID "5CCCBEDC9EB80042"
+   coords 2.568 -0.049 -0.298
+   angles 0 0.88 0
+  }
+  StaticModelEntity {
+   ID "5CCCBEDC9EB80325"
+   coords -2.898 0.285 2.201
+   angles 0 -129.908 0
+  }
+  StaticModelEntity {
+   ID "5CCCBEDC9EB80334"
+   coords -1.484 0.422 3.082
+   angles 0 -97.844 0
+  }
+ }
+}
+GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
+ components {
+  RoadNetworkBridgeComponent "{6160980DF3FD3F2C}" {
+   Points {
+    0 0 -8
+    -7 0 -2
+    -7 0 2
+    2 0 8
+   }
+  }
+ }
+ coords 4392.816 1.593 11045.454
+ angles 0 -151.936 0
+}
 $grp GenericEntity : "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T1Harbor.et" {
  SP_T1H_StPhillipe {
   components {

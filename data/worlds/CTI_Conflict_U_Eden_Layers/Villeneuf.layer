@@ -19,6 +19,10 @@ GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  coords 2839.563 86.448 6343.815
  angles 0 92.084 0
 }
+GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ coords 2858.825 81.201 6436.084
+ angles 0 -115.542 0
+}
 GenericEntity : "{B923EE8B7D881891}Prefabs/Compositions/Locations/Eden/SupplyCache_Villeneuf_FIA_01.et" {
  coords 2838.686 86.345 6339.803
 }

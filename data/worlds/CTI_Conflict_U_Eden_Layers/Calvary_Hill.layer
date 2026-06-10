@@ -55,6 +55,345 @@ $grp GenericEntity : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSma
   }
  }
 }
+$grp GenericEntity : "{0C923757B8B8306B}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeTriple_S_USSR_01.et" {
+ {
+  coords 3555.812 173.728 5867.342
+  angles 0 -111.515 0
+ }
+ {
+  coords 3561.349 173.52 5863.99
+  angles 0 -19.017 0
+ }
+ {
+  coords 3559.146 173.261 5867.545
+  angles 0 -54.069 0
+ }
+ {
+  coords 3571.643 172.124 5760.901
+  angles 0 -96.481 0
+ }
+}
+$grp GenericEntity : "{0D5F3D3C5246BEE8}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongBurlap_S_USSR_01.et" {
+ {
+  coords 3508.634 175.379 5878.05
+  angles 0 6.896 0
+ }
+ {
+  coords 3513.276 178.807 5777.095
+  angles 0 -10.854 0
+ }
+ {
+  coords 3467.681 177.077 5777.948
+  angles 0 52.451 0
+ }
+}
+GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et" {
+ coords 3427.788 172.627 5784.349
+ angles 0 -108.732 0
+}
+GenericEntity : "{144F1136AB4DB0E8}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_FIA_01.et" {
+ coords 3528.618 181.238 5826.294
+ angles 0 60.238 0
+ {
+  GenericEntity {
+   ID "5D22B92C9C68866C"
+   coords -2.961 -0.144 2.154
+   angles 1.386 -107.063 3.75
+  }
+  GenericEntity {
+   ID "5D1ED910D3E74985"
+   coords -4.057 -0.057 0.985
+   angles -3.895 -9.794 0.898
+  }
+  GenericEntity {
+   ID "5D1ED910D3E74997"
+   coords -3.361 -0.318 4.58
+   angles -3.688 43.772 -3.677
+  }
+  GenericEntity {
+   ID "5D1ED910D3E7497B"
+   coords -3.221 -0.009 0.409
+   angles -4.263 -24.544 1.337
+  }
+  GenericEntity {
+   ID "5E330D6F8EBB5E27"
+   coords -6.198 -0.147 2.094
+   angles -3.504 7.279 -1.452
+  }
+  GenericEntity {
+   ID "5DE2C482BC278F91"
+   coords -2.335 0.177 -2.332
+   angles -2.773 -0.027 0.557
+   {
+    GenericEntity {
+     ID "5D45393EE229796D"
+     coords 1.881 0.015 -1.547
+     angles -0.734 -4.889 0.508
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D1ED910D3E7482B"
+   coords -2.327 0.074 -0.556
+   angles -4.391 -17.751 0.824
+  }
+  GenericEntity {
+   ID "5D24733A4BBADF5A"
+   coords 1.345 -0.58 7.352
+   angles -4.763 -0.056 0.67
+  }
+  GenericEntity {
+   ID "5D1ED910D3E74911"
+   coords 1.397 -0.024 0
+   angles -3.547 -0.062 1.002
+  }
+  GenericEntity {
+   ID "5D1ED910D3E749D2"
+   coords 0.797 -0.358 4.758
+   angles -4.319 -0.109 1.449
+  }
+  GenericEntity {
+   ID "5D1ED93E1FF14368"
+   coords -5.66 0.181 -2.415
+   angles -0.205 82.434 -3.218
+  }
+  GenericEntity {
+   ID "5D1ED93E1FF14308"
+   coords -6.766 -0.214 2.968
+   angles -2.256 -68.777 3.049
+  }
+  GenericEntity {
+   ID "5D1ED93E1FF1437A"
+   coords 4.916 -0.481 4.764
+   angles 2.833 -101.084 4.633
+  }
+  StaticModelEntity {
+   ID "5D1ED910D3E74808"
+   coords -5.972 0.048 -0.629
+   angles 0.688 -106.245 3.15
+  }
+  StaticModelEntity {
+   ID "5D1ED910D3E7483B"
+   coords 2.823 0.254 -5.542
+   angles -2.109 6.393 1.885
+  }
+  StaticModelEntity {
+   ID "5D1ED910D3E749B5"
+   coords -2.728 -0.237 3.487
+   angles -3.679 -19.848 1.564
+  }
+  $grp StaticModelEntity : "{696CCAF19810C822}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/TentFIA_01_CompositionDestruction.et" {
+   {
+    coords 10.355 -0.389 0.566
+    angles -2.45 -16.444 3.841
+   }
+   {
+    coords 7.855 -1.377 13.344
+    angles 6.059 172.744 -2.329
+   }
+   {
+    coords -1.278 -1.123 13.51
+    angles 5.975 -173.771 0.316
+   }
+   {
+    coords -10.459 0.137 -3
+    angles -4.389 -12.591 -0.835
+    {
+     GenericEntity {
+      ID "5A5344E094E55EDC"
+      coords 0.003 0 0.001
+     }
+     SCR_DestructibleBuildingEntity {
+      ID "5A5344E094E55EF2"
+      coords -0.294 0 0.001
+      {
+       GenericEntity {
+        ID "5A04A8A7F43E3B88"
+        coords 0 0 0
+       }
+      }
+     }
+    }
+   }
+   {
+    coords -13.683 -1.232 12.291
+    angles 6.401 148.106 -0.598
+   }
+  }
+  GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+   components {
+    Hierarchy "{5D6477362F284123}" {
+     Enabled 1
+    }
+   }
+   coords 1.237 -0.484 6.222
+   angles 0.563 -88.748 4.777
+  }
+ }
+}
+$grp GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ {
+  coords 3454.658 172.061 5735.45
+  angles 0 -138.327 0
+ }
+ {
+  coords 3578.892 171.565 5763.738
+  angles 0 156.313 0
+  {
+   GenericEntity {
+    ID "5CCCBEE55EFE2861"
+    coords 0.72 0.274 -3.076
+    angles 0 5.416 0
+   }
+   GenericEntity {
+    ID "5CCCBEE55EFE287F"
+    coords -0.369 0.289 -3.021
+    angles 0 -180 0
+   }
+   GenericEntity {
+    ID "5CCCBEE55EFE2832"
+    coords 0.807 0.072 0.028
+    angles 8.186 157.302 0.43
+   }
+   GenericEntity {
+    ID "5CCCBEE55EFE285E"
+    coords 0.952 0.026 0.259
+    angles -3.822 -88.087 7.258
+   }
+   GenericEntity {
+    ID "5CCCBEE55EFE2807"
+    coords 0.244 0.001 0.112
+    angles -1.611 -104.456 8.039
+   }
+   GenericEntity {
+    ID "5CCCBEE55EFE2A14"
+    {
+     Turret {
+      ID "5CCCBEDD771835C6"
+      coords 0.016 0.656 -0.636
+     }
+    }
+   }
+   StaticModelEntity {
+    ID "5CCCBEE55EFE29C3"
+    coords 0.437 0.298 -3.028
+    angles 0 7.949 0
+   }
+   StaticModelEntity {
+    ID "5CCCBEE55EFE29EF"
+    coords -0.032 0.27 -2.974
+   }
+   StaticModelEntity {
+    ID "5CCCBEE55EFE294B"
+    coords -5.388 0 -2.864
+    angles 0 -161.601 0
+   }
+   StaticModelEntity {
+    ID "5CCCBEE55EFE2982"
+    coords -2.126 -0.067 -0.369
+    angles 0 -30.495 0
+   }
+  }
+ }
+ {
+  coords 3437.251 175.095 5837.83
+  angles 0 -55.974 0
+  {
+   StaticModelEntity {
+    ID "5CCCBEE55EFE294B"
+    coords -5.357 0 -2.946
+    angles 0 -130.329 0
+   }
+  }
+ }
+ {
+  coords 3577.4 174.326 5837.467
+  angles 0 67.348 0
+  {
+   GenericEntity {
+    ID "5CCCBEE55EFE2832"
+    coords 0.78 0.085 -0.226
+    angles 10.541 137.738 -5.764
+   }
+   GenericEntity {
+    ID "5CCCBEE55EFE285E"
+    coords 0.842 0.032 0.043
+    angles 0.543 -105.93 11.986
+   }
+   GenericEntity {
+    ID "5CCCBEE55EFE2807"
+    coords 0.217 0.077 -0.32
+    angles 3.862 -121.897 11.368
+   }
+   StaticModelEntity {
+    ID "5CCCBEE55EFE2982"
+    coords -2.443 -0.018 -0.492
+    angles 0 -29.246 0
+   }
+  }
+ }
+}
+GenericEntity : "{20D02D188D3E883F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_wall_high_USSR.et" {
+ coords 3584.868 172.749 5794.2
+ angles 0 69.551 0
+ {
+  GenericEntity {
+   ID "5702A3AA62E4FEDA"
+   coords -0.019 0.005 -0.022
+  }
+ }
+}
+$grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+ {
+  coords 3581.421 173.754 5816.05
+  angles 0 -51.545 0
+ }
+ {
+  coords 3580.269 174.508 5830.566
+  angles 0 42.905 0
+ }
+}
+$grp DecalEntity : "{28DBB1C4928B9FB6}Prefabs/Decals/Dirt/Decal_Dirt_Tracks_03.et" {
+ {
+  coords 3518.548 0 5769.368
+  angles -83.095 0 3.19
+  scale 5
+ }
+ {
+  coords 3512.636 0 5769.626
+  angles -79.536 -7.048 10.204
+  scale 5
+ }
+}
+GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ coords 3586.099 172.965 5818.838
+ angles 0 138.526 0
+}
+GenericEntity : "{2F0CCC459889B8EE}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_AP_Small_USSR.et" {
+ components {
+  SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+   m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{5D22CCE8D39ECEDA}" {
+     m_fWidth 30
+    }
+    m_iMinProjectilesEachBarrage 35
+    m_iMaxProjectilesEachBarrage 47
+   }
+  }
+ }
+ coords 3474.755 170.473 5892.63
+ angles 0 -12.389 0
+ {
+  GenericEntity {
+   ID "616C96D8967A1736"
+   components {
+    SCR_EffectsModuleAreaMeshComponent "{616C96D8B05B3D1F}" {
+     m_fWidth 30
+    }
+   }
+  }
+ }
+}
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  coords 3472.78 179.875 5805.254
 }

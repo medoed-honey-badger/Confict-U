@@ -19,8 +19,125 @@ GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  coords 5522.001 95.637 6023.845
  angles 0 26.806 0
 }
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 5771.429 100.892 5941.496
+ angles 0 176.033 0
+}
 GenericEntity : "{1A9D75D98DC825E7}Prefabs/Compositions/Locations/Eden/SupplyCache_Provins_FIA_01.et" {
  coords 5486.487 96.127 6087.397
+}
+GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ coords 5588.409 89.376 5903.201
+ angles 0 -73.072 0
+ {
+  GenericEntity {
+   ID "5D1ED92353BB9E28"
+   coords 0.21 -0.162 -3.815
+   angles 0 -3.43 0
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9FD2"
+   coords 0.229 -0.252 -4.991
+   angles 0 -0.492 0
+  }
+  GenericEntity {
+   ID "5D453938FA2CE085"
+   {
+    GenericEntity {
+     ID "5D453938F45912F0"
+     coords -0.331 0.031 0.73
+    }
+    GenericEntity {
+     ID "5D453938F45912F6"
+     coords -0.136 -0.308 -3.727
+     angles 0 -92.416 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9F82"
+   coords 3.197 0.202 1.629
+   angles 0 -90 0
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9F95"
+   coords 3.297 0.169 0.133
+   angles 0 -88.159 0
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9FE3"
+   coords 3.358 0.145 -1.785
+   angles 0 176.173 0
+  }
+ }
+}
+GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ coords 5583.657 89.151 5891.404
+ angles 0 -74.033 0
+ {
+  GenericEntity {
+   ID "5D1ED92C4DD6AF8F"
+   coords -5.626 -0.066 2.757
+   angles 0 15.223 0
+  }
+  GenericEntity {
+   ID "5D1ED92C4DD6AFC6"
+   coords -5.818 -0.077 3.486
+   angles 0 -87.649 0
+  }
+  GenericEntity {
+   ID "5D1ED92C4DD6AFE6"
+   coords -5.079 -0.074 3.478
+   angles 0 -60.109 0
+  }
+  GenericEntity {
+   ID "5D1ED92C4DD6AFF8"
+   coords -5.578 -0.089 4.308
+   angles 0 -11.182 0
+  }
+  GenericEntity {
+   ID "5D1ED92C4DD6AE02"
+   coords -4.381 -0.084 4.32
+   angles 0 -87.961 0
+  }
+  GenericEntity {
+   ID "5D1ED92C4DD6AE2E"
+   coords -4.089 -0.063 3.042
+   angles 0 -2.806 0
+  }
+  GenericEntity {
+   ID "5D45393876460D01"
+   {
+    GenericEntity {
+     ID "5D453938619FC380"
+     coords 2.496 0.076 -2.67
+     angles 0 91.603 -0.711
+    }
+    GenericEntity {
+     ID "5D453938619FC381"
+     coords -1.957 0.012 0.223
+    }
+    GenericEntity {
+     ID "5D453938619FC383"
+     coords 2.712 0.009 0.48
+     angles 0 92.564 0
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 5534.842 88.882 5895.88
+ angles 0 -175.522 0
+}
+DecalEntity : "{28DBB1C4928B9FB6}Prefabs/Decals/Dirt/Decal_Dirt_Tracks_03.et" {
+ coords 5583.704 0 5908.633
+ angles -89.966 0 -74.711
+ scale 5
+}
+GenericEntity : "{2F0CCC459889B8EE}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_AP_Small_USSR.et" {
+ coords 5800.661 100.694 5925.146
+ angles 0 35.578 0
 }
 $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  {

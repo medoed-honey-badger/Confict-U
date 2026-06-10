@@ -136,6 +136,10 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angles 0 -11.443 0
  }
 }
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 10251.262 7.737 1593.027
+ angles 0 53.507 0
+}
 GenericEntity : "{4239449B3D22E425}Prefabs/Compositions/Locations/Eden/SupplyCache_StPierre_FIA_01.et" {
  coords 9689.018 14.024 1558.482
 }

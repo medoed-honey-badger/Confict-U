@@ -280,6 +280,60 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angles 0 -83.538 0
  }
 }
+GenericEntity : "{144F1136AB4DB0E8}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_FIA_01.et" {
+ coords 7232.817 137.618 2362.439
+ angles 0.895 178.061 -0.03
+}
+GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ coords 7094.64 150.284 2214.977
+ angles 0 142.977 0
+ {
+  GenericEntity {
+   ID "5CCCBEE55EFE2E84"
+   coords -5.234 -0.494 -1.59
+   angles 25.114 -61.488 0
+  }
+  GenericEntity {
+   ID "5CCCBEE55EFE2E9C"
+   coords -4.784 0.233 -4.817
+   angles 0 -54.859 0
+  }
+  GenericEntity {
+   ID "5CCCBEE55EFE2B5A"
+   coords -4.101 -0.044 -4.124
+   angles 0 -74.28 0
+  }
+  GenericEntity {
+   ID "5CCCBEE55EFE2EFC"
+   coords -5.662 -0.504 -2.601
+   angles 0 -167.766 0
+  }
+  GenericEntity {
+   ID "5CCCBEE55EFE2B31"
+   coords -4.034 0 -3.181
+   angles 0 -89.815 0
+  }
+  StaticModelEntity {
+   ID "5CCCBEE55EFE29AE"
+   coords -4.063 0 -3.641
+   angles 0 -85.15 0
+  }
+  StaticModelEntity {
+   ID "5CCCBEE55EFE294B"
+   coords -5.343 -0.504 -2.877
+   angles 0 177.331 0
+  }
+  StaticModelEntity {
+   ID "5CCCBEE55EFE297A"
+   coords -5.179 0 -4.695
+   angles 0 -161.126 0
+  }
+ }
+}
+GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+ coords 7169.799 139.262 2256.964
+ angles 0 26.744 0
+}
 GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
  coords 7172.355 140.099 2241.961
  angles 0 -169.212 0
@@ -292,6 +346,27 @@ GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/For
    ID "570CFD7463457953"
    coords -4.275 -0.667 -3.443
    angles 0 -69.721 0
+  }
+ }
+}
+GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ coords 7141.792 150.901 2093.433
+ angles 0 74.639 0
+ {
+  GenericEntity {
+   ID "5CC6B4BFC0D1751C"
+   coords 0.011 0.297 -2.35
+   angles 0 83.204 0
+  }
+  GenericEntity {
+   ID "5CC6B4BFC0D175FB"
+   coords 5.2 0.908 -3.35
+   angles 0 -99.761 0
+  }
+  GenericEntity {
+   ID "5E5AD06C0CDBE61A"
+   coords -4.404 0.292 -2.352
+   angles 0 -92.459 0
   }
  }
 }

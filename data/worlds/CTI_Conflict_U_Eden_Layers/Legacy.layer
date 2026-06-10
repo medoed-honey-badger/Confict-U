@@ -647,6 +647,107 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angles 0 -171.548 0
  }
 }
+GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et" {
+ coords 5118.542 170.92 6903.708
+ angles 0 -138.484 0
+ {
+  GenericEntity {
+   ID "5CD2AC4D3DDFDC5C"
+   coords -2.563 -0.054 -0.94
+   angles 0 -92.857 0
+  }
+ }
+}
+$grp GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ {
+  coords 6601.89 6.202 3102.842
+  angles 0 153.085 0
+ }
+ {
+  coords 4538.956 63.844 6297.852
+  angles 0 95.509 5.842
+ }
+ {
+  coords 8242.316 223.125 2158.36
+  angles 0 154.691 0
+ }
+ {
+  coords 8921.443 92.864 2624.49
+  angles 0 -169.766 0
+ }
+ {
+  coords 5090.986 53.687 5498.467
+ }
+ {
+  coords 4534.688 23.827 9722.354
+  angles 0 152.916 4.403
+ }
+ {
+  coords 4997.871 26.694 9859.163
+  angles 0 -169.199 0
+ }
+}
+$grp GenericEntity : "{18B92018CF634D22}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_US_03.et" {
+ {
+  coords 3876.591 15.281 8414.389
+  angles 0 -178.575 0
+ }
+ {
+  coords 7540.508 132.559 4806.127
+  angles 0.362 46.253 -5.636
+ }
+}
+$grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ {
+  coords 1074.117 2.813 6199.68
+  angles 0 -173.077 0
+ }
+ {
+  coords 5004.157 28.148 11985.518
+  angles 0 91.816 0
+ }
+ {
+  coords 5249.472 34.883 10667.516
+  angles 0 -89.262 0
+ }
+ {
+  components {
+   RoadNetworkBridgeComponent "{61609812EEC8E880}" {
+    Points {
+     0 0 9
+     7 0 3
+     4 0 -7
+    }
+   }
+  }
+  coords 8193.315 220.896 2213.693
+  angles 0 33.149 0
+ }
+ {
+  coords 3873.115 61.409 7032.324
+  angles 0 5.136 0
+ }
+ {
+  coords 5185.511 171.443 6970.962
+  angles 0 133.807 0
+  {
+   GenericEntity {
+    ID "5CC6B4BF5DDEF861"
+    coords -2.798 0.072 -2.25
+    angles 0 -76.767 0
+   }
+   GenericEntity {
+    ID "5E5AD06D797113DE"
+    coords 2.193 0.067 -2.338
+    angles 0 -99.208 0
+   }
+  }
+ }
+ {
+  coords 4974.254 24.918 9975.905
+  angles 0 -106.182 0
+ }
+}
 $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  {
   components {

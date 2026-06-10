@@ -15,3 +15,183 @@ GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  coords 5826.092 4.563 9798.514
  angles 0 75.542 0
 }
+GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01_PKM.et" {
+ components {
+  SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+   m_bOrientChildrenToTerrain 0
+  }
+ }
+ coords 5713.598 10.977 9636.436
+ angles 0 -164.215 0
+ {
+  GenericEntity {
+   ID "5CCCBEDC9EB800A3"
+   coords 0.862 -0.161 0.39
+   angles 0 46.389 0
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB800B1"
+   coords 0.71 -0.161 0.118
+   angles 0 -42.929 0
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB8023A"
+   {
+    GenericEntity {
+     ID "570CFD743B9A8A19"
+     coords 1.411 -0.624 -1.178
+     angles 0 70.226 0
+    }
+    GenericEntity {
+     ID "570CFD7463457874"
+     coords 1.352 -0.578 -1.149
+     angles 0 42.368 0
+    }
+    GenericEntity {
+     ID "570CFD7463457953"
+     coords 6.408 -0.871 -0.977
+     angles 0 93.166 0
+    }
+    StaticModelEntity {
+     ID "570CFD7463457965"
+     coords -0.27 -0.662 0.795
+     angles 0 12.257 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB800D1"
+   coords 9.495 -0.098 0.587
+   angles 44.065 85.224 0
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB8008E"
+   coords 0.779 -0.162 -0.348
+   angles 0 -123.68 0
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB800BC"
+   coords 0.15 -0.168 -0.208
+   angles 0 -82.725 0
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB800E1"
+   coords 6.411 -0.742 2.451
+   angles 20.741 27.87 7.088
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB800FB"
+   coords -3.797 -0.925 4.37
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB8034B"
+   {
+    DecalEntity {
+     ID "56E0B29E17039037"
+     coords 1.174 -0.928 2.859
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB8021A"
+   coords 6.898 -1.007 0.531
+   angles 0 8.524 0
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB80317"
+   coords 7.682 -1.145 1.389
+   angles 19.23 33.416 0
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB803CC"
+   coords -3.358 -0.928 3.533
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB803E8"
+   coords 8.098 -0.139 0.372
+   angles 0 8.524 0
+  }
+  GenericEntity {
+   ID "5CCCBEDC9EB803F4"
+   coords -2.156 -0.928 3.534
+  }
+  StaticModelEntity {
+   ID "5CCCBEDC9EB80042"
+   coords 6.966 -1.008 -0.25
+   angles 0 22.253 0
+  }
+  StaticModelEntity {
+   ID "5CCCBEDC9EB803A9"
+   coords -2.365 -1.038 3.541
+  }
+  StaticModelEntity {
+   ID "5CCCBEDC9EB803BA"
+   coords 7.813 -1.329 0.406
+   angles 0 8.524 0
+  }
+  StaticModelEntity {
+   ID "5CCCBEDC9EB80306"
+   coords 8.119 -1.187 1.371
+   angles 0 100.791 0
+  }
+  StaticModelEntity {
+   ID "5CCCBEDC9EB80334"
+   coords -2.493 -0.928 4.687
+  }
+ }
+}
+GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+ coords 5785.7 7.938 9748.802
+ angles 3.622 93.3 -0.686
+ {
+  GenericEntity {
+   ID "5D1ED92353BB9FF4"
+   coords 11.821 -0.268 2.47
+   angles 3.599 178.234 -0.796
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9F82"
+   coords 12.34 -0.075 -2.074
+   angles -1.787 87.465 -0.024
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9F95"
+   coords 12.173 -0.092 -0.584
+   angles -1.662 89.386 -2.762
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9FE3"
+   coords 12.024 -0.197 1.323
+   angles -3.523 -6.429 1.086
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9E3E"
+   coords 13.123 -0.364 -3.516
+   angles 4.877 -89.264 0
+  }
+  GenericEntity {
+   ID "5D453938FA2CE085"
+   {
+    GenericEntity {
+     ID "5D453938F45912F0"
+     coords -0.329 -0.041 0.728
+     angles -2.907 -0.003 0.052
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+ coords 5796.245 16.867 9790.364
+ angles 0 92.776 0
+}
+GenericEntity : "{2F0CCC459889B8EE}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_AP_Small_USSR.et" {
+ components {
+  SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+   m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    m_iMaxProjectilesEachBarrage 27
+   }
+  }
+ }
+ coords 5710.798 14.875 9824.101
+}
