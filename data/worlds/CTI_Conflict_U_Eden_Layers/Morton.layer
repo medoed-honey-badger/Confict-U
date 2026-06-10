@@ -71,3 +71,18 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
 GenericEntity : "{0E2B16A0A7DF365D}Prefabs/Compositions/Locations/Eden/SupplyCache_Morton_FIA_01.et" {
  coords 5135.238 13.126 4011.78
 }
+GenericEntity : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_US.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    VEHICLE_HELICOPTER
+   }
+  }
+ }
+ coords 4940.065 2.261 3885.688
+ angles 0 84.354 0
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ coords 4936.062 2.156 3903.763
+ angles 0 16.572 0
+}

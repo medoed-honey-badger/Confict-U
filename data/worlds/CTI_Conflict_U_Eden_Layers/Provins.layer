@@ -22,7 +22,22 @@ GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicl
 GenericEntity : "{1A9D75D98DC825E7}Prefabs/Compositions/Locations/Eden/SupplyCache_Provins_FIA_01.et" {
  coords 5486.487 96.127 6087.397
 }
-GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
- coords 5545.938 89.563 5901.062
- angles 0.754 42.654 0.74
+$grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ {
+  coords 5545.938 89.563 5901.062
+  angles 0.754 42.654 0.74
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     FACTION_FIA
+     VEHICLE_APC
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 5607.047 90.546 5905.677
+  angles 0 122.344 0
+ }
 }

@@ -33,9 +33,121 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   coords 9620.364 23.464 1671.347
   angles 0 11.584 0
  }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 9443.096 44.335 1678.812
+  angles 0 157.179 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 9690.872 22.755 1722.279
+  angles 0 -61.668 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 9931.608 3.751 1625.375
+  angles 0 -172.84 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 9805.248 8.219 1588.069
+  angles 0 -176.594 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 9653.14 13.878 1523.871
+  angles 0 133.099 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 9632.564 17.877 1594.623
+  angles 0 -11.443 0
+ }
 }
 GenericEntity : "{4239449B3D22E425}Prefabs/Compositions/Locations/Eden/SupplyCache_StPierre_FIA_01.et" {
  coords 9689.018 14.024 1558.482
+}
+GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    VEHICLE_HELICOPTER
+   }
+  }
+ }
+ coords 10147.514 2.531 1513.373
 }
 GenericEntity : "{A9F3C4994839F7A4}Prefabs/Compositions/Locations/Eden/Base_StPierreHarbour_FIA_01.et" {
  coords 9925.094 2.389 1525.324

@@ -221,7 +221,37 @@ $grp GenericEntity : "{CBCF93346A850481}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   angles 0 61.365 0
  }
 }
-GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
- coords 4963.855 25.228 9980.959
- angles 3.265 -65.889 1.46
+$grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ {
+  coords 4963.855 25.228 9980.959
+  angles 3.265 -65.889 1.46
+ }
+ {
+  coords 9054.544 117.975 2688.393
+  angles 7.063 -0.666 -5.397
+ }
+ {
+  coords 6915.454 58.779 4499.209
+  angles 7.06 67.415 -3.885
+ }
+ {
+  coords 4761.982 54.076 5817.023
+  angles 1.687 -161.386 3.397
+ }
+ {
+  coords 4831.316 118.532 8152.565
+  angles -3.686 74.757 0.077
+ }
+ {
+  coords 6474.506 162.062 6477.981
+  angles 0 74.097 0
+ }
+ {
+  coords 3036.828 113.926 5184.011
+  angles 0 -40.446 0
+ }
+ {
+  coords 7094.897 157.68 2075.87
+  angles 0 60.488 0
+ }
 }

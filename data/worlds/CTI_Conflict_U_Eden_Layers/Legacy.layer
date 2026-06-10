@@ -325,6 +325,327 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   coords 8197.688 221.081 2238.273
   angles 0 16.854 0
  }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 6797.677 21.433 4288.293
+  angles 0 -83.075 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 6695.853 9.725 3222.792
+  angles 0 4.274 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 7010.082 96.5 8374.378
+  angles 0 -175.565 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 6259.642 178.562 7503.265
+  angles 0 69.399 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 7131.602 151.705 2715.671
+  angles 0 171.258 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 8148.706 202.385 3913.956
+  angles 0 15.889 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 8486.015 152.564 3620.687
+  angles 0 -153.262 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 8705.245 114.096 3056.142
+  angles 0 -135.044 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 9003.124 83.202 2205.075
+  angles 0 40.271 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 9188.388 65.085 2135.471
+  angles 0 7.73 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 9233.368 61.429 2084.51
+  angles 0 -164.071 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 6550.407 153.549 7121.086
+  angles 0 111.42 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 6853.639 123.562 6585.442
+  angles 0 -64.461 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 6787.268 91.298 5685.824
+  angles 0 -101.274 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 7368.355 120.102 5227.037
+  angles 0 108.515 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 7953.074 172.651 4517.906
+  angles 0 -40.535 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 6528.235 86.793 5291.002
+  angles 0 107.256 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 4422.263 63.161 4962.017
+  angles 0 -116.252 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 4331.194 81.269 4395.952
+  angles 0 -171.548 0
+ }
 }
 $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  {
@@ -413,5 +734,13 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   coords 7422.615 113.629 5326.617
   angles 0.934 -158.691 -7.283
+ }
+ {
+  coords 9464.003 208.138 2962.383
+  angles -3.08 50.927 -0.955
+ }
+ {
+  coords 4518.395 64.132 4974.381
+  angles -0.903 67.275 -4.465
  }
 }

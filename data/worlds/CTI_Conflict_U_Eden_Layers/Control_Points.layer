@@ -250,3 +250,26 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   coords 2843.544 7.877 2238.298
  }
 }
+$grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_HELICOPTER
+    }
+   }
+  }
+  coords 2879.007 6.641 2137.98
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_HELICOPTER
+    }
+   }
+  }
+  coords 2821.33 6.511 2120.629
+  angles 0 106.784 0
+ }
+}

@@ -6,3 +6,18 @@ Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.et" {
  coords 7473.892 172.731 4257.61
  angles 0 147.099 0
 }
+GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    VEHICLE_HELICOPTER
+   }
+  }
+ }
+ coords 7574.48 166.689 4247.317
+ angles 0 -78.979 0
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ coords 7429.868 163.064 4313.774
+ angles -0.555 18.997 -1.138
+}

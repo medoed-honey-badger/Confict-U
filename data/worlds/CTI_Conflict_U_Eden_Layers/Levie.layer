@@ -1,19 +1,38 @@
-GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
- components {
-  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-   m_iRespawnPeriod 600
-   m_aIncludedEditableEntityLabels {
-    TRAIT_PASSENGERS_SMALL
-    TRAIT_PASSENGERS_LARGE
-   }
-   m_aExcludedEditableEntityLabels +{
-    VEHICLE_HELICOPTER
-    VEHICLE_AIRPLANE
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
    }
   }
+  coords 7395.837 136.219 4715.22
+  angles 0 -11.872 0
  }
- coords 7395.837 136.219 4715.22
- angles 0 -11.872 0
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 7393.325 135.754 4754.852
+  angles 0 119.046 0
+ }
 }
 GenericEntity : "{152E7C3355906BA9}Prefabs/Compositions/Locations/Eden/SupplyCache_Levie_FIA_01.et" {
  coords 7464.442 142.167 4738.911

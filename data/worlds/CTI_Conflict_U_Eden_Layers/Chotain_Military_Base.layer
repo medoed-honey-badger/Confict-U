@@ -1,4 +1,19 @@
+GenericEntity : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_US.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    VEHICLE_HELICOPTER
+   }
+  }
+ }
+ coords 7532.248 2.429 6683.727
+ angles 0 59.392 0
+}
 GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
  coords 7358.015 10.309 6675.261
  angles 0 -43.56 0
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ coords 7456.896 7.875 6715.484
+ angles 0 -132.979 0
 }

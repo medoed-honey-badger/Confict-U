@@ -28,3 +28,17 @@ GenericEntity : "{0A36F69A7D518F10}Prefabs/Compositions/Locations/Eden/Base_Mili
   }
  }
 }
+GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    VEHICLE_HELICOPTER
+   }
+  }
+ }
+ coords 3912.589 15.344 8439.267
+ angles 0 -88.484 0
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ coords 3910.547 15.219 8416.948
+}

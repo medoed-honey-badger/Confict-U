@@ -8,22 +8,58 @@ GenericEntity : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSmall/Ma
   }
  }
 }
-GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
- components {
-  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-   m_iRespawnPeriod 600
-   m_aIncludedEditableEntityLabels {
-    TRAIT_PASSENGERS_SMALL
-    TRAIT_PASSENGERS_LARGE
-   }
-   m_aExcludedEditableEntityLabels +{
-    VEHICLE_HELICOPTER
-    VEHICLE_AIRPLANE
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
    }
   }
+  coords 5705.269 219.234 7083.847
+  angles 0 110.285 0
  }
- coords 5705.269 219.234 7083.847
- angles 0 110.285 0
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 5771.187 212.067 7010.947
+  angles 0 -126.106 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_iRespawnPeriod 600
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+     VEHICLE_AIRPLANE
+    }
+   }
+  }
+  coords 5876.303 213.994 7050.699
+  angles 0 173.691 0
+ }
 }
 GenericEntity : "{1CA1A82176D652AD}Prefabs/Compositions/Locations/Eden/SupplyCache_EntreDeux_FIA_01.et" {
  coords 5766.788 215.153 7035.573

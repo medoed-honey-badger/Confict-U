@@ -1391,6 +1391,23 @@ GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/Sa
   }
  }
 }
+GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_iRespawnPeriod 600
+   m_aIncludedEditableEntityLabels {
+    TRAIT_PASSENGERS_SMALL
+    TRAIT_PASSENGERS_LARGE
+   }
+   m_aExcludedEditableEntityLabels +{
+    VEHICLE_HELICOPTER
+    VEHICLE_AIRPLANE
+   }
+  }
+ }
+ coords 6265.878 3.659 9653.224
+ angles 0 -44.477 0
+}
 $grp GenericEntity : "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T1Harbor.et" {
  SP_T1H_StPhillipe {
   components {
