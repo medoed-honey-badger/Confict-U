@@ -101,6 +101,10 @@ GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/Ma
   }
  }
 }
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 4904.209 2.167 3880.523
+ angles 0 -149.431 0
+}
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  coords 4936.062 2.156 3903.763
  angles 0 16.572 0

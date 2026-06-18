@@ -1752,6 +1752,32 @@ $grp GenericEntity : "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSou
   }
  }
 }
+GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_iSpawnDistanceOverride 500
+   m_iDespawnDistanceOverride 600
+   m_fAILimitThreshold 0.33
+  }
+ }
+ coords 9278.509 9.207 5132.965
+ {
+  $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+   {
+    coords -14.16 0.565 171.227
+   }
+   {
+    coords -211.347 19.3 95.912
+   }
+   {
+    coords -295.818 29.435 258.834
+   }
+   {
+    coords -302.588 35.221 140.476
+   }
+  }
+ }
+}
 GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
  coords 6364.798 6.31 9643.547
  angles 0 -83.208 0

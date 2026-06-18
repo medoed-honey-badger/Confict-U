@@ -1,3 +1,6 @@
+GenericEntity : "{4DB3DF28BAFD3B32}Prefabs/Compositions/Misc/FreeRoamBuilding/CamoNetLarge_M_USSR_01.et" {
+ coords 5378.54 18.684 9980.01
+}
 GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
  components {
   RoadNetworkBridgeComponent "{616093656E9ECFD5}" {
@@ -13,6 +16,16 @@ GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/C
  }
  coords 5354.708 20.133 9953.286
  angles 0 -165.384 0
+}
+GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType SQUAD_RIFLE
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 5357.991 18.987 9974.426
+ angles -1.986 -70.464 0.245
 }
 GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  coords 5376.854 19.918 9966.559

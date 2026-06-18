@@ -370,6 +370,269 @@ GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Ba
   }
  }
 }
+DecalEntity : "{4932978A48FA10B0}Prefabs/Decals/Dirt/Decal_Dirt_Patch_05.et" {
+ components {
+  Hierarchy "{56E0B29E14646CC0}" {
+  }
+ }
+ coords 7171.531 -0.001 2256.865
+ angles -90 -180 -153.82
+ scale 2
+ FarPlane 1.5
+}
+GenericEntity : "{6676FBB212B337D6}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatMedium/E_VehicleMaintenance_M_Conflict_USSR_01.et" {
+ components {
+  SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+   m_bOrientChildrenToTerrain 0
+  }
+ }
+ coords 7241.935 136.624 2314.651
+ angles -1.124 -7.604 -1.655
+ {
+  GenericEntity {
+   ID "6306825969101E33"
+   coords -15.622 0.353 11.857
+   angles 0.139 -20.445 2.491
+  }
+  GenericEntity {
+   ID "6306825969106228"
+   coords -13.155 0.277 9.821
+   angles 0.078 -19.033 2.494
+  }
+  GenericEntity {
+   ID "630682596910622C"
+   coords -14.436 0.452 8.102
+   angles -0.19 -12.884 2.488
+  }
+  GenericEntity {
+   ID "630682596910F4C8"
+   coords -4.295 -0.036 5.675
+  }
+  GenericEntity {
+   ID "6306825969136308"
+   coords -13.251 0.314 7.245
+   angles 0.886 -176.457 -2.332
+   {
+    DecalEntity {
+     ID "56E0B29FD3B522B3"
+     coords 4.235 0 -2.17
+     angles -90 180 124.019
+    }
+   }
+  }
+  GenericEntity {
+   ID "630682596913630D"
+   {
+    GenericEntity {
+     ID "5CB0D997DE277E14"
+     coords 15.317 0.144 -3.5
+     angles -0.847 139.134 2.347
+    }
+   }
+  }
+  GenericEntity {
+   ID "63068259691414B7"
+   coords -14.163 0.307 10.747
+   angles -2.488 77.124 -0.19
+  }
+  GenericEntity {
+   ID "63068259691460DC"
+   {
+    GenericEntity {
+     ID "5CB0D997D91A2DAF"
+     coords -1.677 0.307 16.259
+     angles -0.956 175.188 -2.305
+    }
+   }
+  }
+  GenericEntity {
+   ID "6306825969178F78"
+   coords -12.452 0.28 7.326
+   angles -0.847 142.914 -2.347
+   {
+    DecalEntity {
+     ID "56E0B29FC2CE4204"
+     coords -8.053 0 0.218
+     angles -89.98 180 -133.682
+    }
+   }
+  }
+  GenericEntity {
+   ID "6306825969178F7E"
+   coords -13.372 0.263 11.679
+   angles 0.692 -33.352 2.397
+  }
+  GenericEntity {
+   ID "63068259692E3295"
+   coords -14.606 0.375 6.928
+   angles -1.1 136.591 -2.24
+  }
+  GenericEntity {
+   ID "63068259692E3296"
+   coords -15.425 0.369 10.01
+   angles 1.227 -46.703 2.172
+  }
+  GenericEntity {
+   ID "63068259692ECC3B"
+   coords -13.964 0.331 8.336
+   angles 2.023 -143.082 -1.46
+  }
+  GenericEntity {
+   ID "63068259692F8B1E"
+   coords -14.609 0.389 5.815
+   angles -1.474 126.551 -2.013
+  }
+  GenericEntity {
+   ID "63068259692F8B1F"
+   coords -14.906 0.344 10.343
+   angles -1.033 7.202 2.271
+  }
+  GenericEntity {
+   ID "65EC744C00523437"
+   coords -3.403 -0.04 -3.046
+   angles 0 -151.841 0
+  }
+ }
+}
+GenericEntity : "{760BD4105816358C}Prefabs/Compositions/Slotted/SlotFlatMedium/FieldHospital_M_FIA_01.et" {
+ components {
+  SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+   m_bOrientChildrenToTerrain 0
+  }
+ }
+ coords 7245.04 136.999 2333.923
+ angles 0 -93.582 0
+ {
+  GameEntity {
+   ID "5D1ED93EDDB901A9"
+   coords -0.338 0.415 -12.108
+   angles 0 -26.836 0
+  }
+  GameEntity {
+   ID "5D1ED93EDDB90136"
+   coords -0.396 0.18 -5.787
+   angles 0 6.014 0
+  }
+  GenericEntity {
+   ID "5D1ED93EDDB901C4"
+   coords -0.497 0.305 -9.67
+   angles 0 0.059 0
+  }
+  GenericEntity {
+   ID "5D1ED93EDDB901D8"
+   coords -2.2 0.568 -12.448
+   angles -90 -55.921 15.848
+  }
+  GenericEntity {
+   ID "5D1ED93EDDB901E9"
+   coords -2.226 0.403 -13.074
+   angles 0 51.65 0
+  }
+  GenericEntity {
+   ID "5D1ED93EDDB901F7"
+   coords 0.666 0.529 -13.533
+   angles 0 -37.138 0
+  }
+  GenericEntity {
+   ID "5D1ED93EDDB90154"
+   coords -0.372 0.396 -11.779
+   angles 0 -37.376 0
+   {
+    DecalEntity {
+     ID "56DEFDB4A9499F9B"
+     coords 0 0.396 0
+     angles -90 -180 -180
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D1ED93EDDB90180"
+   coords 0.013 0.367 -10.847
+   angles 0 -33.961 0
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     coords -0.001 0 -0.001
+     angles -90 180 -180
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D1ED93EDDB90198"
+   coords -0.313 0.47 -13.208
+   angles 0 -84.566 0
+   {
+    DecalEntity {
+     ID "56E0B29F4975B6A9"
+     coords 0 0 0
+     angles -90 180 -180
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D1ED93D9E2ABF47"
+   coords -1.856 0.326 -10.878
+   angles 0 38.848 0
+  }
+  GenericEntity {
+   ID "5D1ED93D9E2ABFEA"
+   coords -1.045 0.489 -14.167
+   angles 0 -70.763 0
+  }
+  GenericEntity {
+   ID "5E5CB3075B65EF91"
+   coords 1.263 0.42 -10.813
+   angles 0 136.418 0
+  }
+  GenericEntity {
+   ID "5D1ED93EDDB90264"
+   coords 2.696 -0.092 8.82
+   angles 0 -180 0
+  }
+  GenericEntity {
+   ID "5D1ED93EDDB90287"
+   coords -2.873 -0.27 8.82
+   angles 0 -180 0
+  }
+  GenericEntity {
+   ID "5D1ED93EDDB90CDE"
+   coords -6.928 0.1 -6.892
+  }
+  GenericEntity {
+   ID "5D1ED93EDDB90728"
+   coords 6.096 0.518 -7.217
+  }
+  GenericEntity {
+   ID "5D1ED93EDDB90014"
+   coords -0.873 0.102 -3.518
+   angles 13.636 -175.649 2.018
+  }
+  GenericEntity {
+   ID "5D1ED93EDDB902C9"
+   coords -6.8 -0.064 -1.802
+   angles 0 -85.29 0
+  }
+  GenericEntity {
+   ID "5D1ED93EDDB902ED"
+   coords 0.92 0.088 -1.949
+   angles -2.631 -90.258 1
+  }
+  GenericEntity {
+   ID "5D1ED93EDDB902FB"
+   coords -2.952 -0.013 -1.787
+   angles 0 -89.059 0
+  }
+  StaticModelEntity {
+   ID "5D1ED93EDDB90165"
+   coords -12.585 -0.034 -4.527
+   angles 0 11.6 0
+  }
+  StaticModelEntity {
+   ID "5D1ED93EDDB90033"
+   coords -0.563 0.12 -4.117
+  }
+ }
+}
 GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
  components {
   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
@@ -470,6 +733,49 @@ GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/C
   }
  }
 }
+$grp StaticModelEntity : "{8B7B5323534404A7}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V2.et" {
+ {
+  coords 7219.082 -0.001 2251.827
+  angles -8.593 -2.611 6.564
+ }
+ {
+  coords 7218.358 0 2265.15
+  angles 0 0 7.125
+ }
+ {
+  coords 7220.655 0 2251.693
+  angles 0.149 -30.847 1.995
+ }
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 7325.523 138.117 2239.69
+ angles 0 -7.204 0
+ {
+  GenericEntity {
+   ID "5CCCBEE868D6B36C"
+   coords -2.605 -0.049 -0.008
+   angles -0.692 -93.314 0.128
+  }
+ }
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+   }
+  }
+  coords 7154.653 138.433 2324.154
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.85
+   }
+  }
+  coords 7179.27 137.268 2413.183
+ }
+}
 GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  coords 7167.766 140.068 2244.708
  angles 4.257 -160.793 -1.354
@@ -486,6 +792,18 @@ GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Ch
   }
  }
 }
+StaticModelEntity : "{9639C7B3CF572320}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_old_V2.et" {
+ coords 7221.231 0 2248.244
+ angles 16.575 -135.38 -5.551
+}
+GenericEntity : "{AB1A97B1BAE8C395}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_01.et" {
+ coords 7211.564 137.526 2405.519
+ angles -3.486 175.04 1.199
+}
+StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification/CzechHedgehog_01_rusty.et" {
+ coords 7220.631 0 2249.83
+ angles -1.602 -1.091 9.78
+}
 GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
  components {
   Hierarchy "{5CCCBEF31976DC75}" {
@@ -494,6 +812,78 @@ GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_en
  }
  coords 7170.977 139.953 2244.068
  angles 0 -71.686 2.953
+}
+$grp StaticModelEntity : "{C1576E5555582214}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_short.et" {
+ {
+  components {
+   Hierarchy "{605ECD8CFCE8DD58}" {
+    Enabled 1
+   }
+  }
+  coords 7063.665 0 2336.969
+  angles 0 129.037 0
+ }
+ {
+  components {
+   Hierarchy "{605ECD8CFCE8DD58}" {
+    Enabled 1
+   }
+  }
+  coords 7064.873 0 2338.459
+  angles 0 129.037 0
+ }
+ {
+  components {
+   Hierarchy "{605ECD8CFCE8DD58}" {
+    Enabled 1
+   }
+  }
+  coords 7064.746 0.001 2340.51
+  angles 0 24.509 0
+ }
+ {
+  components {
+   Hierarchy "{605ECD8CFCE8DD58}" {
+    Enabled 1
+   }
+  }
+  coords 7064.014 0 2338.559
+  angles 0 133.411 0
+ }
+}
+$grp StaticModelEntity : "{C16C62041E2AAAB2}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V1.et" {
+ {
+  coords 7182.47 0 2264.008
+ }
+ {
+  coords 7182.584 0.001 2262.303
+  angles 0 15.75 0
+ }
+ {
+  coords 7183.624 0 2260.99
+  angles 2.74 -57.202 0.701
+ }
+ {
+  coords 7185.367 0 2260.495
+  angles 0.892 0.056 3.577
+ }
+}
+$grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
+ {
+  coords 7060.084 151.086 2344.328
+  angles 0 23.067 0
+ }
+ {
+  coords 7060.447 151.035 2344.216
+  angles 0 166.354 0
+ }
+ {
+  coords 7062.082 150.801 2343.138
+ }
+ {
+  coords 7061.477 150.885 2343.359
+  angles 0 -142.367 0
+ }
 }
 $grp GenericEntity : "{CC5453CCC311603B}Prefabs/Props/Military/Sandbags/Sandbag_01_end_burlap.et" {
  {
@@ -523,6 +913,51 @@ GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Ch
  coords 7242.641 140.214 2154.857
  angles 6.878 150 0
 }
+$grp StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
+ {
+  coords 7171.655 0 2255.82
+  angles 0 -65.618 0
+ }
+ {
+  coords 7170.074 0.001 2256.743
+  angles 0 -60.997 0
+ }
+}
 GenericEntity : "{F31EFE6539E2D14F}Prefabs/Compositions/Locations/Eden/SupplyCache_Regina_FIA_01.et" {
  coords 7205.023 145.19 2324.232
+}
+GenericEntity : "{F56391ADF56E2604}Prefabs/Compositions/Slotted/SlotFlatSmall/FuelStorage_S_FIA_01.et" {
+ components {
+  SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+   m_bOrientChildrenToTerrain 0
+  }
+ }
+ coords 7207.376 136.355 2331.163
+ angles 2.978 -111.553 2.668
+ {
+  GenericEntity {
+   ID "5D3706BDADB12F3B"
+   coords 0.014 -0.199 -1.806
+   angles 0 180 0
+  }
+  GenericEntity {
+   ID "5E69068970870D42"
+   coords 4.022 0.294 -1.606
+   angles 0 -178.373 0
+  }
+  GenericEntity {
+   ID "5E69068970870DE5"
+   coords -4.198 -0.365 -1.779
+   angles 0 -178.607 0
+  }
+  GenericEntity {
+   ID "5D1ED91D8B7CFF72"
+   coords -0.138 0.164 0.783
+   angles -0.694 -89.1 -0.303
+  }
+ }
+}
+GenericEntity : "{FB26A800AC01D85A}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_FIA_01.et" {
+ coords 7206.282 136.948 2276.897
+ angles 3.859 -78.59 -1.044
 }

@@ -149,6 +149,10 @@ GenericEntity : "{2F2BBFDA3A2C73D4}Prefabs/Props/Civilian/RadioSmall_01_black.et
 GenericEntity : "{42821C4C92A8F6F7}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_Left_USSR_01.et" {
  coords 7681.708 340.733 3070.304
 }
+GenericEntity : "{4EF68238FE2FC26B}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_USSR_04.et" {
+ coords 7695.573 340.784 3053.836
+ angles 0 69.686 0
+}
 GenericEntity Relay4 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
  components {
   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
@@ -159,7 +163,174 @@ GenericEntity Relay4 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictR
  coords 7689.868 342.063 3055.818
  angles 0 165.717 0
 }
+$grp GenericEntity : "{78A930FB0825AAA0}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Camo_long_high_USSR.et" {
+ {
+  coords 7683.472 340.618 3056.93
+  angles 0 -87.934 0
+ }
+ {
+  coords 7684.163 340.71 3053.964
+  angles 0 -113.671 0
+ }
+ {
+  coords 7689.651 340.556 3064.425
+  angles 0 0 0
+ }
+ {
+  coords 7686.711 340.538 3063.626
+  angles 0 -25.737 0
+ }
+}
+GenericEntity : "{795552B887CD50E7}Prefabs/Props/Industrial/ConcretePanel_01_stack.et" {
+ coords 7682.336 340.62 3050.549
+}
+GenericEntity : "{7F95D831CA586F06}Prefabs/Compositions/Misc/SubCompositions/CableReelWooden_Cluttered_USSR_01.et" {
+ coords 7688.198 340.661 3056.859
+ angles 0 0 0
+}
+GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_iSpawnDistanceOverride 400
+   m_iDespawnDistanceOverride 500
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 7679.219 341.214 3058.546
+}
+GenericEntity : "{ADE39FE043B89B0A}Prefabs/Props/Industrial/ConcretePanel_01_B.et" {
+ coords 7690.07 340.884 3054.877
+ angles 0 -15.979 0
+}
+$grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+ {
+  components {
+   Hierarchy "{5654C1ECC7FA26E5}" {
+    Enabled 1
+   }
+  }
+  coords 7689.688 340.582 3060.61
+  angles 0.285 164.537 0
+ }
+ {
+  components {
+   Hierarchy "{5654C1ECC7FA26E5}" {
+    Enabled 1
+   }
+  }
+  coords 7687.906 340.58 3060.681
+  angles 0 -1.16 0
+ }
+ {
+  components {
+   Hierarchy "{5654C1ECC743353E}" {
+    Enabled 1
+   }
+  }
+  coords 7696.169 340.697 3054.528
+  angles -0.837 -25.383 -0.66
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5EAEA75B0523F392}" {
+    Enabled 0
+   }
+  }
+  coords 7691.406 340.988 3054.393
+  angles 0 -17.094 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5EAEA75B0523F392}" {
+    Enabled 0
+   }
+  }
+  coords 7690.208 340.987 3053.851
+  angles 0 -17.094 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5EAEA75B0523F392}" {
+    Enabled 0
+   }
+  }
+  coords 7688.931 340.986 3053.659
+  angles 0 163.537 0
+ }
+ {
+  components {
+   Hierarchy "{5654C1ECC7FA26E5}" {
+    Enabled 1
+   }
+  }
+  coords 7688.864 340.653 3059.383
+  angles 0 88.28 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5EAEA75B0523F392}" {
+    Enabled 0
+   }
+   Hierarchy "{5654C1ECC7FA26E5}" {
+    Enabled 1
+   }
+  }
+  coords 7685.589 340.679 3054.373
+  angles 2.518 155.074 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5EAEA75B0523F392}" {
+    Enabled 0
+   }
+  }
+  coords 7690.453 341.084 3053.282
+  angles 0 72.853 0
+ }
+}
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  coords 7681.231 340.875 3087.47
  angles 0 134.824 0
+}
+$grp GenericEntity : "{D7F69BF7D2DCA0A8}Prefabs/Props/Industrial/Pallets/Pallet_01.et" {
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
+  coords 7690.802 340.955 3057.734
+  angles 0 -100.184 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
+  coords 7690.901 340.686 3057.838
+  angles 0 -15.386 0
+ }
+ {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    Enabled 0
+   }
+  }
+  coords 7690.871 340.819 3057.842
+  angles 0 -15.386 0
+ }
+}
+GenericEntity : "{D93EF3E97E06D435}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_04.et" {
+ coords 7689.492 340.678 3056.489
+ angles 0 -15.848 0
+}
+GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+ coords 7683.633 340.572 3067.844
+ angles 3.102 0.138 2.553
+}
+GenericEntity : "{DF6011FBAA10F835}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_NightStand_USSR_05.et" {
+ coords 7684.667 340.583 3069
+ angles 0 -65.525 0
 }

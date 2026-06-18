@@ -139,9 +139,136 @@ GenericEntity : "{2F0CCC459889B8EE}PrefabsEditable/EffectsModules/Mine/EffectMod
  coords 5800.661 100.694 5925.146
  angles 0 35.578 0
 }
+GenericEntity : "{34EB1F16E01716A4}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_AP_Medium_USSR.et" {
+ coords 5494.742 88.141 5909.987
+}
 GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
  coords 5636.083 86.905 5790.517
  angles 0 36.621 0
+}
+GenericEntity : "{4510C273B794F3AA}Prefabs/Compositions/Slotted/SlotFlatMedium/VehicleMaintenance_M_Conflict_USSR_01.et" {
+ coords 5619.806 91.688 5917.718
+ angles 0 -168.134 0
+ {
+  GameEntity {
+   ID "630682596911A890"
+   coords 6.562 0.007 -3.492
+   angles 0 -25.075 0
+  }
+  GameEntity {
+   ID "630682596911A891"
+   coords -5.543 -0.079 2.765
+   angles 0 103.178 0
+  }
+  GenericEntity {
+   ID "65EC744C00523437"
+   coords -3.4 -0.001 -3.047
+   angles 0 -151.841 0
+  }
+  GenericEntity {
+   ID "63068259692E3295"
+   coords 8.741 -0.786 9.026
+   angles 0 59.449 0
+  }
+  GenericEntity {
+   ID "63068259692E3296"
+   coords 5.557 -0.228 8.916
+   angles 0 -123.846 0
+  }
+  GenericEntity {
+   ID "63068259692F8B1E"
+   coords 9.826 -0.991 8.774
+   angles 0 49.405 0
+  }
+  GenericEntity {
+   ID "63068259692F8B1F"
+   coords 5.346 -0.283 9.496
+   angles 0 -69.898 0
+  }
+  GenericEntity {
+   ID "63068259692ECC3B"
+   coords 7.514 -0.99 9.966
+   angles 0 139.824 0
+  }
+  GenericEntity {
+   ID "630682596910622C"
+   coords 7.637 -0.815 9.451
+   angles 0 -90 0
+  }
+  GenericEntity {
+   ID "6306825969101E33"
+   coords 3.711 -0.315 9.134
+   angles 0 -97.568 0
+  }
+  GenericEntity {
+   ID "6306825969106228"
+   coords 6.245 -1.054 11.089
+   angles 0 -96.155 0
+  }
+  GenericEntity {
+   ID "630682596913630D"
+   {
+    GenericEntity {
+     ID "5CB0D997DE277E14"
+     coords 2.614 -0.866 -15.019
+     angles 0 62.031 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "63068259691460DC"
+   {
+    GenericEntity {
+     ID "5CB0D997D91A2DAF"
+     coords 12.499 -0.486 4.334
+     angles 0 98.049 0
+    }
+   }
+  }
+  GenericEntity {
+   ID "63068259691414B7"
+   coords 5.12 -0.555 10.311
+  }
+  GenericEntity {
+   ID "6306825969178F7E"
+   coords 4.384 -0.794 11.29
+   angles 0 -110.486 0
+  }
+ }
+}
+GenericEntity : "{60DE3D0B58E8C7A0}Prefabs/Compositions/Misc/SubCompositions/BarbedCoil_Cluttered_USSR_02.et" {
+ coords 5572.853 0 5911.577
+ angles 0 108.751 0
+ {
+  GenericEntity {
+   ID "570481C0D287D78B"
+   coords 0.088 -0.028 -0.268
+  }
+ }
+}
+$grp GenericEntity : "{7394E0251880F29A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_LivingArea_S_FIA_01.et" {
+ {
+  coords 5566.456 90.501 5956.208
+  angles 0 8.976 0
+  {
+   StaticModelEntity {
+    ID "5D1ED910D3E74808"
+    coords -5.972 -0.062 -0.629
+    angles 0 -106.283 0
+   }
+  }
+ }
+ {
+  coords 5570.618 87.491 5818.493
+  angles 0 102.974 0
+  {
+   StaticModelEntity {
+    ID "5D1ED910D3E7483B"
+    coords 2.535 -0.473 -4.9
+    angles 0 6.462 0
+   }
+  }
+ }
 }
 GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
  components {
@@ -700,6 +827,79 @@ $grp GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMed
   }
  }
 }
+$grp StaticModelEntity : "{8B7B5323534404A7}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V2.et" {
+ {
+  coords 5481.397 0 6077.261
+  angles 4.566 -11.169 -4.53
+ }
+ {
+  coords 5692.214 0.001 6022.65
+  angles -0.894 0.028 -1.79
+ }
+ {
+  coords 5480.898 0 6064.414
+  angles 2.659 -29.825 -2.553
+ }
+ {
+  coords 5632.073 0 6034.855
+  angles 0 0 -5.356
+ }
+ {
+  coords 5611.667 0 6036.791
+  angles 0 0 -4.467
+ }
+ {
+  coords 5629.25 0 6035.163
+  angles 2.7 37.122 -3.561
+ }
+ {
+  coords 5717.713 0.001 6008.958
+  angles 0 0 -0.895
+ }
+ {
+  coords 5655.306 0 6032.227
+  angles 0.934 23.114 -4.459
+ }
+ {
+  coords 5685.955 0.001 6025.305
+  angles -3.603 -63.747 -0.78
+ }
+ {
+  coords 5704.954 0.001 6016.683
+  angles 0 0 -1.79
+ }
+ {
+  coords 5724.903 0.001 6003.394
+  angles 0.893 3.945 0.062
+ }
+ {
+  coords 5733.606 0 5996.313
+  angles -2.192 9.115 2.365
+ }
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
+    m_eGroupType FIRETEAM
+    m_iSpawnDistanceOverride 350
+    m_iDespawnDistanceOverride 450
+    m_fAILimitThreshold 0.85
+   }
+  }
+  coords 5560.782 91.227 5969.707
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_fAILimitThreshold 0.85
+   }
+  }
+  coords 5768.854 101.349 5945.279
+ }
+}
 $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  {
   coords 5881.475 99.7 5908.575
@@ -817,6 +1017,33 @@ $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSma
    }
   }
  }
+}
+$grp StaticModelEntity : "{9639C7B3CF572320}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_old_V2.et" {
+ {
+  coords 5765.383 0.001 5966.2
+  angles 1.782 -5.5 -0.171
+ }
+ {
+  coords 5735.795 0.001 5993.994
+  angles -3.044 6.029 3.271
+ }
+ {
+  coords 5751.119 -0.001 5979.656
+  angles 0.393 15.24 1.962
+ }
+ {
+  coords 5758.003 0 5972.945
+  angles 0.894 0.028 1.79
+ }
+ {
+  coords 5720.271 0 6007.177
+  angles 0 -20.606 0
+ }
+}
+DecalEntity : "{9EE74738BD9E8CDB}Prefabs/Decals/Dirt/Decal_Dirt_Tracks_02.et" {
+ coords 5586.562 0 5923.11
+ angles -87.481 30.592 -90
+ scale 5
 }
 GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
  components {
@@ -1063,6 +1290,192 @@ GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Ch
   }
  }
 }
+$grp StaticModelEntity : "{C16C62041E2AAAB2}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V1.et" {
+ {
+  coords 5763.564 -0.001 5967.872
+  angles 1.483 15.605 1.343
+ }
+ {
+  coords 5768.978 0.001 5962.717
+  angles 3.576 -0.056 -0.897
+ }
+ {
+  coords 5770.898 -0.001 5961.049
+  angles 4.463 -0.14 -1.795
+ }
+ {
+  coords 5645.847 0 6033.708
+  angles 0.636 160.687 4.511
+ }
+ {
+  coords 5643.046 0 6033.962
+  angles -2.66 179.75 5.362
+ }
+ {
+  coords 5478.872 0 6064.57
+  angles 2.641 -22.125 -3.001
+ }
+ {
+  coords 5477.419 0.001 6077.463
+  angles 3.785 -9.945 -4.283
+ }
+ {
+  coords 5651.75 0 6032.411
+  angles 0 0 -4.467
+ }
+ {
+  coords 5648.507 -0.001 6032.966
+  angles 0 0 -5.356
+ }
+ {
+  coords 5640.386 0 6033.97
+  angles 3.555 -0.278 -4.476
+ }
+ {
+  coords 5637.432 0.001 6034.204
+  angles 2.59 28.851 -4.689
+ }
+ {
+  coords 5634.871 0.001 6034.637
+  angles -0.89 0.07 -4.468
+ }
+ {
+  coords 5626.024 0 6035.55
+  angles 3.521 -0.441 -7.139
+ }
+ {
+  coords 5621.195 -0.001 6035.943
+  angles 6.913 -17.324 -7.69
+ }
+ {
+  coords 5618.077 0 6036.201
+  angles -0.89 0.07 -4.468
+ }
+ {
+  coords 5614.823 0 6036.508
+  angles 1.755 23.088 -4.109
+ }
+ {
+  coords 5605.887 0 6037.437
+  angles 5.323 -0.417 -4.486
+ }
+ {
+  coords 5593.263 0 6039.026
+  angles -4.352 -103.068 1.009
+ }
+ {
+  coords 5584.457 0.001 6038.894
+  angles 5.849 30.127 2.357
+ }
+ {
+  coords 5582.675 0 6032.989
+  angles 1.762 0.22 7.128
+ }
+ {
+  coords 5664.503 0 6030.884
+  angles -0.892 0.056 -3.577
+ }
+ {
+  coords 5674.217 0 6028.603
+  angles 0 0 -4.467
+ }
+ {
+  coords 5677.303 0.001 6027.885
+  angles -4.145 -31.208 -1.666
+ }
+ {
+  coords 5688.69 0 6024.236
+  angles -0.893 0.042 -2.684
+ }
+ {
+  coords 5696.356 0 6021.367
+  angles -0.895 0.014 -0.895
+ }
+ {
+  coords 5700.636 0 6019.408
+  angles -0.895 0.014 -0.895
+ }
+ {
+  coords 5682.951 0 6026.407
+  angles -0.893 0.042 -2.684
+ }
+ {
+  coords 5608.546 0.001 6037.114
+  angles 0.224 -27.968 -7.176
+ }
+ {
+  coords 5596.273 0 6038.552
+  angles -0.89 0.07 -4.468
+ }
+ {
+  coords 5767.479 0.001 5964.193
+  angles 2.536 19.128 0.879
+ }
+ {
+  coords 5761.746 -0.001 5969.239
+  angles 1.789 0.028 0.896
+ }
+ {
+  coords 5759.792 0 5970.962
+  angles -0.038 27.641 2.001
+ }
+ {
+  coords 5755.886 0 5975.147
+  angles 0.649 -21.234 1.668
+ }
+ {
+  coords 5747.482 0 5982.99
+  angles 0.894 0.028 1.79
+ }
+ {
+  coords 5749.596 0 5981.166
+  angles 0.895 0.014 0.895
+ }
+ {
+  coords 5740.035 -0.001 5989.673
+  angles -0.893 -0.042 2.684
+ }
+ {
+  coords 5737.906 0.001 5991.853
+  angles -0.407 -16.962 4.793
+ }
+ {
+  coords 5729.409 0.001 6000.209
+  angles 0 0 0.895
+ }
+ {
+  coords 5731.386 0.001 5998.612
+  angles 0.355 -53.067 2.505
+ }
+ {
+  coords 5727.163 0 6002.016
+  angles 0.895 0 0
+ }
+ {
+  coords 5707.564 0 6015.385
+  angles -0.895 0 0
+ }
+ {
+  coords 5722.521 0 6005.175
+  angles 0.895 0 0
+ }
+ {
+  coords 5715.396 0 6010.731
+  angles 0 16.15 0
+ }
+ {
+  coords 5712.815 0.001 6012.386
+  angles 0 0 -0.895
+ }
+ {
+  coords 5710.128 0 6014.098
+  angles -0.895 0 0
+ }
+}
+GenericEntity : "{C731CC083B954825}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Antenna_S_FIA_01.et" {
+ coords 5552.702 89.188 5899.284
+ angles 0 19.496 0
+}
 $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  {
   coords 5545.938 89.563 5901.062
@@ -1080,5 +1493,67 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 5607.047 90.546 5905.677
   angles 0 122.344 0
+ }
+}
+$grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+ {
+  coords 5475.522 -0.001 6077.842
+  angles -0.124 -46.404 -5.05
+ }
+ {
+  coords 5479.438 0 6077.328
+  angles 2.601 -24.335 -5.089
+ }
+ {
+  coords 5482.629 0 6064.038
+  angles 2.486 -37.143 -4.119
+ }
+ {
+  coords 5590.35 0 6039.489
+  angles 6.141 39.033 -1.906
+ }
+ {
+  coords 5583.407 0 6036.027
+  angles 5.405 -30.111 -3.127
+ }
+ {
+  coords 5587.341 -0.001 6039.814
+  angles 7.275 17.299 -2.389
+ }
+ {
+  coords 5599.279 0 6038.331
+  angles 0 0 -5.356
+ }
+ {
+  coords 5602.532 0 6038.051
+  angles 4.512 93.385 -0.627
+ }
+ {
+  coords 5671.11 0.001 6029.438
+  angles -0.892 0.056 -3.577
+ }
+ {
+  coords 5667.829 0 6030.069
+  angles -0.892 0.056 -3.577
+ }
+ {
+  coords 5659.109 -0.001 6031.666
+  angles 0.887 -0.083 -5.357
+ }
+ {
+  coords 5680.461 0 6027.026
+  angles 0.468 27.959 -2.79
+ }
+ {
+  coords 5744.563 0 5985.629
+  angles 0.895 0.014 0.895
+ }
+ {
+  coords 5741.972 0.001 5987.995
+  angles -0.16 3.423 2.679
+ }
+ {
+  coords 5753.592 0 5977.489
+  angles 0.895 0.014 0.895
  }
 }

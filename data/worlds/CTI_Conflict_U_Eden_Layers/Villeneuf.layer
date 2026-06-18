@@ -85,6 +85,20 @@ $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSma
 GenericEntity : "{B923EE8B7D881891}Prefabs/Compositions/Locations/Eden/SupplyCache_Villeneuf_FIA_01.et" {
  coords 2838.686 86.345 6339.803
 }
+$grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ {
+  coords 2853.55 78.389 6521.846
+  angles 1.543 -59.561 0.907
+ }
+ {
+  coords 2878.605 78.109 6467.65
+  angles 1.483 152.032 -4.829
+ }
+ {
+  coords 2983.557 79.38 6518.584
+  angles 0 66.994 0
+ }
+}
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  coords 2916.18 77.651 6458.024
  angles 1.893 61.611 9.071

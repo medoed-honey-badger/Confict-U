@@ -64,6 +64,16 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
 GenericEntity : "{1CA1A82176D652AD}Prefabs/Compositions/Locations/Eden/SupplyCache_EntreDeux_FIA_01.et" {
  coords 5766.788 215.153 7035.573
 }
+$grp GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ {
+  coords 5618.058 213.417 7090.928
+  angles 0 -79.022 0
+ }
+ {
+  coords 5962.567 217.848 7100.559
+  angles -5.658 120.598 2.518
+ }
+}
 $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  {
   coords 6726.167 147.593 7120.035

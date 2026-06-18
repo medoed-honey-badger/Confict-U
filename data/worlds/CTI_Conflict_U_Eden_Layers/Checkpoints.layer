@@ -676,6 +676,196 @@ $grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSma
   angles 0 57.055 0
  }
 }
+$grp GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ {
+  coords 9053.273 78.893 2280.208
+  angles 0 139.41 -1.827
+  {
+   GenericEntity {
+    ID "5CCCBEE868D6B36C"
+    coords -2.604 -0.048 -0.011
+    angles -0.982 -93.141 3.229
+   }
+  }
+ }
+ {
+  coords 3790.06 115.594 4963.987
+  angles 0 109.784 0
+ }
+ {
+  coords 4582.566 22.792 9768.056
+  angles 0.001 -7.943 0
+ }
+ {
+  coords 4923.239 36.219 9177.719
+  angles 0 -24.721 0
+ }
+ {
+  coords 4812.064 54.56 5720.312
+  angles 0 145.215 -2.866
+ }
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4563.67 21.323 9752.998
+  angles 1.858 4.758 -0.743
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0.209 -0.359 6.095
+    angles -1.79 -17.7 0.895
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 2982.019 28.551 6955.078
+  angles -10.085 45.714 4.85
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords -5.496 0.01 1.061
+    angles 3.516 -71.962 -10.62
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_iSpawnDistanceOverride 500
+    m_iDespawnDistanceOverride 600
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4033.818 112.678 6686.873
+  angles 8.856 91.417 1.103
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords -6.197 -0.471 -8.544
+    angles -0.885 -91.4 8.88
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4916.885 27.73 11555.82
+  angles 0 165.665 0
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 4380.505 56.613 6164.929
+ }
+}
+$grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+ {
+  components {
+   Hierarchy "{5CCCBEF0E7D1350C}" {
+    Enabled 1
+   }
+  }
+  coords 7605.314 0.018 4521.362
+  angles 0 -168.376 0
+ }
+ {
+  components {
+   Hierarchy "{5CCCBEF0E7D1350C}" {
+    Enabled 1
+   }
+  }
+  coords 5422.777 -0.325 5699.89
+  angles 19.095 104.18 6.993
+ }
+ {
+  components {
+   Hierarchy "{5CCCBEF3126F46DF}" {
+    Enabled 1
+   }
+  }
+  coords 9406.904 0.055 1910.442
+  angles 0 -60.486 0
+ }
+ {
+  components {
+   Hierarchy "{5CCCBEF0E7D1350C}" {
+    Enabled 1
+   }
+  }
+  coords 8555.275 0.045 3306.082
+  angles 0 -1.216 0
+ }
+ {
+  components {
+   Hierarchy "{5CCCBEF0E7CED53C}" {
+    Enabled 1
+   }
+  }
+  coords 5372.84 -0.082 9963.026
+  angles 0 -31.436 0
+ }
+ {
+  components {
+   Hierarchy "{5D6C81574A619CBF}" {
+    Enabled 1
+   }
+  }
+  coords 3641.427 -0.001 5705.237
+ }
+ {
+  components {
+   Hierarchy "{5D6C81574A619CBF}" {
+    Enabled 1
+   }
+  }
+  coords 3650.622 0 5702.728
+ }
+ {
+  coords 5707.507 -0.001 9591.741
+ }
+ {
+  coords 5705.549 0 9588.765
+ }
+ {
+  coords 7217.909 0 2262.741
+  angles 0 -64.752 0
+ }
+}
+$grp GenericEntity : "{B13C3ED783D3D194}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_Medium_Top_FIA_01_V2.et" {
+ {
+  coords 9454.425 42.368 1852.37
+  angles 0 -24.854 0
+ }
+ {
+  coords 3785.519 115.412 4964.106
+  angles 0 99.837 0
+ }
+}
+GenericEntity : "{B86FFB24E23D8055}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_Rect_Row_USSR.et" {
+ coords 6652.644 58.284 4865.094
+ angles 0 81.285 0
+}
+GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
+ coords 9123.673 74.62 2256.648
+ angles -1.807 178.872 -0.859
+}
 $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  {
   components {
@@ -940,5 +1130,62 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 9388.536 46.555 1912.257
   angles -1.265 132.361 0.059
+ }
+}
+$grp StaticModelEntity : "{DA1B42FB9AEC02BE}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_V3.et" {
+ {
+  coords 7097.957 0 5426.217
+  angles 0 -93.048 0
+ }
+ {
+  coords 4032.151 -0.152 6711.98
+  angles 9.05 -148.634 7.09
+ }
+}
+$grp StaticModelEntity : "{EF39F5715EF2323E}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Short.et" {
+ {
+  components {
+   Hierarchy "{5CB0D990A16ADE7E}" {
+    Enabled 1
+   }
+  }
+  coords 5420.354 0 5700.112
+  angles 0 93.526 0
+ }
+ {
+  components {
+   Hierarchy "{5CCCBEF313566EFF}" {
+    Enabled 1
+   }
+  }
+  coords 7099.184 -0.346 5425.8
+  angles 0 -58.583 0
+ }
+ {
+  components {
+   Hierarchy "{5CCCBEF31276C37D}" {
+    Enabled 1
+   }
+  }
+  coords 8557.322 0.007 3306.203
+  angles 0 -123.296 0
+ }
+ {
+  components {
+   Hierarchy "{5CCCBEF313566EFF}" {
+    Enabled 1
+   }
+  }
+  coords 7096.707 -0.204 5426.541
+  angles 0 -72.176 0
+ }
+ {
+  components {
+   Hierarchy "{5CCCBEF31276C37D}" {
+    Enabled 1
+   }
+  }
+  coords 8556.104 0.004 3305.012
+  angles 0 -156.671 0
  }
 }

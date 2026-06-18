@@ -38,6 +38,10 @@ GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/Ma
  coords 7053.219 118.831 6031.875
  angles 0 138.594 0
 }
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 6964.668 119.319 6033.064
+ angles 1.548 -60.464 -2.122
+}
 GenericEntity : "{908CD23C9EF20E3B}Prefabs/Compositions/Locations/Eden/SupplyCache_Chotain_FIA_01.et" {
  coords 7086.131 129.414 6012.347
 }

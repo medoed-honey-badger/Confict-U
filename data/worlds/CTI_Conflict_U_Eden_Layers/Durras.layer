@@ -58,6 +58,10 @@ GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bu
  coords 8902.373 96.142 2684.879
  angles 0 -106.93 0
 }
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 8885.481 95.157 2756.451
+ angles 0 -10.422 0
+}
 GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  coords 8562.271 126.381 3308.134
  angles -3.947 126.8 -0.537

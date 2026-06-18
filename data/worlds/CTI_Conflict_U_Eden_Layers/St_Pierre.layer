@@ -248,6 +248,37 @@ $grp GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMed
   }
  }
 }
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 10096.037 2.316 1500.206
+ angles 0 -76.452 0
+}
+GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_fAILimitThreshold 0.33
+  }
+ }
+ coords 9689.182 13.159 1541.96
+ {
+  $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+   {
+    coords 45.072 9.474 -187.659
+   }
+   {
+    coords -45.735 10.556 -111.186
+   }
+   {
+    coords -95.246 10.382 32.578
+   }
+   {
+    coords 99.512 -3.337 26.99
+   }
+   {
+    coords 0 0 0
+   }
+  }
+ }
+}
 GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  coords 9401.324 46.042 1907.354
  angles -2.862 135 0

@@ -54,3 +54,19 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
 GenericEntity : "{59DE9F68F4D2A490}Prefabs/Compositions/Locations/Eden/SupplyCache_Laruns_FIA_01.et" {
  coords 7558.335 82.526 5540.854
 }
+GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType PARTISAN_TEAM
+   m_iSpawnDistanceOverride 100
+   m_iDespawnDistanceOverride 300
+   m_fAILimitThreshold 0.33
+  }
+ }
+ coords 7541.389 84.499 5507.414
+ {
+  SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
+   coords 4.526 -1.718 13.736
+  }
+ }
+}

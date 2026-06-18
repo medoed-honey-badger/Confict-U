@@ -104,6 +104,22 @@ GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Ba
   }
  }
 }
+GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType SQUAD_RIFLE
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 3764.533 115.143 4983.671
+ angles -0.811 -64.998 -0.378
+ {
+  SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+   coords -2.21 0.15 15.519
+   angles 0 65.001 0.895
+  }
+ }
+}
 GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  coords 3794.638 115.585 4971.461
  angles 0.646 93.683 -0.893
@@ -156,4 +172,8 @@ GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Ch
    angles 0 103.572 0
   }
  }
+}
+GenericEntity : "{E249C09D69AAE6C8}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_02.et" {
+ coords 3119.89 119.191 5246.343
+ angles 2.69 50.231 0
 }

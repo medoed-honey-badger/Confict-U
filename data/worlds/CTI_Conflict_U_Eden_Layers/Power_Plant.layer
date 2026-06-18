@@ -195,3 +195,279 @@ GenericEntity : "{2F0CCC459889B8EE}PrefabsEditable/EffectsModules/Mine/EffectMod
  }
  coords 5710.798 14.875 9824.101
 }
+Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.et" {
+ coords 5796.82 17.698 9790.957
+ angles -0.19 -41.397 -0.98
+}
+$grp StaticModelEntity : "{55A3DA68E58453A1}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v2.et" {
+ {
+  components {
+   Hierarchy "{569E7A0A102DF9D9}" {
+    Enabled 1
+   }
+  }
+  coords 5715.199 0.001 9634.549
+  angles 0 42.119 0
+  scale 1.32
+ }
+ {
+  coords 5716.426 -0.001 9635.938
+  angles 0 -86.291 0
+ }
+ {
+  coords 5714.96 0 9637.98
+  angles 0.624 -169.64 2.104
+  scale 0.85
+ }
+}
+GenericEntity : "{7394E0251880F29A}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_LivingArea_S_FIA_01.et" {
+ coords 5882.898 3.711 9773.521
+ angles 0 -106.045 0
+}
+GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
+ coords 5797.127 16.51 9790.503
+ angles 0 -39.319 0
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_sDefaultWaypointPrefab "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et"
+    m_eGroupType TEAM_MG
+   }
+  }
+  coords 5818.275 19.772 9787.007
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_fAILimitThreshold 0.75
+   }
+  }
+  coords 5754.868 8.471 9748.474
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+    m_fAILimitThreshold 0.75
+   }
+  }
+  coords 5838.303 4.562 9812.532
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_eGroupType FIRETEAM
+    m_iSpawnDistanceOverride 250
+    m_iDespawnDistanceOverride 350
+    m_fAILimitThreshold 0.75
+   }
+  }
+  coords 5874.559 3.964 9788.057
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_eGroupType SQUAD_RIFLE
+    m_iSpawnDistanceOverride 150
+    m_iDespawnDistanceOverride 250
+    m_fAILimitThreshold 0.95
+   }
+  }
+  coords 5808.604 5.132 9792.789
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_iSpawnDistanceOverride 350
+    m_iDespawnDistanceOverride 450
+    m_fAILimitThreshold 0.65
+   }
+  }
+  coords 5887.568 4.562 9726.602
+ }
+}
+$grp StaticModelEntity : "{9639C7B3CF572320}Prefabs/Structures/Military/Fortifications/Dragontooth_01/Dragontooth_01_old_V2.et" {
+ {
+  coords 5711.425 0 9633.122
+  angles 0.759 -115.085 1.621
+ }
+ {
+  coords 5706.588 0 9634.619
+  angles 6.797 -134.074 8.225
+ }
+}
+$grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+ {
+  coords 5832.602 0.001 9873.191
+  angles 3.576 -0.833 -0.052
+ }
+ {
+  coords 5844.087 0 9863.99
+  angles 5.388 -0.415 4.409
+ }
+ {
+  coords 5847.259 0 9829.538
+  angles 0.008 -0.167 2.684
+ }
+ {
+  coords 5699.674 0 9589.559
+ }
+ {
+  coords 5830.854 0 9827.945
+  angles 0.895 0 0
+ }
+ {
+  coords 5831.018 0 9831.214
+  angles 0.895 0 0
+ }
+ {
+  coords 5831.018 0 9834.818
+  angles 1.79 0 0
+ }
+ {
+  coords 5831.174 0 9837.801
+  angles 1.851 4.24 -0.76
+ }
+ {
+  coords 5831.393 0 9840.962
+  angles 1.79 0 0
+ }
+ {
+  coords 5831.769 0 9847.18
+  angles 4.436 -6.8 -0.528
+ }
+ {
+  coords 5831.717 0 9850.786
+  angles 4.453 -0.904 -0.963
+ }
+ {
+  coords 5831.828 0.001 9853.769
+  angles 5.341 -0.92 -0.977
+ }
+ {
+  coords 5831.823 0 9856.954
+  angles 6.297 5.252 -0.316
+ }
+ {
+  coords 5831.655 0 9843.909
+  angles 1.776 -0.858 -0.921
+ }
+ {
+  coords 5832.364 0 9863.44
+  angles 6.225 4.219 0.458
+ }
+ {
+  coords 5832.31 0 9867.046
+  angles 5.278 -9.818 -0.912
+ }
+ {
+  coords 5832.426 0.001 9870.025
+  angles 3.576 -0.833 -0.052
+ }
+ {
+  coords 5832.251 0 9860.166
+  angles 5.367 -0.753 0.821
+ }
+ {
+  coords 5846.528 0.001 9838.642
+  angles 0.895 -0.014 -0.895
+ }
+ {
+  coords 5846.75 0 9841.617
+ }
+ {
+  coords 5843.231 -0.001 9844.784
+  angles 3.576 0 0
+ }
+ {
+  coords 5843.606 -0.001 9851.002
+  angles 4.436 6.81 0.529
+ }
+ {
+  coords 5843.552 0.001 9854.605
+  angles 6.241 -0.839 -0.091
+ }
+ {
+  coords 5843.665 -0.001 9857.591
+  angles 5.355 -0.837 -0.078
+ }
+ {
+  coords 5843.842 0.001 9860.758
+  angles 6.173 -8.567 -0.928
+ }
+ {
+  coords 5843.489 -0.001 9847.731
+  angles 4.467 -0.835 -0.065
+ }
+ {
+  coords 5844.202 0.001 9867.262
+  angles 6.131 -16.12 1.937
+ }
+ {
+  coords 5844.149 0 9870.863
+  angles 5.732 -32.839 -2.631
+ }
+ {
+  coords 5844.262 0 9873.85
+  angles 1.985 78.08 5.055
+ }
+ {
+  coords 5846.935 0.001 9826.273
+  angles 0.006 -0.391 0.895
+ }
+}
+$grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+ {
+  components {
+   Hierarchy "{5D6CFDF2A472AD44}" {
+    Enabled 1
+   }
+  }
+  coords 5797.533 16.498 9791.227
+  angles 0 -177.898 0
+ }
+ {
+  coords 5817.636 19.723 9790.608
+ }
+ {
+  coords 5815.576 19.708 9789.522
+  angles 0 -88.088 0
+ }
+ {
+  coords 5820.882 19.75 9790.609
+ }
+ {
+  coords 5821.871 19.772 9788.057
+  angles 0 -88.088 0
+ }
+ {
+  coords 5821.764 19.765 9784.864
+  angles 0 -88.088 0
+ }
+ {
+  coords 5819.478 19.733 9783.228
+  angles 0 1.838 0
+ }
+ {
+  coords 5816.239 19.692 9783.331
+  angles 0 1.838 0
+ }
+}
+GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+ coords 5714.368 10.998 9637.381
+ angles 0 24.575 1.043
+}
+GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ coords 5798.561 7.969 9725.105
+}
