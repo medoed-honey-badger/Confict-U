@@ -34,6 +34,20 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angles 0 -113.977 0
  }
 }
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 2418.171 101.188 5376.154
+ angles 0.001 173.53 -3.74
+}
+GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
+ coords 2105.411 109.252 5425.767
+ angles -3.045 -52.901 1.06
+ {
+  StaticModelEntity {
+   ID "5CC72E06418CFEA6"
+   coords 0.781 0 -6.369
+  }
+ }
+}
 GenericEntity : "{C634CB20BED9C7D5}Prefabs/Compositions/Locations/Eden/SupplyCache_LeMoule_FIA_01.et" {
  coords 2615.962 92.06 5378.784
 }

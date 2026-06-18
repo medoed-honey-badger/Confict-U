@@ -299,47 +299,6 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
 }
 $grp GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
  {
-  coords 4635.907 109.896 8248.565
-  {
-   StaticModelEntity {
-    ID "5CC6B49A31F9DC0C"
-    coords -0.732 -0.274 2.103
-    angles 6.547 143.035 0
-   }
-   StaticModelEntity {
-    ID "5CC6B49A31F9DD9B"
-    coords 1.258 -0.139 0.899
-    angles 9.349 169.186 0
-   }
-   StaticModelEntity {
-    ID "5CC6B49A31F9DDA1"
-    coords 4.215 -0.075 0.94
-    angles 0 -89.228 5.656
-   }
-   StaticModelEntity {
-    ID "5CC6B49A31F9DDF8"
-    coords -2.655 -0.019 0.94
-    angles 0 -137.501 0
-   }
-  }
- }
- {
-  coords 4958.035 29.426 10620.853
-  angles 0 141.836 -2.13
-  {
-   GenericEntity {
-    ID "5CC6B4BF606E2876"
-    coords -1.837 -0.067 -1.133
-    angles 0 88.49 0
-   }
-   GenericEntity {
-    ID "5CC6B4BF606E2850"
-    coords 1.253 -0.073 -1.752
-    angles 0 -102.765 0
-   }
-  }
- }
- {
   coords 4032.127 110.687 6698.924
   angles 7.851 59.906 -5.909
   {
@@ -666,6 +625,55 @@ $grp GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLar
  {
   coords 6618.426 82.731 5167.05
   angles 3.167 -1.967 0
+ }
+}
+$grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ {
+  coords 3004.667 26.187 6974.673
+  angles 0 68.51 0
+ }
+ {
+  coords 2991.339 28.309 6953.128
+  angles -13.479 -1.525 -2.438
+ }
+ {
+  coords 8567.273 126.273 3312.435
+  angles 0 98.442 0
+ }
+ {
+  coords 9395.452 46.06 1904.65
+  angles 0 -77.81 0
+  {
+   GenericEntity {
+    ID "5CC6B4B0D5E06037"
+    coords 1.217 0 1.862
+    angles 0 109.879 0
+   }
+  }
+ }
+ {
+  coords 6800.69 71.14 4809.055
+  angles 0 122.331 0
+ }
+ {
+  coords 5211.261 73.481 5097.009
+  angles 0 -67.059 0
+ }
+ {
+  coords 6686.01 11.34 3051.485
+  angles 0 -177.529 0
+ }
+ {
+  coords 6670.361 57.979 4855.509
+  angles 0 -108.021 0
+ }
+ {
+  coords 3171.965 91.519 6342.666
+  angles 0 47.854 0
+ }
+ {
+  coords 2986.287 27.308 6965.958
+  angles 0 57.055 0
  }
 }
 $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {

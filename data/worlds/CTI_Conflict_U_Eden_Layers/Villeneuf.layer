@@ -23,6 +23,65 @@ GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Ba
  coords 2858.825 81.201 6436.084
  angles 0 -115.542 0
 }
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 3087.422 101.666 6236.389
+ angles 0 39.975 0
+}
+$grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ {
+  coords 2987.459 28.208 6956.142
+  angles -5.869 37.861 -1.17
+  {
+   GenericEntity {
+    ID "5CC6B48B9C8C2BA0"
+    coords -2.505 0 0.937
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2BF4"
+    coords -2.085 0 2.825
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2B94"
+    coords -1.962 0 0.947
+    {
+     DecalEntity {
+      ID "56E0B29F4975B6A9"
+      coords 0 0 0.001
+     }
+    }
+   }
+   GenericEntity {
+    ID "5CC6B48B9C8C2A7C"
+    coords 2.044 0.188 -1.988
+   }
+   GenericEntity {
+    ID "5CC6B4BF288B3FF4"
+    coords -2.927 0 0.412
+   }
+   GenericEntity {
+    ID "5E5AD06E26C12FE8"
+    coords 2.308 0.1 -4.007
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2BDB"
+    coords -2.761 0 1.264
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2A48"
+    coords -2.149 0 2.151
+   }
+   StaticModelEntity {
+    ID "5CC6B48B9C8C2B00"
+    coords 2.163 -0.147 -2.372
+    angles 0 103.572 0
+   }
+  }
+ }
+ {
+  coords 3173.077 91.567 6336.548
+  angles 0 50.389 0
+ }
+}
 GenericEntity : "{B923EE8B7D881891}Prefabs/Compositions/Locations/Eden/SupplyCache_Villeneuf_FIA_01.et" {
  coords 2838.686 86.345 6339.803
 }

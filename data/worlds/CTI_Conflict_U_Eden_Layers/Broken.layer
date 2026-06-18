@@ -19,3 +19,37 @@ GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDep
  coords 7681.506 13.688 8103.358
  angles 0 -54.043 0
 }
+$grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ {
+  coords 5595.281 210.204 7108.624
+  angles 2.608 11.361 -9.167
+ }
+ {
+  coords 5608.718 212.241 7107.867
+  angles -9.422 -85.754 -1.423
+  {
+   GenericEntity {
+    ID "5CC6B4B0D5E06055"
+    coords 0.889 0.327 -1.541
+    angles 0 115.873 0
+   }
+   GenericEntity {
+    ID "5CC6B4B0D5E06037"
+    coords -1.633 -0.167 -1.807
+    angles 0 -81.269 0
+   }
+  }
+ }
+ {
+  coords 5589.996 209.336 7109.917
+  angles 3.612 17.709 -8.823
+ }
+ {
+  coords 10073.04 2.531 1552.692
+  angles 0 -64.773 0
+ }
+ {
+  coords 10108.094 2.313 1515.578
+  angles 0 -85.998 0
+ }
+}

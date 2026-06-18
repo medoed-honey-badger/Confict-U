@@ -41,6 +41,31 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
 GenericEntity : "{58CF761823C96210}Prefabs/Compositions/Locations/Eden/SupplyCache_Tyrone_FIA_01.et" {
  coords 4927.979 36.042 9092.888
 }
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ coords 4937.25 36.368 9183.537
+ angles 0 -10.478 0
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 4929.758 36.25 9183.337
+ angles 0.815 -24.386 -0.37
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2A7C"
+   coords 2.535 0 -2.238
+   angles 0 -96.241 75
+  }
+  GenericEntity {
+   ID "5E5AD06E26C12FE8"
+   coords 2.801 0.021 -4.236
+   angles 0 -55.621 0
+  }
+  StaticModelEntity {
+   ID "5CC6B48B9C8C2B00"
+   coords 2.657 0 -2.614
+   angles 0 103.572 0
+  }
+ }
+}
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  coords 5033.653 43.993 8971.769
  angles 3.457 -178.122 3.685

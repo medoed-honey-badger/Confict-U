@@ -120,6 +120,10 @@ GenericEntity : "{2EA9E10F2E9C0A36}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_
  coords 7720.512 12.969 8111.982
  angles 0 -46.095 0
 }
+GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
+ coords 7882.336 259.346 3971.717
+ angles 0 131.658 0
+}
 GenericEntity : "{6010D9A8FCCB7E38}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign_HQC.et" {
  coords 7714.189 12.969 8100.737
  angles 0 -52.685 0

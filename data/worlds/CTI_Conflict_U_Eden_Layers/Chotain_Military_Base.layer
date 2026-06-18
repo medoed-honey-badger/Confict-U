@@ -9,9 +9,23 @@ GenericEntity : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  coords 7532.248 2.429 6683.727
  angles 0 59.392 0
 }
-GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
- coords 7358.015 10.309 6675.261
- angles 0 -43.56 0
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 7462.609 3.748 6647.503
+ angles 3.468 -145.518 0.826
+}
+$grp GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ {
+  coords 7358.015 10.309 6675.261
+  angles 0 -43.56 0
+ }
+ {
+  coords 7389.424 9.676 6758.691
+  angles 0 -52.54 0
+ }
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 7408.208 5.448 6620.463
+ angles -7.75 -157.735 -4.602
 }
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  coords 7456.896 7.875 6715.484

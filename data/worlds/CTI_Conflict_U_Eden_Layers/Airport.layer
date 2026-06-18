@@ -273,6 +273,10 @@ GenericEntity : "{1CF4014D7086BE9F}Prefabs/Compositions/Locations/Eden/Base_Airp
   }
  }
 }
+GenericEntity : "{55D508179EF5E64A}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_US_01.et" {
+ coords 4921.407 27.75 11551.051
+ angles 0 169.04 0
+}
 GenericEntity : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_US.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
@@ -283,6 +287,14 @@ GenericEntity : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  }
  coords 4880.258 28.594 11914.118
  angles 0 59.392 0
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 4957.817 28.281 11965.25
+ angles 0 180 0
+}
+GenericEntity : "{AF770C825EA592CF}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_US_01.et" {
+ coords 4939.848 27.791 11549.804
+ angles 0 -172.888 0
 }
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  coords 4905.063 28.594 11962.939

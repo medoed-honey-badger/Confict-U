@@ -59,3 +59,64 @@ GenericEntity : "{2FAFFD858A8315E6}Prefabs/Compositions/Locations/Eden/SupplyCac
   }
  }
 }
+GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
+ components {
+  RoadNetworkBridgeComponent "{615AD893D108E129}" {
+   Points {
+    0 0 12
+    3 0 8
+    2.5 0 -1
+    -2.5 0 -3
+    -5 0 -8
+    0 0 -12
+   }
+  }
+ }
+ coords 4565.19 21.076 9762.881
+ angles -0.893 3.977 -0.062
+ {
+  GenericEntity {
+   ID "5CC72E06418CF1C0"
+   coords -4.266 0.06 -0.229
+  }
+  GenericEntity {
+   ID "5CC72E06418CF0B7"
+   {
+    DecalEntity {
+     ID "56E0B29E17039037"
+     coords -0.468 -0.001 0.056
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC72E06418CF028"
+   coords -4.091 -0.001 6.106
+  }
+  GenericEntity {
+   ID "5CC72E06418CF1E8"
+   coords -2.208 -0.001 -0.087
+  }
+  GenericEntity {
+   ID "5CC72E06418CFF06"
+   coords -3.276 0.555 0.487
+  }
+  GenericEntity {
+   ID "5CC72E06418CFF19"
+   coords -3.496 -0.001 -0.405
+  }
+  StaticModelEntity {
+   ID "5CC72E06418CFE6B"
+   coords -1.924 -0.059 6.252
+   angles -3.405 84.507 -0.756
+  }
+  StaticModelEntity {
+   ID "5CC72E06418CFEA6"
+   coords 0.691 -0.01 -6.614
+   angles 0.844 -19.299 -1.132
+  }
+  StaticModelEntity {
+   ID "5CC72E06418CFF2A"
+   coords -1.635 -0.001 0.573
+  }
+ }
+}

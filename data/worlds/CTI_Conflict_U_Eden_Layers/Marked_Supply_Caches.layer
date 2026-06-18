@@ -8,6 +8,31 @@ $grp GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSma
   angles 0 -127.182 0
  }
 }
+GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
+ coords 4635.907 109.896 8248.565
+ {
+  StaticModelEntity {
+   ID "5CC6B49A31F9DC0C"
+   coords -0.732 -0.274 2.103
+   angles 6.547 143.035 0
+  }
+  StaticModelEntity {
+   ID "5CC6B49A31F9DD9B"
+   coords 1.258 -0.139 0.899
+   angles 9.349 169.186 0
+  }
+  StaticModelEntity {
+   ID "5CC6B49A31F9DDA1"
+   coords 4.215 -0.075 0.94
+   angles 0 -89.228 5.656
+  }
+  StaticModelEntity {
+   ID "5CC6B49A31F9DDF8"
+   coords -2.655 -0.019 0.94
+   angles 0 -137.501 0
+  }
+ }
+}
 $grp GenericEntity : "{1804DADC1C7C9893}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign_HQC.et" {
  {
   coords 9044.778 124.507 2741.715
@@ -408,6 +433,28 @@ $grp GenericEntity : "{6010D9A8FCCB7E38}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   angles 0 137.005 0
  }
 }
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 7079.555 157.127 2095.811
+ angles 0 5.524 0
+}
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 9071.07 117.536 2660.168
+ angles 0 -129.598 0
+}
+$grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ {
+  coords 4900.436 53.001 5895.594
+  angles 0 -114.641 0
+ }
+ {
+  coords 4894.743 110.981 8149.581
+  angles 7.733 -102.294 7.266
+ }
+ {
+  coords 4792.181 118.635 8125.515
+  angles 0 -142.213 0
+ }
+}
 $grp GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign_HQC.et" {
  {
   coords 9050.172 124.732 2767.866
@@ -436,6 +483,20 @@ $grp GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyC
  {
   coords 7082.238 156.812 2067.934
   angles 0 -16.149 0
+ }
+}
+$grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ {
+  coords 4821.057 53.831 5720.288
+  angles -3.272 165 0
+ }
+ {
+  coords 4901.524 53.005 5902.19
+  angles 0 66.343 0
+ }
+ {
+  coords 4897.909 109.871 8155.15
+  angles -11.091 94.32 -1.289
  }
 }
 $grp GenericEntity : "{B3DB90408A32E22A}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_06_Campaign_HQC.et" {
@@ -555,5 +616,57 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   coords 7094.897 157.68 2075.87
   angles 0 60.488 0
+ }
+}
+GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+ coords 4643.649 110.316 8245.553
+ angles -7.1 -4.873 0.604
+ {
+  GenericEntity {
+   ID "5CC6B48E65457D2D"
+   coords 2.5 0 -1.706
+  }
+  GenericEntity {
+   ID "5CC6B48E65457AB2"
+   coords -1.742 0 2.913
+  }
+  GenericEntity {
+   ID "5CC6B48E65457D0D"
+   coords 2.944 0 -1.631
+  }
+  GenericEntity {
+   ID "5CC6B4BF3343B4E9"
+   coords -3.26 0 -0.281
+  }
+  GenericEntity {
+   ID "5CC6B48E65457D79"
+   coords -2.947 0 1.803
+   {
+    GenericEntity {
+     ID "52F07DE9F3BBC081"
+     coords -0.045 0.743 -0.011
+    }
+    GenericEntity {
+     ID "52F07DE9F3BBC170"
+     coords 0 0.368 0.006
+    }
+    GenericEntity {
+     ID "5CB0D9960149C45D"
+     coords 0.618 0.395 -0.006
+    }
+   }
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457D46"
+   coords 2.926 0 -2.194
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457AD1"
+   coords 2.12 0 -2.372
+  }
+  StaticModelEntity {
+   ID "5CC6B48E65457AFB"
+   coords -1.833 0 2.145
+  }
  }
 }

@@ -146,6 +146,9 @@ GenericEntity : "{2F2BBFDA3A2C73D4}Prefabs/Props/Civilian/RadioSmall_01_black.et
  coords 7679.001 340.768 3054.798
  angles 0 59.602 0
 }
+GenericEntity : "{42821C4C92A8F6F7}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Corner_Left_USSR_01.et" {
+ coords 7681.708 340.733 3070.304
+}
 GenericEntity Relay4 : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
  components {
   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
