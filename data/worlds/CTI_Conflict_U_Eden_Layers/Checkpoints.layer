@@ -579,10 +579,6 @@ $grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMed
    }
   }
  }
- {
-  coords 4811.792 164.768 7257.844
-  angles 0 -22.656 0
- }
 }
 $grp GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
  {
@@ -1045,14 +1041,6 @@ $grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification
   }
   coords 5372.84 -0.082 9963.026
   angles 0 -31.436 0
- }
- {
-  components {
-   Hierarchy "{5D6C81574A619CBF}" {
-    Enabled 1
-   }
-  }
-  coords 3641.427 -0.001 5705.237
  }
  {
   components {

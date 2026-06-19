@@ -1985,6 +1985,14 @@ $grp GenericEntity : "{9EF2973AE46B5AFC}Prefabs/Compositions/Misc/CustomEntities
   angles -10.655 -176.041 0.149
  }
 }
+StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+ components {
+  Hierarchy "{5D6C81574A619CBF}" {
+   Enabled 1
+  }
+ }
+ coords 3641.427 -0.001 5705.237
+}
 $grp GenericEntity : "{AC6DC9D2E040268A}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagRoundHighBurlap_S_USSR_01.et" {
  {
   coords 3463.179 177.57 5840.883

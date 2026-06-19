@@ -333,6 +333,10 @@ $grp GenericEntity : "{C599195C442D7125}Prefabs/Compositions/Misc/CustomEntities
   coords 7694.677 181.799 2809.451
   angles 0 -30.178 0
  }
+ {
+  coords 3468.578 193.867 5672.992
+  angles 0 -38.018 0
+ }
 }
 GenericEntity : "{D3BED8377828FFCC}Prefabs/Compositions/Locations/Eden/Base_PowerPlant_FIA_01.et" {
  coords 5834.383 4.572 9786.422

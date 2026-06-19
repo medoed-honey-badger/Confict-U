@@ -1,9 +1,5 @@
 $grp GenericEntity : "{C599195C442D7125}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_CigarButts_01.et" {
  {
-  coords 3468.578 193.867 5672.992
-  angles 0 -38.018 0
- }
- {
   coords 1128.673 357.847 7088.169
  }
  {

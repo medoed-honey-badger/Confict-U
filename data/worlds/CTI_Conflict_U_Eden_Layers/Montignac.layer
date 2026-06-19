@@ -158,9 +158,15 @@ GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/Su
   }
  }
 }
-GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
- coords 4783.21 163.897 7256.474
- angles 0 -144.113 0
+$grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ {
+  coords 4783.21 163.897 7256.474
+  angles 0 -144.113 0
+ }
+ {
+  coords 4811.792 164.768 7257.844
+  angles 0 -22.656 0
+ }
 }
 GenericEntity : "{44F9B9567125F735}Prefabs/Compositions/Misc/FreeRoamBuilding/CamoNetMedium_S_USSR_01.et" {
  coords 4807.141 164.375 7248.982
