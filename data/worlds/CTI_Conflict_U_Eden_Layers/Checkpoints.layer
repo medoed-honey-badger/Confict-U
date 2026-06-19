@@ -702,7 +702,7 @@ $grp GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSma
  }
 }
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- {
+ AT_Team_66_Checkpoints {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType TEAM_AT
@@ -718,7 +718,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- {
+ AT_Team_66_Checkpoints_2 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType TEAM_AT
@@ -734,7 +734,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- {
+ Fire_Team_66_Checkpoints {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType FIRETEAM
@@ -752,7 +752,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- {
+ Fire_Team_66_Checkpoints_2 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType FIRETEAM
@@ -762,7 +762,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   coords 4916.885 27.73 11555.82
   angles 0 165.665 0
  }
- {
+ Sentry_Team_66_Checkpoints {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_fAILimitThreshold 0.66
@@ -770,7 +770,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 4380.505 56.613 6164.929
  }
- {
+ Fire_Team_66_Checkpoints_3 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType FIRETEAM
@@ -781,7 +781,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 5222.404 78.164 5027.482
  }
- {
+ Fire_Team_75_Checkpoints {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -793,7 +793,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 5443.438 95.08 6131.254
  }
- {
+ Squad_Rifle_66_Checkpoints {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType SQUAD_RIFLE
@@ -809,7 +809,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- {
+ MG_Team_33_Checkpoints {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType TEAM_MG
@@ -825,7 +825,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- {
+ Fire_Team_66_Checkpoints_4 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType FIRETEAM
@@ -834,7 +834,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 8542.327 131.824 3372.792
  }
- {
+ Fire_Team_85_Checkpoints {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType FIRETEAM
@@ -843,7 +843,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 8100.73 223.219 4160.623
  }
- {
+ Partisan_Team_66_Checkpoints {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType PARTISAN_TEAM
@@ -861,7 +861,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- {
+ MG_Elite_Team_33_Checkpoints {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType TEAM_MG_ELITE
@@ -885,7 +885,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- {
+ Partisan_Team_66_Checkpoints_2 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType PARTISAN_TEAM
@@ -905,7 +905,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- {
+ AT_Team_66_Checkpoints_3 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType TEAM_AT
@@ -921,7 +921,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- {
+ AT_Team_66_Checkpoints_4 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType TEAM_AT
@@ -939,7 +939,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- {
+ AT_Team_66_Checkpoints_5 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType TEAM_AT
@@ -955,7 +955,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- {
+ AT_Team_66_Checkpoints_6 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType TEAM_AT
@@ -971,7 +971,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- {
+ AT_Team_66_Checkpoints_7 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType TEAM_AT
@@ -989,7 +989,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- {
+ Sentry_Team_66_Checkpoints_2 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_fAILimitThreshold 0.66

@@ -52,6 +52,9 @@ GenericEntity SP_A_EveronAirport : "{1739B43A3702BB84}Prefabs/Systems/MilitaryBa
  }
  coords 4943.125 28.594 11793.299
  {
+  GenericEntity Fire_Team_90_Airport {
+   ID "62388D8F13AD0811"
+  }
   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
    coords -9.901 0 -18.46
    angles 0 -92.666 0
@@ -93,7 +96,7 @@ GenericEntity SP_A_EveronAirport : "{1739B43A3702BB84}Prefabs/Systems/MilitaryBa
    }
   }
   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-   {
+   Sniper_Team_85_Airport {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_eGroupType TEAM_SNIPER
@@ -109,7 +112,7 @@ GenericEntity SP_A_EveronAirport : "{1739B43A3702BB84}Prefabs/Systems/MilitaryBa
      }
     }
    }
-   {
+   MG_Team_85_Airport {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -126,7 +129,7 @@ GenericEntity SP_A_EveronAirport : "{1739B43A3702BB84}Prefabs/Systems/MilitaryBa
      }
     }
    }
-   {
+   Fire_Team_75_Airport {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_eGroupType FIRETEAM
@@ -135,7 +138,7 @@ GenericEntity SP_A_EveronAirport : "{1739B43A3702BB84}Prefabs/Systems/MilitaryBa
     }
     coords -1.505 0.539 -110.659
    }
-   {
+   Rifle_Squad_95_Airport {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_eGroupType SQUAD_RIFLE
@@ -146,7 +149,7 @@ GenericEntity SP_A_EveronAirport : "{1739B43A3702BB84}Prefabs/Systems/MilitaryBa
     }
     coords -17.685 0 11.49
    }
-   {
+   Fire_Team_65_Airport {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_eGroupType FIRETEAM
@@ -293,7 +296,7 @@ GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/Ma
  angles 0 180 0
 }
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- {
+ Sniper_Team_33_Airport {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{A70634B518C5C3B8}Prefabs/AI/Waypoints/AIWaypoint_Defend_Small.et"
@@ -305,7 +308,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 4918.985 44.314 11787.571
  }
- {
+ Fire_Team_66_Airport {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType FIRETEAM

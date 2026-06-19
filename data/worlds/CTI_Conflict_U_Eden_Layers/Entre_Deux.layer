@@ -75,7 +75,7 @@ $grp GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSma
  }
 }
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- {
+ Fire_Team_66_Entre_Deux {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType FIRETEAM
@@ -102,7 +102,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- {
+ MG_Elite_Team_66_Entre_Deux {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType TEAM_MG_ELITE

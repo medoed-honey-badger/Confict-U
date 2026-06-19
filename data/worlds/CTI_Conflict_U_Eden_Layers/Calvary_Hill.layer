@@ -908,7 +908,7 @@ $grp GenericEntity : "{898B81D2B9E9B2DC}Prefabs/Compositions/Misc/FreeRoamBuildi
  }
 }
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- {
+ Sentry_Team_85_Calvary_Hill {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -917,7 +917,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 3459.744 172.391 5736.595
  }
- {
+ Fire_Team_85_Calvary_Hill {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -927,7 +927,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 3580.456 173.227 5823.977
  }
- {
+ Sentry_Team_85_Calvary_Hill_2 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -937,7 +937,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   coords 3505.059 175.448 5877.306
   angles 0 40.546 0
  }
- {
+ MG_Team_75_Calvary_Hill {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -948,7 +948,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   coords 3469.563 176.437 5773.016
   angles 0 40.546 0
  }
- {
+ Sentry_Team_75_Calvary_Hill {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -958,7 +958,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   coords 3441.682 175.144 5838.972
   angles 0 40.546 0
  }
- {
+ Fire_Team_95_Calvary_Hill {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{3AB6B883AF54D965}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamBackup.et"
@@ -969,7 +969,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   coords 3495.847 178.38 5774.984
   angles 0 40.546 0
  }
- {
+ AT_Team_75_Calvary_Hill {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{3AB6B883AF54D965}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamBackup.et"
@@ -979,7 +979,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 3532.095 180.703 5834.645
  }
- {
+ Sentry_Team_75_Calvary_Hill_2 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -989,7 +989,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   coords 3429.11 173.421 5784.316
   angles 0 40.546 0
  }
- {
+ Sentry_Team_85_Calvary_Hill_3 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -999,7 +999,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   coords 3575.249 175.53 5832.124
   angles 0 40.546 0
  }
- {
+ Sentry_Team_75_Calvary_Hill_3 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -1009,7 +1009,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   coords 3577.574 172.181 5768.84
   angles 0 40.546 0
  }
- {
+ Sentry_Team_85_Calvary_Hill_4 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -1019,7 +1019,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   coords 3518.214 175.4 5756.531
   angles 0 40.546 0
  }
- {
+ Squad_Rifle_95_Calvary_Hill {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{3AB6B883AF54D965}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamBackup.et"
