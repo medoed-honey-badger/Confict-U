@@ -75,10 +75,6 @@ $grp GenericEntity : "{C599195C442D7125}Prefabs/Compositions/Misc/CustomEntities
   angles 0 -14.431 0
  }
  {
-  coords 7699.354 181.837 2814.503
-  angles 0 -14.431 0
- }
- {
   coords 5128.137 344.195 5689.527
   angles 0 -14.431 0
  }
@@ -117,10 +113,6 @@ $grp GenericEntity : "{C599195C442D7125}Prefabs/Compositions/Misc/CustomEntities
  {
   coords 4776.428 316.794 3723.302
   angles 0 -14.431 0
- }
- {
-  coords 7694.677 181.799 2809.451
-  angles 0 -30.178 0
  }
  {
   coords 5117.213 185.133 8083.827

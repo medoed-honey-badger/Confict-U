@@ -324,6 +324,16 @@ DecalEntity : "{AF4AA779A4546D51}Prefabs/Decals/Dirt/Decal_Dirt_Patch_02.et" {
  scale 5
  FarPlane 1.5
 }
+$grp GenericEntity : "{C599195C442D7125}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_CigarButts_01.et" {
+ {
+  coords 7699.354 181.837 2814.503
+  angles 0 -14.431 0
+ }
+ {
+  coords 7694.677 181.799 2809.451
+  angles 0 -30.178 0
+ }
+}
 GenericEntity : "{D3BED8377828FFCC}Prefabs/Compositions/Locations/Eden/Base_PowerPlant_FIA_01.et" {
  coords 5834.383 4.572 9786.422
  {
