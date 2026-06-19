@@ -182,18 +182,56 @@ GenericEntity : "{55D508179EF5E64A}Prefabs/Compositions/Slotted/SlotRoadMedium/C
   }
  }
 }
-GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- components {
-  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-   m_sDefaultWaypointPrefab "{A70634B518C5C3B8}Prefabs/AI/Waypoints/AIWaypoint_Defend_Small.et"
-   m_eGroupType PARTISAN_SNIPER
-   m_iSpawnDistanceOverride 500
-   m_iDespawnDistanceOverride 600
-   m_fAILimitThreshold 0.33
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_sDefaultWaypointPrefab "{A70634B518C5C3B8}Prefabs/AI/Waypoints/AIWaypoint_Defend_Small.et"
+    m_eGroupType PARTISAN_SNIPER
+    m_iSpawnDistanceOverride 500
+    m_iDespawnDistanceOverride 600
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 4560.725 28.296 10502.947
+  angles 0 -20.38 0
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_sDefaultWaypointPrefab "{A70634B518C5C3B8}Prefabs/AI/Waypoints/AIWaypoint_Defend_Small.et"
+    m_eGroupType TEAM_AT
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 4447.355 12.781 10750.005
+  angles 0 -20.38 0
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 0 0 0
+    }
+    {
+     coords 16.839 -3.49 56.037
+    }
+    {
+     coords -63.43 -8.569 69.092
+    }
+    {
+     coords -159.352 -9.017 20.38
+    }
+    {
+     coords -237.7 -9.695 -6.535
+    }
+    {
+     coords -251.844 -0.558 -58.758
+    }
+    {
+     coords -10.657 4.428 -132.271
+    }
+   }
   }
  }
- coords 4560.725 28.296 10502.947
- angles 0 -20.38 0
 }
 GenericEntity : "{CE05A668A373BB44}Prefabs/Compositions/Locations/Eden/SupplyCache_StPhilippe_FIA_01.et" {
  coords 4502.756 14.702 10771.987

@@ -316,16 +316,37 @@ GenericEntity : "{835CFAD8AF023440}Prefabs/Compositions/Misc/SubCompositions/Cra
  coords 5857.867 235.983 7259.086
  angles 0 19.917 0
 }
-GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- components {
-  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-   m_eGroupType SQUAD_RIFLE
-   m_iSpawnDistanceOverride 400
-   m_iDespawnDistanceOverride 500
-   m_fAILimitThreshold 0.66
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iSpawnDistanceOverride 400
+    m_iDespawnDistanceOverride 500
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 5859.457 236.001 7256.802
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_sDefaultWaypointPrefab "{A70634B518C5C3B8}Prefabs/AI/Waypoints/AIWaypoint_Defend_Small.et"
+    m_eGroupType PARTISAN_SNIPER
+    m_fAILimitThreshold 0.76
+   }
+  }
+  coords 5856.694 273.537 7259.324
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 0 0
+   }
   }
  }
- coords 5859.457 236.001 7256.802
+}
+GenericEntity : "{AC3DCB3D059AE5D0}Prefabs/Compositions/Misc/SubCompositions/Sandbag_short_Cluttered_USSR_01.et" {
+ coords 5856.236 235.937 7263.225
+ angles 0 18.821 0
 }
 $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
  {
@@ -363,6 +384,59 @@ $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_
   }
   coords 5852.24 235.707 7256.026
   angles 1.255 20.645 -1.797
+ }
+ {
+  components {
+   Hierarchy "{5CCCBEF0E2CC700D}" {
+    Enabled 1
+   }
+  }
+  coords 5858.54 235.416 7252.296
+  angles 0 72.069 7.909
+ }
+ {
+  components {
+   RigidBody "{5872F0EB7DFB5A9D}" {
+    ResponseIndex "HugeDestructible"
+   }
+   SCR_SlotCompositionComponent "{5706EA5B17DE083C}" : "{F27DCA13BB9C3F3B}Prefabs/Editor/Components/SlotCompositionComponent.ct" {
+    m_bOrientChildrenToTerrain 0
+   }
+   Hierarchy "{5654C1EDB4558137}" {
+    Enabled 1
+   }
+  }
+  coords 5859.843 235.584 7253.307
+  angles 0 -23.759 0
+  {
+   GenericEntity : "{6DD0648BB7A52420}Prefabs/Props/Civilian/Wheelbarrow_01.et" {
+    components {
+     Hierarchy "{5654C1EDBBD4DA5B}" {
+      Enabled 1
+     }
+    }
+    coords 0.856 1.217 0.807
+    angles -60 38.271 -180
+   }
+   $grp GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
+    {
+     components {
+      Hierarchy "{5706F8D095E96B80}" {
+      }
+     }
+     coords 0.425 0.865 -0.183
+     angles -8.868 141.03 -20.017
+    }
+    {
+     components {
+      Hierarchy "{5706F8D095E60970}" {
+      }
+     }
+     coords 0.276 1.115 -0.146
+     angles 22.368 -30.496 -0.901
+    }
+   }
+  }
  }
 }
 GenericEntity : "{B69B4902BAF5B1B9}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_02.et" {

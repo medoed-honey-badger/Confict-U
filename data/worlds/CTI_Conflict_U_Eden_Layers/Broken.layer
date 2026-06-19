@@ -452,17 +452,193 @@ StaticModelEntity : "{8B7B5323534404A7}Prefabs/Structures/Military/Fortification
  coords 7216.476 0 2262.103
  angles -4.049 57.61 3.619
 }
-GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- components {
-  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-   m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
-   m_eGroupType FIRETEAM
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_eGroupType FIRETEAM
+   }
+  }
+  coords 5798.705 33.736 9787.435
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 -17.206 0
+   }
   }
  }
- coords 5798.705 33.736 9787.435
  {
-  SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-   coords 0 -17.206 0
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_iSpawnDistanceOverride 300
+    m_iDespawnDistanceOverride 400
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 7052.374 120.102 6033.31
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_MG_ELITE
+    m_iSpawnDistanceOverride 350
+    m_iDespawnDistanceOverride 450
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 8449.144 189.718 2690.017
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType PARTISAN_SNIPER
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 9317.226 229.764 1163.233
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_sDefaultWaypointPrefab "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et"
+    m_eGroupType PARTISAN_SNIPER
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 6464.559 97.254 5847.924
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 5096.74 38.078 10424.67
+  angles 0.361 -20.559 0.047
+  {
+   $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
+    {
+     components {
+      Hierarchy "{65686EFB85E80622}" {
+      }
+     }
+     coords 54.27 2.32 -16.88
+    }
+    {
+     components {
+      Hierarchy "{65686EFABE5765A4}" {
+      }
+     }
+     coords 95.685 -8.539 -247.261
+    }
+    {
+     components {
+      Hierarchy "{65686EFA824C6331}" {
+      }
+     }
+     coords -178.108 -8.215 -333.805
+    }
+    {
+     components {
+      Hierarchy "{65686EFA862E1487}" {
+      }
+     }
+     coords -322.289 -24.159 266.659
+    }
+    {
+     components {
+      Hierarchy "{65686EFA8A2C1D96}" {
+      }
+     }
+     coords -376.204 -23.097 472.404
+    }
+    {
+     components {
+      Hierarchy "{65686EFA89A4B3FF}" {
+      }
+     }
+     coords -42.911 -8.235 192.091
+    }
+    {
+     components {
+      Hierarchy "{65686EFA8DA42369}" {
+      }
+     }
+     coords 20.638 1.396 -9.914
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType PARTISAN_TEAM
+    m_iSpawnDistanceOverride 450
+    m_iDespawnDistanceOverride 550
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 4715.884 15.185 9828.09
+  angles 0 -20.38 0
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_sDefaultWaypointPrefab "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et"
+    m_eGroupType TEAM_SNIPER
+    m_iSpawnDistanceOverride 550
+    m_iDespawnDistanceOverride 650
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 3785.455 158.399 4188.996
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType PARTISAN_TEAM
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 9329.276 196.852 1142.615
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -37.258 -5.81 18.1
+    }
+    {
+     coords -148.149 11.992 43.818
+    }
+    {
+     coords -369.636 39.216 209.226
+    }
+    {
+     coords -619.229 113.608 629.192
+    }
+    {
+     coords -747.86 89.83 1004.484
+    }
+    {
+     coords -838.116 113.588 1134.852
+    }
+    {
+     coords -942.361 69.842 1122.634
+    }
+    {
+     coords -993.885 20.611 971.889
+    }
+    {
+     coords -866.178 33.182 768.403
+    }
+    {
+     coords -770.555 75.208 540.575
+    }
+    {
+     coords -576.499 80.182 378.261
+    }
+   }
   }
  }
 }
@@ -473,6 +649,16 @@ $grp StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification
  {
   coords 5706.505 13.142 9824.992
  }
+}
+DecalEntity : "{AF4AA779A4546D51}Prefabs/Decals/Dirt/Decal_Dirt_Patch_02.et" {
+ components {
+  Hierarchy "{56E0B29E66335D7C}" {
+  }
+ }
+ coords 5674.741 -0.001 6098.61
+ angles -90 0 0
+ scale 5
+ FarPlane 1.5
 }
 GenericEntity : "{D3BED8377828FFCC}Prefabs/Compositions/Locations/Eden/Base_PowerPlant_FIA_01.et" {
  coords 5834.383 4.572 9786.422

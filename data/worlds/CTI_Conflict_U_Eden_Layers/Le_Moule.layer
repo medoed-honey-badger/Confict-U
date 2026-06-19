@@ -38,6 +38,17 @@ GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/Ma
  coords 2418.171 101.188 5376.154
  angles 0.001 173.53 -3.74
 }
+GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType TEAM_AT
+   m_iSpawnDistanceOverride 500
+   m_iDespawnDistanceOverride 600
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 2619.037 92.622 5403.882
+}
 GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
  coords 2105.411 109.252 5425.767
  angles -3.045 -52.901 1.06

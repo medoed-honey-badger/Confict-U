@@ -188,20 +188,52 @@ GenericEntity : "{7F95D831CA586F06}Prefabs/Compositions/Misc/SubCompositions/Cab
  coords 7688.198 340.661 3056.859
  angles 0 0 0
 }
-GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- components {
-  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-   m_eGroupType FIRETEAM
-   m_iSpawnDistanceOverride 400
-   m_iDespawnDistanceOverride 500
-   m_fAILimitThreshold 0.66
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_iSpawnDistanceOverride 400
+    m_iDespawnDistanceOverride 500
+    m_fAILimitThreshold 0.66
+   }
   }
+  coords 7679.219 341.214 3058.546
  }
- coords 7679.219 341.214 3058.546
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_sDefaultWaypointPrefab "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et"
+    m_eGroupType PARTISAN_SNIPER
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 7688.413 377.924 3057.468
+ }
 }
-GenericEntity : "{ADE39FE043B89B0A}Prefabs/Props/Industrial/ConcretePanel_01_B.et" {
- coords 7690.07 340.884 3054.877
- angles 0 -15.979 0
+$grp GenericEntity : "{ADE39FE043B89B0A}Prefabs/Props/Industrial/ConcretePanel_01_B.et" {
+ {
+  coords 7690.07 340.884 3054.877
+  angles 0 -15.979 0
+ }
+ {
+  coords 7690.61 340.897 3053.006
+  angles 0.851 164.022 0
+ }
+ {
+  coords 7690.046 340.683 3054.881
+  angles 0 -15.979 0
+ }
+}
+GenericEntity : "{B350840088390760}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Stack_01.et" {
+ coords 7695.214 340.694 3060.716
+ angles 0 -22.137 -3.298
+}
+GenericEntity : "{B44BBBE082275ACD}Prefabs/Compositions/Misc/SubCompositions/WoodenBoxCluttered_04.et" {
+ coords 7682.346 340.598 3066.94
+}
+GenericEntity : "{B69B4902BAF5B1B9}Prefabs/Props/Garbage/Cardboard/Cardboard_Pile_02.et" {
+ coords 7690.983 340.651 3059.822
 }
 $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
  {

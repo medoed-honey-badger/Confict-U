@@ -104,19 +104,42 @@ GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Ba
   }
  }
 }
-GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- components {
-  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-   m_eGroupType SQUAD_RIFLE
-   m_fAILimitThreshold 0.66
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 3764.533 115.143 4983.671
+  angles -0.811 -64.998 -0.378
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords -2.21 0.15 15.519
+    angles 0 65.001 0.895
+   }
   }
  }
- coords 3764.533 115.143 4983.671
- angles -0.811 -64.998 -0.378
  {
-  SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-   coords -2.21 0.15 15.519
-   angles 0 65.001 0.895
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_MG_ELITE
+    m_iSpawnDistanceOverride 450
+    m_iDespawnDistanceOverride 550
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 3043.762 118.563 5216.974
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 22.613 0 -3.645
+    }
+    {
+     coords 0.106 -0.009 0.064
+    }
+   }
   }
  }
 }

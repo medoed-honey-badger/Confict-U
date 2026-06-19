@@ -17,15 +17,36 @@ GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/C
  coords 5354.708 20.133 9953.286
  angles 0 -165.384 0
 }
-GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- components {
-  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-   m_eGroupType SQUAD_RIFLE
-   m_fAILimitThreshold 0.66
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 5357.991 18.987 9974.426
+  angles -1.986 -70.464 0.245
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_SNIPER
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 5362.213 18.633 9944.231
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords -320.006 9.082 28.296
+    }
+    {
+     coords 0.138 0.131 0.177
+    }
+   }
   }
  }
- coords 5357.991 18.987 9974.426
- angles -1.986 -70.464 0.245
 }
 GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  coords 5376.854 19.918 9966.559

@@ -252,29 +252,74 @@ GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/Sa
  coords 10096.037 2.316 1500.206
  angles 0 -76.452 0
 }
-GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- components {
-  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-   m_fAILimitThreshold 0.33
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 9689.182 13.159 1541.96
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 45.072 9.474 -187.659
+    }
+    {
+     coords -45.735 10.556 -111.186
+    }
+    {
+     coords -95.246 10.382 32.578
+    }
+    {
+     coords 99.512 -3.337 26.99
+    }
+    {
+     coords 0 0 0
+    }
+   }
   }
  }
- coords 9689.182 13.159 1541.96
  {
-  $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
-   {
-    coords 45.072 9.474 -187.659
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_iSpawnDistanceOverride 300
+    m_iDespawnDistanceOverride 400
+    m_fAILimitThreshold 0.66
    }
-   {
-    coords -45.735 10.556 -111.186
+  }
+  coords 9921.629 2.531 1579.286
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 34.74 0 -47.039
    }
-   {
-    coords -95.246 10.382 32.578
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.33
    }
-   {
-    coords 99.512 -3.337 26.99
-   }
-   {
-    coords 0 0 0
+  }
+  coords 9848.209 7.482 1614.384
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 186.014 -4.81 -37.825
+    }
+    {
+     coords 174.582 -3.126 -83.935
+    }
+    {
+     coords 46.262 -5.254 -84.341
+    }
+    {
+     coords -35.918 1.002 -42.232
+    }
+    {
+     coords 7.472 1.002 -3.114
+    }
    }
   }
  }

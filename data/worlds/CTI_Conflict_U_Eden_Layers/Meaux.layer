@@ -59,6 +59,17 @@ GenericEntity : "{2FAFFD858A8315E6}Prefabs/Compositions/Locations/Eden/SupplyCac
   }
  }
 }
+GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType PARTISAN_TEAM
+   m_iSpawnDistanceOverride 250
+   m_iDespawnDistanceOverride 350
+   m_fAILimitThreshold 0.36
+  }
+ }
+ coords 4534.489 18.25 9551.688
+}
 GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
  components {
   RoadNetworkBridgeComponent "{615AD893D108E129}" {

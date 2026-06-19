@@ -74,6 +74,51 @@ $grp GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSma
   angles -5.658 120.598 2.518
  }
 }
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_iSpawnDistanceOverride 300
+    m_iDespawnDistanceOverride 400
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 5777.584 215.562 7046.616
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 48.269 0 -6.604
+    }
+    {
+     coords -136.22 0.69 43.778
+    }
+    {
+     coords -22.109 2.002 11.146
+    }
+    {
+     coords -13.676 -5.495 -49.043
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_MG_ELITE
+    m_fAILimitThreshold 0.66
+   }
+  }
+  coords 5624.222 214.068 7089.961
+  angles -7.165 -79.122 -0.469
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords -0.46 0.133 4.302
+    angles 0.888 79.207 7.125
+   }
+  }
+ }
+}
 $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  {
   coords 6726.167 147.593 7120.035

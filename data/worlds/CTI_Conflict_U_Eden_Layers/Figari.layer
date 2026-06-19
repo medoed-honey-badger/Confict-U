@@ -34,6 +34,17 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angles 0 -117.422 0
  }
 }
+GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_iSpawnDistanceOverride 500
+   m_iDespawnDistanceOverride 600
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 5281.338 59.783 5409.321
+}
 GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  coords 5218.795 73.349 5108.347
  angles -3.632 -1.831 -1.671

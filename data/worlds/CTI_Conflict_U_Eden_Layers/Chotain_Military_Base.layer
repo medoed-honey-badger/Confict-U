@@ -27,23 +27,43 @@ GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/Sa
  coords 7517.815 5.65 6775.177
  angles 0 34.028 0
 }
-GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- components {
-  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-   m_bPickRandomGroupType 1
-   m_iSpawnDistanceOverride 300
-   m_iDespawnDistanceOverride 400
-   m_fAILimitThreshold 0.33
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_bPickRandomGroupType 1
+    m_iSpawnDistanceOverride 300
+    m_iDespawnDistanceOverride 400
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 7359.477 9.96 6673.104
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 0 0 0
+    }
+    {
+     coords 47.003 -3.786 -47.914
+    }
+   }
   }
  }
- coords 7359.477 9.96 6673.104
  {
-  $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
-   {
-    coords 0 0 0
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType PARTISAN_SNIPER
+    m_fAILimitThreshold 0.33
    }
-   {
-    coords 47.003 -3.786 -47.914
+  }
+  coords 7453.206 23.383 6695.645
+  {
+   SCR_DefendWaypoint : "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et" {
+    components {
+     Hierarchy "{6520C9095D77EB6E}" {
+     }
+    }
+    coords 0.418 0.176 0
    }
   }
  }

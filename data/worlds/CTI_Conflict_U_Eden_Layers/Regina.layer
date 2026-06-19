@@ -775,6 +775,63 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 7179.27 137.268 2413.183
  }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.85
+   }
+  }
+  coords 7089.729 150.614 2221.605
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.85
+   }
+  }
+  coords 7059.029 151.124 2332.56
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_fAILimitThreshold 0.85
+   }
+  }
+  coords 7173.356 139.606 2248.63
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+    m_iSpawnDistanceOverride 400
+    m_iDespawnDistanceOverride 500
+    m_fAILimitThreshold 0.95
+   }
+  }
+  coords 7245.361 136.955 2332.181
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_iSpawnDistanceOverride 450
+    m_iDespawnDistanceOverride 550
+    m_fAILimitThreshold 0.75
+   }
+  }
+  coords 7219.552 137.374 2395.203
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_iSpawnDistanceOverride 350
+    m_iDespawnDistanceOverride 450
+    m_fAILimitThreshold 0.85
+   }
+  }
+  coords 7251.466 136.542 2205.941
+ }
 }
 GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  coords 7167.766 140.068 2244.708
@@ -804,6 +861,11 @@ StaticModelEntity : "{AE28D47CF26E91EA}Prefabs/Props/Military/Fortification/Czec
  coords 7220.631 0 2249.83
  angles -1.602 -1.091 9.78
 }
+DecalEntity : "{AF4AA779A4546D51}Prefabs/Decals/Dirt/Decal_Dirt_Patch_02.et" {
+ coords 7169.946 -0.001 2255.422
+ angles -90 0 30.197
+ scale 2.85
+}
 GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
  components {
   Hierarchy "{5CCCBEF31976DC75}" {
@@ -812,6 +874,10 @@ GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_en
  }
  coords 7170.977 139.953 2244.068
  angles 0 -71.686 2.953
+}
+GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+ coords 7064.325 150.491 2338.397
+ angles 0 -52.917 0
 }
 $grp StaticModelEntity : "{C1576E5555582214}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_short.et" {
  {
@@ -903,6 +969,10 @@ $grp GenericEntity : "{CC5453CCC311603B}Prefabs/Props/Military/Sandbags/Sandbag_
   }
   coords 7175.294 139.715 2243.085
   angles 0 149.666 0
+ }
+ {
+  coords 7171.896 139.264 2255.769
+  angles 0 29.954 0
  }
 }
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
