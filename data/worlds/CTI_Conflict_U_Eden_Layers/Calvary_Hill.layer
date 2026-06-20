@@ -1019,7 +1019,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   coords 3518.214 175.4 5756.531
   angles 0 40.546 0
  }
- Squad_Rifle_95_Calvary_Hill {
+ Rifle_Squad_95_Calvary_Hill {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{3AB6B883AF54D965}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamBackup.et"

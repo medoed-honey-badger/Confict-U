@@ -180,9 +180,22 @@ GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Ch
   }
  }
 }
-GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
- coords 1065.735 2.781 6050.259
- angles 0.11 36.397 -0.136
+$grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ {
+  coords 1065.735 2.781 6050.259
+  angles 0.11 36.397 -0.136
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_TRUCK
+    }
+   }
+  }
+  coords 1544.121 56.882 5950.28
+  angles 0 7.18 0
+ }
 }
 GenericEntity : "{E4D8BE67FA5175A3}Prefabs/Compositions/Locations/Eden/SupplyCache_Lamentin_FIA_01.et" {
  coords 1279.669 37.386 5940.503

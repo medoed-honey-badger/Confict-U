@@ -19,6 +19,10 @@ GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDep
  coords 7681.506 13.688 8103.358
  angles 0 -54.043 0
 }
+GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
+ coords 4922.656 24.75 9985.346
+ angles 0 -141.883 0
+}
 GenericEntity : "{4FDFB70701D6A97A}Prefabs/Compositions/Locations/Eden/Base_MontfortCastle_FIA_01.et" {
  coords 9315.082 196.166 1144.534
  {
