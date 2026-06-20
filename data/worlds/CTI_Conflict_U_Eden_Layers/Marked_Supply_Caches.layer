@@ -85,7 +85,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
   angles -6.683 -95.035 -4.757
   {
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
+    Fire_Team_66_Marked_SC {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_eGroupType FIRETEAM
@@ -95,7 +95,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
      coords -8.366 0.236 7.413
      angles 3.215 31.756 7.544
     }
-    {
+    Sentry_Team_36_Marked_SC {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_bPickRandomGroupType 1
@@ -123,7 +123,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
   angles 5.237 9.194 -9.891
   {
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
+    Fire_Team_66_Marked_SC_2 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_eGroupType FIRETEAM
@@ -135,7 +135,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
      coords 2.197 -0.451 14.954
      angles 4.671 -52.501 10.169
     }
-    {
+    Sentry_Team_66_Marked_SC {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_bPickRandomGroupType 1
@@ -165,7 +165,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
   angles -2.998 102.085 1.187
   {
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
+    Fire_Team_66_Marked_SC_3 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_eGroupType FIRETEAM
@@ -177,7 +177,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
      coords 15.159 1.911 21.139
      angles 1.136 -47.81 -3.018
     }
-    {
+    Sentry_Team_66_Marked_SC_2 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_bPickRandomGroupType 1
@@ -207,7 +207,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
   angles -0.895 0 0
   {
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
+    Fire_Team_66_Marked_SC_4 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_eGroupType FIRETEAM
@@ -219,7 +219,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
      coords 10.318 0.71 -26.273
      angles 0.522 54.339 0.727
     }
-    {
+    Sentry_Team_66_Marked_SC_3 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_bPickRandomGroupType 1
@@ -239,7 +239,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
       }
      }
     }
-    {
+    Sentry_Team_75_Marked_SC {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_fAILimitThreshold 0.75
@@ -255,7 +255,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
   angles 2.686 158.742 -2.961
   {
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
+    Fire_Team_66_Marked_SC_5 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_eGroupType FIRETEAM
@@ -267,7 +267,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
      coords 9.012 -1 -18.064
      angles 3.536 -104.418 1.865
     }
-    {
+    Sentry_Team_66_Marked_SC_4 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_bPickRandomGroupType 1
@@ -297,7 +297,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
   angles -1.957 165.525 -0.419
   {
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
+    Fire_Team_66_Marked_SC_6 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_eGroupType FIRETEAM
@@ -309,7 +309,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
      coords 12.978 -0.107 -1.21
      angles -0.317 -111.176 -1.976
     }
-    {
+    Sentry_Team_66_Marked_SC_5 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_bPickRandomGroupType 1
@@ -337,7 +337,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
   angles -1.596 153.657 -1.207
   {
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
+    Fire_Team_66_Marked_SC_7 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_eGroupType FIRETEAM
@@ -347,7 +347,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
      coords 14.531 -0.646 -13.537
      angles 0.933 -99.319 -1.77
     }
-    {
+    Sentry_Team_66_Marked_SC_6 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_bPickRandomGroupType 1
@@ -490,7 +490,7 @@ GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/Sa
  angles 0 -149.444 0
 }
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- {
+ Sentry_Team_33_Marked_SC {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_iSpawnDistanceOverride 150
@@ -500,7 +500,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 6717.853 18.021 4591.681
  }
- {
+ Fire_Team_66_Marked_SC_8 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType FIRETEAM
@@ -511,7 +511,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 4869.346 111.136 8133.268
  }
- {
+ Sentry_Team_33_Marked_SC_2 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_fAILimitThreshold 0.33

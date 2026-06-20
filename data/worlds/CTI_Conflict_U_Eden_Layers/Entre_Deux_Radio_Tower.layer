@@ -653,7 +653,7 @@ GenericEntity : "{835CFAD8AF023440}Prefabs/Compositions/Misc/SubCompositions/Cra
  angles 0 19.917 0
 }
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- {
+ Rifle_Squad_66_Entre_Deux_RT {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType SQUAD_RIFLE
@@ -664,7 +664,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 5859.457 236.001 7256.802
  }
- {
+ Sniper_Partisan_76_Entre_Deux_RT {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_sDefaultWaypointPrefab "{A70634B518C5C3B8}Prefabs/AI/Waypoints/AIWaypoint_Defend_Small.et"

@@ -9,7 +9,7 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 3817.628 5.025 7733.588
   angles 0 90.717 0
   {
-   GenericEntity {
+   GenericEntity Fire_Team_90_Harbors {
     ID "62388D8F13AD0811"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -95,7 +95,7 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
      }
     }
    }
-   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+   GenericEntity Rifle_Squad_75_Harbors : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_eGroupType SQUAD_RIFLE
@@ -119,7 +119,7 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 7782.555 2.344 5875.389
   angles 0 68.72 0
   {
-   GenericEntity {
+   GenericEntity Fire_Team_90_Harbors_2 {
     ID "62388D8F13AD0811"
     coords 0.253 0 5.137
    }
@@ -214,6 +214,9 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 5803.098 2.962 3533.062
   angles 0 -138.73 0
   {
+   GenericEntity Fire_Team_90_Harbors_3 {
+    ID "62388D8F13AD0811"
+   }
    GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
     coords 23.278 -1.201 -21.721
     angles 0 1.504 0
@@ -273,7 +276,7 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
      }
     }
    }
-   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+   GenericEntity Fire_Team_65_Harbors : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_eGroupType FIRETEAM
@@ -418,7 +421,7 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 3271.834 2.395 3547.009
   angles 0 -112.328 0
   {
-   GenericEntity {
+   GenericEntity Fire_Team_90_Harbors_4 {
     ID "62388D8F13AD0811"
     coords 0 0 10.818
    }
@@ -496,7 +499,7 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
     }
    }
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
+    Sentry_Team_35_Harbors {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_fAILimitThreshold 0.35
@@ -505,7 +508,7 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
      coords 293.923 26.556 -80.045
      angles 0 112.328 0
     }
-    {
+    Sentry_Team_65_Harbors {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_fAILimitThreshold 0.65
@@ -527,6 +530,9 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 6277.402 2.146 9643.742
   angles 0 -121.649 0
   {
+   GenericEntity Fire_Team_90_Harbors_5 {
+    ID "62388D8F13AD0811"
+   }
    SCR_CampaignSpawnPointGroup {
     ID "621EB97024DABAFF"
     coords -5.493 1.59 -1.682
@@ -607,39 +613,20 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
      }
     }
    }
-   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_eGroupType FIRETEAM
-       m_iSpawnDistanceOverride 300
-       m_iDespawnDistanceOverride 450
-       m_fAILimitThreshold 0.75
-      }
-     }
-     coords -58.602 -1.267 -21.885
-     angles 0 121.649 0
-     {
-      SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-       coords -33.765 0.229 21.696
-      }
+   GenericEntity Fire_Team_75_Harbors : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_iSpawnDistanceOverride 300
+      m_iDespawnDistanceOverride 450
+      m_fAILimitThreshold 0.75
      }
     }
+    coords -58.602 -1.267 -21.885
+    angles 0 121.649 0
     {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_eGroupType TEAM_MG_ELITE
-       m_iSpawnDistanceOverride 350
-       m_iDespawnDistanceOverride 450
-       m_fAILimitThreshold 0.65
-      }
-     }
-     coords 12.943 17.413 -120.886
-     angles 0 121.649 0
-     {
-      SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-       coords 0 0 0
-      }
+     SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+      coords -33.765 0.229 21.696
      }
     }
    }
@@ -777,15 +764,8 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 11658.809 7.841 2176.577
   angles 0 99.231 0
   {
-   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_sDefaultWaypointPrefab "{2FCBE5C76E285A7B}Prefabs/AI/Waypoints/AIWaypoint_DefendSmall.et"
-      m_fAILimitThreshold 0.65
-     }
-    }
-    coords 214.745 0.3 141.329
-    angles 0 -99.231 0
+   GenericEntity Fire_Team_90_Harbors_6 {
+    ID "62388D8F13AD0811"
    }
    GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
     coords 19.175 -1.588 -1.435
@@ -920,7 +900,7 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 7941.069 12.806 1469.954
   angles 0 46.86 0
   {
-   GenericEntity {
+   GenericEntity Fire_Team_90_Harbors_7 {
     ID "62388D8F13AD0811"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -1003,7 +983,7 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 9328.079 3.74 5065.999
   angles 0 14.301 0
   {
-   GenericEntity {
+   GenericEntity Fire_Team_90_Harbors_8 {
     ID "62388D8F13AD0811"
     coords 0.253 0 5.137
    }
@@ -1170,7 +1150,7 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 3375.76 1.094 7211.186
   angles 0 -162.949 0
   {
-   GenericEntity {
+   GenericEntity Fire_Team_90_Harbors_9 {
     ID "62388D8F13AD0811"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -1265,7 +1245,7 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 3145.991 3.885 2141.905
   angles -5.323 -0.417 4.486
   {
-   GenericEntity {
+   GenericEntity Fire_Team_90_Harbors_10 {
     ID "62388D8F13AD0811"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -1495,7 +1475,7 @@ $grp GenericEntity : "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 4394.426 1.6 11068.056
   angles 0 28.934 0
   {
-   GenericEntity {
+   GenericEntity Fire_Team_65_Harbors_2 {
     ID "62388D8F57B666BB"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -1504,7 +1484,7 @@ $grp GenericEntity : "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSou
     }
     coords 36.399 1.344 18.366
    }
-   GenericEntity {
+   GenericEntity Fire_Team_65_Harbors_3 {
     ID "62388D8FCFE45684"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -1529,7 +1509,7 @@ $grp GenericEntity : "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSou
      }
     }
    }
-   GenericEntity {
+   GenericEntity Fire_Team_90_Harbors_11 {
     ID "62388D8F13AD0811"
     coords 32.594 0.018 15.6
     {
@@ -1604,7 +1584,7 @@ $grp GenericEntity : "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSou
     angles 0 124.973 0
    }
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
+    Rifle_Squad_95_Harbors {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -1614,7 +1594,7 @@ $grp GenericEntity : "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSou
      coords 55.068 0.2 17.513
      angles 0 2.134 0
     }
-    {
+    Sniper_Partisan_Harbors {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -1650,8 +1630,17 @@ $grp GenericEntity : "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 9963.828 2.838 1523.414
   angles 0 -7.886 0
   {
+   GenericEntity Fire_Team_95_Harbors {
+    ID "62388D8F57B666BB"
+   }
+   GenericEntity Fire_Team_95_Harbors_2 {
+    ID "62388D8FCFE45684"
+   }
+   GenericEntity Fire_Team_90_Harbors_12 {
+    ID "62388D8F13AD0811"
+   }
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
+    Sentry_Team_65_Harbors_2 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -1661,7 +1650,7 @@ $grp GenericEntity : "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSou
      coords 2.601 1.33 111.843
      angles 0 7.886 0
     }
-    {
+    Fire_Team_85_Harbors {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -1672,7 +1661,7 @@ $grp GenericEntity : "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSou
      coords 115.098 -0.307 18.443
      angles 0 7.886 0
     }
-    {
+    Fire_Team_85_Harbors_2 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_eGroupType FIRETEAM
@@ -1753,7 +1742,7 @@ $grp GenericEntity : "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSou
  }
 }
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- {
+ Sentry_Team_33_Harbors {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_iSpawnDistanceOverride 500
@@ -1779,7 +1768,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- {
+ Sentry_Team_33_Harbors_2 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_fAILimitThreshold 0.33
@@ -1895,7 +1884,7 @@ $grp GenericEntity : "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 1052.508 3.504 6049.772
   angles 0 126.916 0
   {
-   GenericEntity {
+   GenericEntity Fire_Team_65_Harbors_4 {
     ID "62388D8FFE98E06F"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -1904,8 +1893,11 @@ $grp GenericEntity : "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSou
     }
     coords 60.757 -0.713 -12.562
    }
+   GenericEntity Fire_Team_90_Harbors_13 {
+    ID "62388D8F13AD0811"
+   }
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
+    Sentry_Team_95_Harbors {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -1914,7 +1906,7 @@ $grp GenericEntity : "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSou
      coords 25.332 -0.761 30.671
      angles 0 -126.916 0
     }
-    {
+    AT_Team_65_Harbors {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_eGroupType TEAM_AT
@@ -1937,11 +1929,17 @@ $grp GenericEntity : "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 7531.006 2.441 6689.541
   angles 0 -140.428 0
   {
+   GenericEntity Fire_Team_95_Harbors_3 {
+    ID "62388D8FFE98E06F"
+   }
+   GenericEntity Fire_Team_90_Harbors_14 {
+    ID "62388D8F13AD0811"
+   }
    GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
     coords -23.965 -0.334 -6.77
     angles 0 83.562 0
    }
-   GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+   GenericEntity MG_Team_95_Harbors : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_eGroupType TEAM_MG
@@ -1972,8 +1970,14 @@ $grp GenericEntity : "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 4316.276 1.125 9516.908
   angles 0 -11.537 0
   {
+   GenericEntity Fire_Team_95_Harbors_4 {
+    ID "62388D8FFE98E06F"
+   }
+   GenericEntity Fire_Team_90_Harbors_15 {
+    ID "62388D8F13AD0811"
+   }
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
+    Sentry_Team_85_Harbors {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -1983,7 +1987,7 @@ $grp GenericEntity : "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSou
      coords 15.594 0.028 28.482
      angles 0 11.537 0
     }
-    {
+    MG_Team_65_Harbors {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -1994,7 +1998,7 @@ $grp GenericEntity : "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSou
      coords 24.284 1.477 -35.436
      angles 0 11.537 0
     }
-    {
+    Rifle_Squad_65_Harbors {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_sDefaultWaypointPrefab "{06B1B14B6DE3C983}Prefabs/AI/Waypoints/AIWaypoint_Defend_ConflictBaseTeamPatrol.et"
@@ -2018,7 +2022,7 @@ $grp GenericEntity : "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 4947.417 2.606 3870.595
   angles 0 31.968 0
   {
-   GenericEntity {
+   GenericEntity Fire_Team_65_Harbors_5 {
     ID "62388D8FFE98E06F"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -2027,12 +2031,15 @@ $grp GenericEntity : "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSou
     }
     coords 58.609 0.026 -18.402
    }
+   GenericEntity Fire_Team_90_Harbors_16 {
+    ID "62388D8F13AD0811"
+   }
    GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
     coords 29.206 -0.418 -3.359
     angles 0 3.036 0
    }
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
+    Fire_Team_65_Harbors_6 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
@@ -2043,7 +2050,7 @@ $grp GenericEntity : "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSou
      coords 113.6 3.111 58.762
      angles 0 -31.968 0
     }
-    {
+    Fire_Team_65_Harbors_7 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_eGroupType FIRETEAM
@@ -2070,7 +2077,7 @@ $grp GenericEntity : "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSou
   coords 3737.438 1.247 8529.84
   angles 0 -21.139 0
   {
-   GenericEntity {
+   GenericEntity Fire_Team_65_Harbors_8 {
     ID "62388D8FFE98E06F"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -2079,12 +2086,15 @@ $grp GenericEntity : "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSou
     }
     coords -11.599 3.059 -92.959
    }
+   GenericEntity Fire_Team_90_Harbors_17 {
+    ID "62388D8F13AD0811"
+   }
    GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
     coords 10.835 0.065 13.844
     angles 0 -91.506 0
    }
    $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    {
+    Sentry_Team_65_Harbors_3 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_fAILimitThreshold 0.65
@@ -2093,7 +2103,7 @@ $grp GenericEntity : "{E7BA7FE6BA4DB3F1}Prefabs/Systems/MilitaryBase/ConflictSou
      coords -2.289 5.851 -27.14
      angles 0 21.139 0
     }
-    {
+    MG_Team_85_Harbors {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"

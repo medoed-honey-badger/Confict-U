@@ -9,7 +9,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   coords 3505.951 181.91 5817.967
   angles 0 -40.546 0
   {
-   GenericEntity {
+   GenericEntity Fire_Team_95_Control_Points {
     ID "622086ACB9D1E3B2"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -17,7 +17,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
      }
     }
    }
-   GenericEntity {
+   GenericEntity Fire_Team_95_Control_Points_2 {
     ID "622086ACBB849B49"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -43,7 +43,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   coords 7500.099 165.496 4302.559
   angles 0 106.017 0
   {
-   GenericEntity {
+   GenericEntity Fire_Team_95_Control_Points_3 {
     ID "622086ACB9D1E3B2"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -54,7 +54,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     }
     coords -24.344 0.254 15.492
    }
-   GenericEntity {
+   GenericEntity Fire_Team_85_Control_Points {
     ID "622086ACBB849B49"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -92,7 +92,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   coords 4825.609 166.812 7094.843
   angles 0 -29.632 0
   {
-   GenericEntity {
+   GenericEntity Fire_Team_95_Control_Points_4 {
     ID "622086ACB9D1E3B2"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -103,7 +103,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     }
     coords -19.93 -3.97 48.592
    }
-   GenericEntity {
+   GenericEntity Fire_Team_95_Control_Points_5 {
     ID "622086ACBB849B49"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -128,7 +128,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   }
   coords 5784.08 7.385 9767.163
   {
-   GenericEntity {
+   GenericEntity Fire_Team_85_Control_Points_2 {
     ID "622086ACB9D1E3B2"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -137,7 +137,7 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     }
     coords -11.474 -1.677 17.145
    }
-   GenericEntity {
+   GenericEntity Fire_Team_95_Control_Points_6 {
     ID "622086ACBB849B49"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -180,11 +180,11 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
     coords 14.688 0.583 -1.086
     angles 0 94.134 0
    }
-   GenericEntity {
+   GenericEntity Fire_Team_95_Control_Points_7 {
     ID "622086ACBB849B49"
     coords 9.061 2.455 3.003
    }
-   GenericEntity {
+   GenericEntity Fire_Team_95_Control_Points_8 {
     ID "622086ACB9D1E3B2"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -211,11 +211,11 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   }
   coords 7193.323 137.782 2274.595
   {
-   GenericEntity {
+   GenericEntity Fire_Team_95_Control_Points_9 {
     ID "622086ACB9D1E3B2"
     coords -3.213 0.216 11.384
    }
-   GenericEntity {
+   GenericEntity Fire_Team_95_Control_Points_10 {
     ID "622086ACBB849B49"
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -248,6 +248,14 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    }
   }
   coords 2843.544 7.877 2238.298
+  {
+   GenericEntity Fire_Team_95_Control_Points_11 {
+    ID "622086ACB9D1E3B2"
+   }
+   GenericEntity Fire_Team_95_Control_Points_12 {
+    ID "622086ACBB849B49"
+   }
+  }
  }
 }
 $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
