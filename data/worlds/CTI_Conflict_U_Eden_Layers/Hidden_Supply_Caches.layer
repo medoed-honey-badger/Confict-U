@@ -198,16 +198,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   coords 7680.972 14.628 8114.293
   angles 0 -48.183 0
  }
- Sniper_Team_65_Hidden_SC {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
-    m_eGroupType TEAM_SNIPER
-    m_fAILimitThreshold 0.65
-   }
-  }
-  coords 7708.119 236.809 4026.344
- }
 }
 $grp GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
  {

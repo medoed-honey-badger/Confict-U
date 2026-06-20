@@ -19,7 +19,7 @@ GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDep
     coords 10.318 0.71 -26.273
     angles 0.522 54.339 0.727
    }
-   Sentry_Team_66_Marked_SC_3 {
+   Random_Team_66_Marked_SC {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
       m_bPickRandomGroupType 1

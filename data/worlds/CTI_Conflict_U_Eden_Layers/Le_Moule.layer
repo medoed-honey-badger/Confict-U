@@ -49,16 +49,6 @@ GenericEntity AT_Team_66_Le_Moule : "{9273AB931008C271}Prefabs/Systems/AmbientPa
  }
  coords 2619.037 92.622 5403.882
 }
-GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
- coords 2105.411 109.252 5425.767
- angles -3.045 -52.901 1.06
- {
-  StaticModelEntity {
-   ID "5CC72E06418CFEA6"
-   coords 0.781 0 -6.369
-  }
- }
-}
 GenericEntity : "{C634CB20BED9C7D5}Prefabs/Compositions/Locations/Eden/SupplyCache_LeMoule_FIA_01.et" {
  coords 2615.962 92.06 5378.784
 }

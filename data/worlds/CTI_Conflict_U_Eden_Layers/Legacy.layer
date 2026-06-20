@@ -909,29 +909,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
  {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_iSpawnDistanceOverride 300
-    m_iDespawnDistanceOverride 400
-    m_fAILimitThreshold 0.33
-   }
-  }
-  coords 7459.137 127.305 2178.399
-  {
-   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
-    {
-     coords 55.582 -10.757 -97.166
-    }
-    {
-     coords 21.79 -12.053 -237.275
-    }
-    {
-     coords 26.174 -12.493 -314.56
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType TEAM_AT
     m_iSpawnDistanceOverride 450
     m_iDespawnDistanceOverride 550
@@ -1068,7 +1045,7 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- {
+ Random {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_bPickRandomGroupType 1
@@ -1423,6 +1400,16 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     coords 0 0 0
    }
   }
+ }
+ Sentry_Team_33_Marked_SC {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_iSpawnDistanceOverride 150
+    m_iDespawnDistanceOverride 250
+    m_fAILimitThreshold 0.33
+   }
+  }
+  coords 6717.853 18.021 4591.681
  }
 }
 $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {

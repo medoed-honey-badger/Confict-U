@@ -1,12 +1,6 @@
-$grp GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
- {
-  coords 4801.93 119.512 8158.622
-  angles -1.268 -30.076 2.834
- }
- {
-  coords 3093.548 118.296 5221.799
-  angles 0 -127.182 0
- }
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 4801.93 119.512 8158.622
+ angles -1.268 -30.076 2.834
 }
 GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
  coords 4635.907 109.896 8248.565
@@ -63,10 +57,6 @@ $grp GenericEntity : "{1804DADC1C7C9893}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   angles 9.228 -52.102 -2.121
  }
  {
-  coords 3122.97 119.225 5234.888
-  angles -1.498 -134.057 0
- }
- {
   coords 7077.478 156.668 2045.649
   angles -0.466 165 0
  }
@@ -91,7 +81,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
      coords -8.366 0.236 7.413
      angles 3.215 31.756 7.544
     }
-    Sentry_Team_36_Marked_SC {
+    Random_Team_36_Marked_SC {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_bPickRandomGroupType 1
@@ -131,7 +121,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
      coords 2.197 -0.451 14.954
      angles 4.671 -52.501 10.169
     }
-    Sentry_Team_66_Marked_SC {
+    Random_Team_66_Marked_SC_1 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_bPickRandomGroupType 1
@@ -173,7 +163,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
      coords 15.159 1.911 21.139
      angles 1.136 -47.81 -3.018
     }
-    Sentry_Team_66_Marked_SC_2 {
+    Random_Team_66_Marked_SC_3 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_bPickRandomGroupType 1
@@ -215,7 +205,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
      coords 9.012 -1 -18.064
      angles 3.536 -104.418 1.865
     }
-    Sentry_Team_66_Marked_SC_4 {
+    Random_Team_66_Marked_SC_4 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_bPickRandomGroupType 1
@@ -257,7 +247,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
      coords 12.978 -0.107 -1.21
      angles -0.317 -111.176 -1.976
     }
-    Sentry_Team_66_Marked_SC_5 {
+    Random_Team_66_Marked_SC_5 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_bPickRandomGroupType 1
@@ -295,7 +285,7 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
      coords 14.531 -0.646 -13.537
      angles 0.933 -99.319 -1.77
     }
-    Sentry_Team_66_Marked_SC_6 {
+    Random_Team_66_Marked_SC_6 {
      components {
       SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
        m_bPickRandomGroupType 1
@@ -339,10 +329,6 @@ $grp GenericEntity : "{2EA9E10F2E9C0A36}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   angles 0 73.157 0
  }
  {
-  coords 3056.594 118.287 5244.14
-  angles 0 -131.274 0
- }
- {
   coords 7077.042 156.813 2077.013
   angles 0 157.963 0
  }
@@ -367,10 +353,6 @@ $grp GenericEntity : "{6010D9A8FCCB7E38}Prefabs/MP/Campaign/SupplyDepots/SupplyC
  {
   coords 6427.175 162.112 6491.897
   angles 0 155.354 0
- }
- {
-  coords 3075.744 118.469 5232.593
-  angles 0 137.005 0
  }
 }
 GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
@@ -413,10 +395,6 @@ $grp GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   angles 0 154.002 1.554
  }
  {
-  coords 3113.86 118.764 5215.264
-  angles 0 -41.113 -0.984
- }
- {
   coords 7082.238 156.812 2067.934
   angles 0 -16.149 0
  }
@@ -426,16 +404,6 @@ GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/Sa
  angles 0 -149.444 0
 }
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- Sentry_Team_33_Marked_SC {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_iSpawnDistanceOverride 150
-    m_iDespawnDistanceOverride 250
-    m_fAILimitThreshold 0.33
-   }
-  }
-  coords 6717.853 18.021 4591.681
- }
  Fire_Team_66_Marked_SC_8 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -509,15 +477,6 @@ $grp GenericEntity : "{B3DB90408A32E22A}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   coords 6494.722 161.988 6482.913
   angles 0 -20.05 0
  }
- {
-  components {
-   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
-    m_bOrientChildrenToTerrain 0
-   }
-  }
-  coords 3054.258 118.562 5207.084
-  angles 0 -39.4 0
- }
 }
 $grp GenericEntity : "{CBCF93346A850481}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_02_Campaign_HQC.et" {
  {
@@ -561,10 +520,6 @@ $grp GenericEntity : "{CBCF93346A850481}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   angles 0 -16.163 0
  }
  {
-  coords 3099.809 117.636 5188.213
-  angles -4.715 -142.16 0
- }
- {
   coords 7065.577 156.818 2050.177
   angles 0 61.365 0
  }
@@ -589,10 +544,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
  {
   coords 6474.506 162.062 6477.981
   angles 0 74.097 0
- }
- {
-  coords 3036.828 113.926 5184.011
-  angles 0 -40.446 0
  }
  {
   coords 7094.897 157.68 2075.87

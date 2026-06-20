@@ -940,24 +940,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 5608.38 90.776 5851.254
  }
- AT_Team_66_Provins {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_AT
-    m_iSpawnDistanceOverride 500
-    m_iDespawnDistanceOverride 600
-    m_fAILimitThreshold 0.66
-   }
-  }
-  coords 5966.546 95.324 5854.968
-  angles -0.18 109.406 0.302
-  {
-   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-    coords 0.097 -0.284 6.166
-    angles -0.345 -116.983 -0.069
-   }
-  }
- }
 }
 $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  {
