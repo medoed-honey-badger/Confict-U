@@ -1573,17 +1573,6 @@ GenericEntity : "{C7D38772154D45BB}Prefabs/Compositions/Slotted/SlotFlatSmall/Bu
 }
 $grp GenericEntity : "{CE74090473B270DE}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SandbagPosition_S_FIA_01.et" {
  {
-  coords 4868.331 25.179 12046.349
-  angles 0.04 -116.259 2.669
-  {
-   GenericEntity {
-    ID "5E5CB3014284530D"
-    coords -0.956 -0.045 0.779
-    angles 0 97.378 0
-   }
-  }
- }
- {
   coords 6846.407 81.463 8224.989
   angles 0 -167.997 0.001
  }

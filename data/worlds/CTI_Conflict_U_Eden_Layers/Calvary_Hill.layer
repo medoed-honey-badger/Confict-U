@@ -1070,11 +1070,6 @@ GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/Su
  angles 0.134 -8.618 0.885
  {
   GenericEntity {
-   ID "5D1ED92199D182AF"
-   coords 0.695 0.04 4.464
-   angles 0 -4.819 0
-  }
-  GenericEntity {
    ID "5E3316C6561A64FE"
    coords 4.977 0.049 3.732
    angles 0 -172 0
@@ -1107,20 +1102,6 @@ GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/Su
    }
   }
   GenericEntity {
-   ID "5D1ED92199D1824C"
-   coords 1.665 0.024 3.786
-   angles 0 51.904 0
-  }
-  GenericEntity {
-   ID "5D1ED92199D1825C"
-   coords 1.56 0.081 5.114
-   angles 0 -59.899 0
-  }
-  GenericEntity {
-   ID "5D1ED92199D1827B"
-   coords 2.494 0.14 5.424
-  }
-  GenericEntity {
    ID "5D1ED92199D182E9"
    coords 3.025 -0.121 -4.027
    angles 0 -10.521 0
@@ -1131,28 +1112,9 @@ GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/Su
    angles 7.671 -91.147 72.664
   }
   GenericEntity {
-   ID "5D1ED92199D18226"
-   coords 2.237 0.077 4.532
-   angles 0 39.053 0
-  }
-  GenericEntity {
-   ID "5D1ED92199D183D2"
-   coords 3.905 0.05 3.753
-   angles 0 -4.275 0
-  }
-  GenericEntity {
    ID "5D1ED92199D18124"
    coords 4.373 0.088 4.519
    angles 10.714 2.334 -77.635
-  }
-  GenericEntity {
-   ID "5D1ED92199D182C3"
-   coords -2.008 -0.011 4.513
-  }
-  GenericEntity {
-   ID "5D1ED92199D182D3"
-   coords -3.486 -0.02 4.494
-   angles 0 -4.021 0
   }
   GenericEntity {
    ID "5E5CB30FE628C0E3"
@@ -1160,19 +1122,9 @@ GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/Su
    angles -0.34 -94.625 -3.89
   }
   StaticModelEntity {
-   ID "5D1ED92199D18213"
-   coords -4.844 -0.055 3.645
-   angles -1.787 -81.278 -1.793
-  }
-  StaticModelEntity {
    ID "5D1ED92199D18266"
    coords 3.238 -1.042 -6.057
    angles 16.163 0 0
-  }
-  StaticModelEntity {
-   ID "5D1ED92199D1823E"
-   coords 3.62 0.142 4.883
-   angles 0 14.646 0
   }
  }
 }

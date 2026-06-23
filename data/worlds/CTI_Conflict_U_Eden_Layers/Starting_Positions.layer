@@ -93,11 +93,6 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
     angles 0 75.015 0
     {
      GenericEntity {
-      ID "5D1ED92199D182AF"
-      coords 0.695 -0.576 4.464
-      angles 0 -4.819 0
-     }
-     GenericEntity {
       ID "5E3316C6561A64FE"
       coords -3.157 0.867 -5.721
       angles 0 -172 0
@@ -136,20 +131,6 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
       }
      }
      GenericEntity {
-      ID "5D1ED92199D1824C"
-      coords 1.665 -0.611 3.786
-      angles 0 51.904 0
-     }
-     GenericEntity {
-      ID "5D1ED92199D1825C"
-      coords 1.56 -0.732 5.114
-      angles 0 -59.899 0
-     }
-     GenericEntity {
-      ID "5D1ED92199D1827B"
-      coords 2.493 -0.872 5.424
-     }
-     GenericEntity {
       ID "5D1ED92199D182E9"
       coords 3.054 0.197 -4.186
       angles 0 -10.521 0
@@ -160,23 +141,9 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
       angles 0 -57.298 0
      }
      GenericEntity {
-      ID "5D1ED92199D18226"
-      coords 2.237 -0.755 4.532
-      angles 0 39.053 0
-     }
-     GenericEntity {
       ID "5D1ED92199D18124"
       coords -3.621 0.847 -4.958
       angles 0 0 -90
-     }
-     GenericEntity {
-      ID "5D1ED92199D182C3"
-      coords -2.586 -0.207 4.523
-     }
-     GenericEntity {
-      ID "5D1ED92199D182D3"
-      coords -4.064 -0.021 4.504
-      angles 0 -4.021 0
      }
      GenericEntity {
       ID "5E5CB30FE628C0E3"
@@ -186,11 +153,6 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
      StaticModelEntity {
       ID "5D1ED92199D18266"
       coords 3.238 0.378 -6.075
-     }
-     StaticModelEntity {
-      ID "5D1ED92199D1823E"
-      coords 3.62 -0.961 4.883
-      angles 0 14.646 0
      }
     }
    }
