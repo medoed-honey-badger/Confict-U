@@ -34,185 +34,6 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   angles 0 95.854 0
  }
 }
-GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
- coords 4913.443 27.585 11545.98
- angles 0 164.501 0
- {
-  StaticModelEntity {
-   ID "5CC6B49A31F9DD1D"
-   coords -3.973 0 1.988
-  }
- }
-}
-GenericEntity SP_A_EveronAirport : "{1739B43A3702BB84}Prefabs/Systems/MilitaryBase/ConflictSourceBase_Airfield.et" {
- components {
-  SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
-   m_sBaseNameUpper "#AR-Campaign_Arland_MapLocation_Airport-UC"
-  }
- }
- coords 4943.125 28.594 11793.299
- {
-  GenericEntity Fire_Team_90_Airport {
-   ID "62388D8F13AD0811"
-  }
-  GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
-   coords -9.901 0 -18.46
-   angles 0 -92.666 0
-   {
-    GenericEntity {
-     ID "5E5CB3051FCD95B3"
-     coords -7.417 0 -5.397
-    }
-    GenericEntity {
-     ID "5D1ED92C4DD6AF8F"
-     coords -6.155 0.181 1.648
-     angles 0 15.223 0
-    }
-    GenericEntity {
-     ID "5D1ED92C4DD6AFC6"
-     coords -6.878 0.181 0.095
-     angles 0 -87.649 0
-    }
-    GenericEntity {
-     ID "5D1ED92C4DD6AFE6"
-     coords -6.527 0.181 0.959
-     angles 0 -60.109 0
-    }
-    GenericEntity {
-     ID "5D1ED92C4DD6AFF8"
-     coords -6.147 0.181 0.245
-     angles 0 -11.182 0
-    }
-    GenericEntity {
-     ID "5D1ED92C4DD6AE02"
-     coords -6.402 0.181 -1.967
-     angles 0 -87.961 0
-    }
-    GenericEntity {
-     ID "5D1ED92C4DD6AE2E"
-     coords -6.418 0.181 -0.808
-     angles 0 -2.806 0
-    }
-   }
-  }
-  $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-   Sniper_Team_85_Airport {
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType TEAM_SNIPER
-      m_iSpawnDistanceOverride 400
-      m_iDespawnDistanceOverride 500
-      m_fAILimitThreshold 0.85
-     }
-    }
-    coords -17.498 15.428 -2.189
-    {
-     SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-      coords 0 0 0
-     }
-    }
-   }
-   MG_Team_85_Airport {
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
-      m_eGroupType TEAM_MG
-      m_iSpawnDistanceOverride 400
-      m_iDespawnDistanceOverride 500
-      m_fAILimitThreshold 0.85
-     }
-    }
-    coords -3.195 7.697 38.932
-    {
-     SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-      coords 0 0 0
-     }
-    }
-   }
-   Fire_Team_75_Airport {
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType FIRETEAM
-      m_fAILimitThreshold 0.75
-     }
-    }
-    coords -1.505 0.539 -110.659
-   }
-   Rifle_Squad_95_Airport {
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType SQUAD_RIFLE
-      m_iSpawnDistanceOverride 300
-      m_iDespawnDistanceOverride 400
-      m_fAILimitThreshold 0.95
-     }
-    }
-    coords -17.685 0 11.49
-   }
-   Fire_Team_65_Airport {
-    components {
-     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_eGroupType FIRETEAM
-      m_iSpawnDistanceOverride 200
-      m_iDespawnDistanceOverride 300
-      m_fAILimitThreshold 0.65
-     }
-    }
-    coords 0.948 -0.178 70.098
-   }
-  }
-  GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
-   coords -8.599 0.181 -30.482
-   angles 0 -89.297 0
-   {
-    GenericEntity {
-     ID "5D1ED92199D182AF"
-     coords 1.25 0 -2.106
-    }
-    GenericEntity {
-     ID "5D1ED92199D1824C"
-     coords 2.22 0 -2.785
-    }
-    GenericEntity {
-     ID "5D1ED92199D1825C"
-     coords 2.114 0 -1.457
-    }
-    GenericEntity {
-     ID "5D1ED92199D1827B"
-     coords 3.048 0 -1.146
-    }
-    GenericEntity {
-     ID "5D1ED92199D18226"
-     coords 2.792 0 -2.039
-    }
-    GenericEntity {
-     ID "5D1ED92199D183D2"
-     coords 3.812 0 -2.84
-    }
-    GenericEntity {
-     ID "5D1ED92199D182C3"
-     coords -2.031 0 -2.048
-    }
-    GenericEntity {
-     ID "5D1ED92199D182D3"
-     coords -3.508 0 -2.067
-    }
-    GenericEntity {
-     ID "5E5CB30FE628C08D"
-     coords -5.111 0 -3.825
-    }
-    StaticModelEntity {
-     ID "5D1ED92199D18213"
-     coords -4.867 0 -2.916
-    }
-    StaticModelEntity {
-     ID "5D1ED92199D1823E"
-     coords 2.448 0 0.395
-    }
-   }
-  }
- }
-}
 GenericEntity : "{1CF4014D7086BE9F}Prefabs/Compositions/Locations/Eden/Base_Airport_FIA_01.et" {
  coords 4900.952 28.595 11787.412
  {
@@ -276,10 +97,6 @@ GenericEntity : "{1CF4014D7086BE9F}Prefabs/Compositions/Locations/Eden/Base_Airp
   }
  }
 }
-GenericEntity : "{55D508179EF5E64A}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_US_01.et" {
- coords 4921.407 27.75 11551.051
- angles 0 169.04 0
-}
 GenericEntity : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_US.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
@@ -290,10 +107,6 @@ GenericEntity : "{67EE7343073E3AF4}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  }
  coords 4880.258 28.594 11914.118
  angles 0 59.392 0
-}
-GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
- coords 4957.817 28.281 11965.25
- angles 0 180 0
 }
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  Sniper_Team_33_Airport {
@@ -336,10 +149,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
-}
-GenericEntity : "{AF770C825EA592CF}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_US_01.et" {
- coords 4939.848 27.791 11549.804
- angles 0 -172.888 0
 }
 GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  coords 4905.063 28.594 11962.939

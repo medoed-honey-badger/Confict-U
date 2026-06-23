@@ -82,6 +82,10 @@ GenericEntity : "{567515087F8ED05F}Prefabs/Compositions/Locations/Eden/Base_Lame
   }
  }
 }
+GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_01.et" {
+ coords 4957.817 28.281 11965.25
+ angles 0 180 0
+}
 $grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
  {
   coords 5595.281 210.204 7108.624
