@@ -1148,17 +1148,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
  {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType SQUAD_RIFLE
-    m_iSpawnDistanceOverride 350
-    m_iDespawnDistanceOverride 450
-    m_fAILimitThreshold 0.66
-   }
-  }
-  coords 5252.574 38.666 11352.559
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_iSpawnDistanceOverride 500
     m_iDespawnDistanceOverride 600
     m_fAILimitThreshold 0.33
