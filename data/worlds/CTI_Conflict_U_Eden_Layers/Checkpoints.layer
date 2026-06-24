@@ -310,22 +310,6 @@ $grp GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMed
 }
 $grp GenericEntity : "{24B7F96197053B39}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_US_01.et" {
  {
-  coords 4973.613 29.354 10627.645
-  angles 2.489 132.026 3.278
-  {
-   GenericEntity {
-    ID "5CC6B4B0E08C8E09"
-    coords -1.492 -0.001 -1.905
-    angles 0 61.821 0
-   }
-   GenericEntity {
-    ID "5CC6B4B0E08C8E56"
-    coords 1.697 -0.055 -1.823
-    angles 0 -92.358 0
-   }
-  }
- }
- {
   coords 5884.955 99.627 5914.506
   angles 0 102.858 0
   {
@@ -890,22 +874,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
- AT_Team_66_Checkpoints_3 {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_AT
-    m_fAILimitThreshold 0.66
-   }
-  }
-  coords 4962.785 28.873 10631.666
-  angles 1.124 162.366 0.582
-  {
-   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-    coords 0.002 0.084 5.806
-    angles 0.895 -162.353 0.895
-   }
-  }
- }
  AT_Team_66_Checkpoints_4 {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
@@ -1235,17 +1203,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 4565.052 21.515 9745.654
   angles 0 46.194 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_aIncludedEditableEntityLabels {
-     VEHICLE_TRUCK
-    }
-   }
-  }
-  coords 4962.237 28.815 10640.226
-  angles 1.784 -175.366 0.145
  }
  {
   components {

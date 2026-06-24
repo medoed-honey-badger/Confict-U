@@ -1303,293 +1303,122 @@ GenericEntity : "{114DE81321786CD9}Prefabs/Compositions/Slotted/SlotFlatSmall/Ma
   }
  }
 }
-GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
+GenericEntity SP_T1H_StPierre : "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T1Harbor.et" {
  components {
-  RoadNetworkBridgeComponent "{6160980DF3FD3F2C}" {
-   Points {
-    0 0 -8
-    -7 0 -2
-    -7 0 2
-    2 0 8
-   }
+  SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+   m_sBaseName "#AR-Campaign_MapLocation_Harbour_StPierre"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Harbour_StPierre-UC"
   }
  }
- coords 4392.816 1.593 11045.454
- angles 0 -151.936 0
-}
-$grp GenericEntity : "{8BEE4B0606893CDF}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T1Harbor.et" {
- SP_T1H_StPhillipe {
-  components {
-   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
-    m_sBaseName "#AR-Campaign_MapLocation_Harbour_StPhillipe"
-    m_sBaseNameUpper "#AR-Campaign_MapLocation_Harbour_StPhillipe-UC"
-   }
+ coords 9963.828 2.838 1523.414
+ angles 0 -7.886 0
+ {
+  GenericEntity Fire_Team_95_Harbors {
+   ID "62388D8F57B666BB"
   }
-  coords 4394.426 1.6 11068.056
-  angles 0 28.934 0
-  {
-   GenericEntity Fire_Team_65_Harbors_2 {
-    ID "62388D8F57B666BB"
+  GenericEntity Fire_Team_95_Harbors_2 {
+   ID "62388D8FCFE45684"
+  }
+  GenericEntity Fire_Team_90_Harbors_12 {
+   ID "62388D8F13AD0811"
+  }
+  $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+   Sentry_Team_65_Harbors_2 {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
       m_fAILimitThreshold 0.65
      }
     }
-    coords 36.399 1.344 18.366
+    coords 2.601 1.33 111.843
+    angles 0 7.886 0
    }
-   GenericEntity Fire_Team_65_Harbors_3 {
-    ID "62388D8FCFE45684"
+   Fire_Team_85_Harbors {
     components {
      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-      m_fAILimitThreshold 0.65
+      m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+      m_eGroupType FIRETEAM
+      m_fAILimitThreshold 0.85
      }
     }
-    coords 25.096 0.098 -70.381
-    {
-     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
-      {
-       coords 0 0 0
-      }
-      {
-       coords -40.09 4.083 213.977
-      }
-      {
-       coords -34.59 -0.107 106.503
-      }
-      {
-       coords -38.579 0 -23.28
-      }
+    coords 115.098 -0.307 18.443
+    angles 0 7.886 0
+   }
+   Fire_Team_85_Harbors_2 {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_fAILimitThreshold 0.85
      }
     }
-   }
-   GenericEntity Fire_Team_90_Harbors_11 {
-    ID "62388D8F13AD0811"
-    coords 32.594 0.018 15.6
-    {
-     $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
-      {
-       coords 0 0 0
-      }
-      {
-       coords 87.108 5.984 -20.065
-      }
-      {
-       coords 210.594 14.522 -138.584
-      }
-      {
-       coords 134.539 7.815 -193.698
-      }
-      {
-       coords 84.431 7.048 -132.724
-      }
-     }
-    }
-   }
-   GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
-    coords 4.834 0.025 -12.434
-    angles 0 179.164 0
-    {
-     GenericEntity {
-      ID "5D1ED92353BB9E3E"
-      coords 3.911 -0.032 3.387
-      angles 0 -37.124 0
-     }
-     GenericEntity {
-      ID "5D1ED92353BB9FF4"
-      coords 2.184 -0.006 -1.917
-      angles 0 2.773 0
-     }
-     GenericEntity {
-      ID "5D1ED92353BB9F82"
-      coords 2.507 -0.006 2.719
-      angles 0 -88.046 0
-     }
-     GenericEntity {
-      ID "5D1ED92353BB9F95"
-      coords 2.556 0 1.22
-      angles 0 -86.205 0
-     }
-     GenericEntity {
-      ID "5D1ED92353BB9FE3"
-      coords 2.069 -0.013 -0.754
-      angles 0 178.127 0
-     }
-    }
-   }
-   $grp GenericEntity : "{53D74CD446A87F13}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongHighBurlap_S_USSR_01.et" {
-    {
-     coords 56.594 7.895 -16.071
-     angles 0 -90.916 0
-    }
-    {
-     coords 56.787 7.895 -28.671
-     angles 0 1.28 0
-     {
-      GenericEntity {
-       ID "5D6CFDF279517B23"
-       coords 1.004 0 -0.112
-      }
-     }
-    }
-   }
-   Turret : "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et" {
-    coords 59.029 9.15 -28.446
-    angles 0 124.973 0
-   }
-   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    Rifle_Squad_95_Harbors {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
-       m_eGroupType SQUAD_RIFLE
-      }
-     }
-     coords 55.068 0.2 17.513
-     angles 0 2.134 0
-    }
-    Sniper_Partisan_Harbors {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
-       m_eGroupType PARTISAN_SNIPER
-       m_fAILimitThreshold 0.75
-      }
-     }
-     coords 52.286 8.454 -24.842
-     angles 0 -28.934 0
-    }
-   }
-   GenericEntity : "{937999008F178E82}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_burlap.et" {
-    coords 59.126 7.861 -27.803
-    angles 0 -86.286 0
-   }
-   GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
-    coords 55.752 7.896 -28.764
-    angles 0 -177.952 0
-   }
-   GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
-    coords -6.813 -0.006 14.086
-    angles 0 88.441 0
+    coords -74.015 -0.301 22.562
+    angles 0 7.886 0
    }
   }
- }
- SP_T1H_StPierre {
-  components {
-   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
-    m_sBaseName "#AR-Campaign_MapLocation_Harbour_StPierre"
-    m_sBaseNameUpper "#AR-Campaign_MapLocation_Harbour_StPierre-UC"
+  $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+   {
+    components {
+     SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+      m_bStopDespawnOnInteraction 1
+      m_aIncludedEditableEntityLabels {
+       TRAIT_AMPHIBIOUS
+      }
+      m_bRequireAllIncludedLabels 1
+     }
+    }
+    coords 85.678 -0.15 53.721
+    angles 0 24.339 0
    }
-  }
-  coords 9963.828 2.838 1523.414
-  angles 0 -7.886 0
-  {
-   GenericEntity Fire_Team_95_Harbors {
-    ID "62388D8F57B666BB"
+   {
+    components {
+     SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+      m_bStopDespawnOnInteraction 1
+      m_aIncludedEditableEntityLabels {
+       TRAIT_AMPHIBIOUS
+      }
+      m_bRequireAllIncludedLabels 1
+     }
+    }
+    coords 92.849 -0.134 49.182
+    angles 0 26.324 0
    }
-   GenericEntity Fire_Team_95_Harbors_2 {
-    ID "62388D8FCFE45684"
+   {
+    components {
+     SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+      m_bStopDespawnOnInteraction 1
+      m_aIncludedEditableEntityLabels {
+       TRAIT_AMPHIBIOUS
+      }
+      m_bRequireAllIncludedLabels 1
+     }
+    }
+    coords 98.574 -0.037 45.5
+    angles 0 34.21 0
    }
-   GenericEntity Fire_Team_90_Harbors_12 {
-    ID "62388D8F13AD0811"
+   {
+    components {
+     SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+      m_bStopDespawnOnInteraction 1
+      m_aIncludedEditableEntityLabels {
+       TRAIT_AMPHIBIOUS
+      }
+      m_bRequireAllIncludedLabels 1
+     }
+    }
+    coords 103.898 -0.037 40.689
+    angles 0 -150.72 0
    }
-   $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
-    Sentry_Team_65_Harbors_2 {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
-       m_fAILimitThreshold 0.65
+   {
+    components {
+     SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+      m_bStopDespawnOnInteraction 1
+      m_aIncludedEditableEntityLabels {
+       TRAIT_REPAIRING
       }
      }
-     coords 2.601 1.33 111.843
-     angles 0 7.886 0
     }
-    Fire_Team_85_Harbors {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
-       m_eGroupType FIRETEAM
-       m_fAILimitThreshold 0.85
-      }
-     }
-     coords 115.098 -0.307 18.443
-     angles 0 7.886 0
-    }
-    Fire_Team_85_Harbors_2 {
-     components {
-      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-       m_eGroupType FIRETEAM
-       m_fAILimitThreshold 0.85
-      }
-     }
-     coords -74.015 -0.301 22.562
-     angles 0 7.886 0
-    }
-   }
-   $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
-    {
-     components {
-      SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-       m_bStopDespawnOnInteraction 1
-       m_aIncludedEditableEntityLabels {
-        TRAIT_AMPHIBIOUS
-       }
-       m_bRequireAllIncludedLabels 1
-      }
-     }
-     coords 85.678 -0.15 53.721
-     angles 0 24.339 0
-    }
-    {
-     components {
-      SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-       m_bStopDespawnOnInteraction 1
-       m_aIncludedEditableEntityLabels {
-        TRAIT_AMPHIBIOUS
-       }
-       m_bRequireAllIncludedLabels 1
-      }
-     }
-     coords 92.849 -0.134 49.182
-     angles 0 26.324 0
-    }
-    {
-     components {
-      SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-       m_bStopDespawnOnInteraction 1
-       m_aIncludedEditableEntityLabels {
-        TRAIT_AMPHIBIOUS
-       }
-       m_bRequireAllIncludedLabels 1
-      }
-     }
-     coords 98.574 -0.037 45.5
-     angles 0 34.21 0
-    }
-    {
-     components {
-      SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-       m_bStopDespawnOnInteraction 1
-       m_aIncludedEditableEntityLabels {
-        TRAIT_AMPHIBIOUS
-       }
-       m_bRequireAllIncludedLabels 1
-      }
-     }
-     coords 103.898 -0.037 40.689
-     angles 0 -150.72 0
-    }
-    {
-     components {
-      SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-       m_bStopDespawnOnInteraction 1
-       m_aIncludedEditableEntityLabels {
-        TRAIT_REPAIRING
-       }
-      }
-     }
-     coords -73.677 -0.307 -4.654
-     angles 0 0.759 0
-    }
+    coords -73.677 -0.307 -4.654
+    angles 0 0.759 0
    }
   }
  }

@@ -162,10 +162,10 @@ GenericEntity SP_A_EveronAirport : "{1739B43A3702BB84}Prefabs/Systems/MilitaryBa
       m_fAILimitThreshold 0.85
      }
     }
-    coords -0.476 7.698 37.677
+    coords 22.726 -0.001 36.878
     {
      SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-      coords -3.169 0 2.737
+      coords -28.007 7.698 2.684
       angles 0 -11.211 0
      }
     }
@@ -195,7 +195,7 @@ GenericEntity SP_A_EveronAirport : "{1739B43A3702BB84}Prefabs/Systems/MilitaryBa
      }
     }
     coords -75.432 -0.005 -108.183
-    angles -0 -0.014 -0.895
+    angles 0 -0.014 -0.895
     {
      SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
       coords -7.596 -0.094 -9.809
@@ -265,7 +265,7 @@ GenericEntity SP_A_EveronAirport : "{1739B43A3702BB84}Prefabs/Systems/MilitaryBa
     }
    }
    {
-    coords -15.473 0.181 -43.266
+    coords -32.551 0.181 -45.513
     angles 0 0.416 0
    }
   }

@@ -432,7 +432,7 @@ GenericEntity : "{4510C273B794F3A9}Prefabs/Compositions/Slotted/SlotFlatMedium/V
   }
  }
  coords 3538.831 176.842 5775.558
- angles 11.921 -9.585 2.662
+ angles 8.634 -9.762 3.008
  {
   GameEntity {
    ID "5D0A8E42BC487371"
