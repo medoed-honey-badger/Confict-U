@@ -665,10 +665,6 @@ $grp GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSma
   coords 4534.688 23.827 9722.354
   angles 0 152.916 4.403
  }
- {
-  coords 4997.871 26.694 9859.163
-  angles 0 -169.199 0
- }
 }
 $grp GenericEntity : "{18B92018CF634D22}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_US_03.et" {
  {

@@ -19,10 +19,6 @@ GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDep
  coords 7681.506 13.688 8103.358
  angles 0 -54.043 0
 }
-GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
- coords 4922.656 24.75 9985.346
- angles 0 -141.883 0
-}
 GenericEntity : "{4FDFB70701D6A97A}Prefabs/Compositions/Locations/Eden/Base_MontfortCastle_FIA_01.et" {
  coords 9315.082 196.166 1144.534
  {
@@ -175,69 +171,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
   coords 6464.559 97.254 5847.924
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_AT
-    m_fAILimitThreshold 0.66
-   }
-  }
-  coords 5096.74 38.078 10424.67
-  angles 0.361 -20.559 0.047
-  {
-   $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
-    {
-     components {
-      Hierarchy "{65686EFB85E80622}" {
-      }
-     }
-     coords 54.27 2.32 -16.88
-    }
-    {
-     components {
-      Hierarchy "{65686EFABE5765A4}" {
-      }
-     }
-     coords 95.685 -8.539 -247.261
-    }
-    {
-     components {
-      Hierarchy "{65686EFA824C6331}" {
-      }
-     }
-     coords -178.108 -8.215 -333.805
-    }
-    {
-     components {
-      Hierarchy "{65686EFA862E1487}" {
-      }
-     }
-     coords -322.289 -24.159 266.659
-    }
-    {
-     components {
-      Hierarchy "{65686EFA8A2C1D96}" {
-      }
-     }
-     coords -376.204 -23.097 472.404
-    }
-    {
-     components {
-      Hierarchy "{65686EFA89A4B3FF}" {
-      }
-     }
-     coords -42.911 -8.235 192.091
-    }
-    {
-     components {
-      Hierarchy "{65686EFA8DA42369}" {
-      }
-     }
-     coords 20.638 1.396 -9.914
-    }
-   }
-  }
  }
  {
   components {

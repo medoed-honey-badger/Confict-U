@@ -1,0 +1,11 @@
+GenericEntity Fire_Team_66_Marked_SC_8 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+   m_iSpawnDistanceOverride 200
+   m_iDespawnDistanceOverride 300
+   m_fAILimitThreshold 0.66
+  }
+ }
+ coords 4869.346 111.136 8133.268
+}

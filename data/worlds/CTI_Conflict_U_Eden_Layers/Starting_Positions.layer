@@ -26,7 +26,7 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
   coords 7535.541 6.253 6058.447
   angles 0 -106.699 0
  }
- StartingPos12 {
+ East_Saint_Phillipe {
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
     m_iRegularSuppliesIncomeBase 300

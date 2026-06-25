@@ -1,6 +1,6 @@
 GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
- coords 5383.851 18.419 9984.694
- angles 0 100.706 0
+ coords 5066.66 36.108 10583.056
+ angles 2.345 142.47 1.583
 }
 GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
  components {
@@ -16,11 +16,12 @@ GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicl
    }
   }
  }
- coords 5346.197 16.855 10092.696
- angles 0 153.468 0
+ coords 5358.478 16.593 10076.966
+ angles 0 0.028 0
 }
 GenericEntity : "{4DB3DF28BAFD3B32}Prefabs/Compositions/Misc/FreeRoamBuilding/CamoNetLarge_M_USSR_01.et" {
- coords 5378.54 18.684 9980.01
+ coords 5059.217 35.713 10585.126
+ angles -1.99 -132.152 1.801
 }
 GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
  components {
@@ -35,8 +36,8 @@ GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/C
    }
   }
  }
- coords 5354.708 20.133 9953.286
- angles 0 -165.384 0
+ coords 5373.271 19.758 9968.06
+ angles 1.99 110.676 -0.205
 }
 $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
  Rifle_Squad_66_Etoupe {
@@ -46,32 +47,47 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     m_fAILimitThreshold 0.66
    }
   }
-  coords 5357.991 18.987 9974.426
-  angles -1.986 -70.464 0.245
- }
- Sniper_Team_33_Etoupe {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_SNIPER
-    m_fAILimitThreshold 0.33
+  coords 5304.042 22.559 9991.894
+  angles 4.21 -70.415 1.496
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 2.8 0.496 -55.126
+    angles -3.353 -43.556 3.453
+    CompletionRadius 30
    }
   }
-  coords 5362.213 18.633 9944.231
+ }
+ MG_Team_90_Checkpoints {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_MG
+    m_fAILimitThreshold 0.9
+   }
+  }
+  coords 5020.579 34.125 10583.924
+  angles -2.684 -0.014 -2.68
   {
-   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
-    {
-     coords -320.006 9.082 28.296
-    }
-    {
-     coords 0.138 0.131 0.177
-    }
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 41.499 -0.175 0.252
+    angles -1.102 -114.122 -2.444
    }
   }
  }
 }
 GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
- coords 5376.854 19.918 9966.559
- angles 0 91.837 0
+ coords 5351.273 20.15 9938.398
+ angles 0.736 145.293 -0.51
+ {
+  StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
+   components {
+    Hierarchy "{5CCCBEF0E7CED53C}" {
+     Enabled 1
+    }
+   }
+   coords 3.659 -0.179 -3.899
+   angles 0 -123.273 0
+  }
+ }
 }
 GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
  coords 5359.347 18.175 9998.406
@@ -281,16 +297,7 @@ GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Ch
   }
  }
 }
-StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
- components {
-  Hierarchy "{5CCCBEF0E7CED53C}" {
-   Enabled 1
-  }
- }
- coords 5372.84 -0.082 9963.026
- angles 0 -31.436 0
-}
-GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+GenericEntity FIA_Vehicle_CAR_1 : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
  components {
   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
    m_aIncludedEditableEntityLabels {
@@ -298,6 +305,6 @@ GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicl
    }
   }
  }
- coords 5373.131 19.296 9978.16
- angles -9.226 11.376 0.856
+ coords 5352.114 19.429 9963.25
+ angles 1.79 179.706 -0.009
 }
