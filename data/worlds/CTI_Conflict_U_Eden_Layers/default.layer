@@ -94,6 +94,8 @@ SCR_GameModeCampaign GameMode_CampaignHQC : "{2AFDAA8D7947F559}Prefabs/MP/Modes/
     }
    }
   }
+  StatsComponent "{69F539C908B6DB4A}" {
+  }
  }
  coords 26.726 0 10.962
  m_iControlPointsThreshold 5
