@@ -439,22 +439,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_aIncludedEditableEntityLabels {
-     TRAIT_PASSENGERS_LARGE
-     TRAIT_PASSENGERS_SMALL
-    }
-    m_aExcludedEditableEntityLabels {
-     VEHICLE_APC
-     VEHICLE_HELICOPTER
-    }
-   }
-  }
-  coords 6534.23 493.375 6641.068
-  angles 0 -125.123 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_aIncludedEditableEntityLabels {
      TRAIT_PASSENGERS_SMALL
      TRAIT_PASSENGERS_LARGE
     }

@@ -361,10 +361,6 @@ $grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSou
 }
 $grp GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
  {
-  coords 6523.429 493.399 6619.77
-  angles -0.895 -119.976 -1.55
- }
- {
   coords 11873.43 6.94 10685.142
   angles 0 74.805 0
  }
@@ -938,10 +934,6 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
  }
 }
 $grp GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
- {
-  coords 6541.833 493.453 6629.055
-  angles 0 60 0
- }
  {
   coords 5151.427 21.898 3097.068
   angles 0 -17.46 0
@@ -2110,10 +2102,6 @@ SCR_CampaignSpawnPointGroup : "{8C4E2CD043831EF5}Prefabs/MP/Campaign/CampaignSpa
 }
 $grp GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
  {
-  coords 6532.12 493.435 6617.869
-  angles 0 -165 0
- }
- {
   coords 11873.25 8.419 10675.808
   angles 0 166.861 0
   {
@@ -2731,19 +2719,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
  }
  {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType PARTISAN_SNIPER
-   }
-  }
-  coords 6532.51 527.52 6625.83
-  {
-   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-    coords 0 0 0
-   }
-  }
- }
- {
   coords 5057.061 691.424 6285.903
   {
    SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
@@ -2850,39 +2825,10 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
  {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType SQUAD_RIFLE
-   }
-  }
-  coords 6526.228 493.437 6633.69
- }
- {
-  coords 6447.294 486.01 6642.996
-  {
-   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-    coords 0 0 0.457
-   }
-  }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType FIRETEAM
    }
   }
   coords 6444.802 453.01 6444.387
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_MG
-   }
-  }
-  coords 6487.381 493.375 6657.349
-  {
-   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-    coords 0 0 0
-   }
-  }
  }
  {
   components {
@@ -3504,10 +3450,6 @@ $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSma
   angles -18.306 81.755 11.002
  }
  {
-  coords 6551.688 468.929 6749.71
-  angles -11.426 50.312 1.437
- }
- {
   coords 8645.666 95.283 9504.536
   angles -1.898 44.979 0.633
  }
@@ -3613,15 +3555,9 @@ GenericEntity : "{AF770C825EA592CF}Prefabs/Compositions/Slotted/SlotRoadLarge/Ba
  coords 10460.518 1.937 9578.974
  angles 0 -41.63 0
 }
-$grp GenericEntity : "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et" {
- {
-  coords 7788.882 32.599 5569.618
-  angles -11.82 119.868 -0.677
- }
- {
-  coords 6480.686 486.467 6680.121
-  angles -16.226 -31.759 -6.24
- }
+GenericEntity : "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_FIA_01.et" {
+ coords 7788.882 32.599 5569.618
+ angles -11.82 119.868 -0.677
 }
 GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
  coords 11877.394 8.288 10676.665
@@ -3931,25 +3867,19 @@ $grp GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint
   angles 0 0 0
  }
 }
-$grp GenericEntity : "{E249C09D69AAE6C8}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_02.et" {
+GenericEntity : "{E249C09D69AAE6C8}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_02.et" {
+ coords 3684.413 179.989 5228.598
+ angles 0 105.614 0
  {
-  coords 6538.647 493.704 6620.345
-  angles 0 120 0
- }
- {
-  coords 3684.413 179.989 5228.598
-  angles 0 105.614 0
-  {
-   StaticModelEntity {
-    ID "5CCCBEEECFFEB8A4"
-    coords -6.041 -0.059 9.067
-    angles 0 -150.069 0
-   }
-   StaticModelEntity {
-    ID "5CCCBEEECFFEB9E3"
-    coords -6.035 -0.053 9.214
-    angles 0 -58.341 0
-   }
+  StaticModelEntity {
+   ID "5CCCBEEECFFEB8A4"
+   coords -6.041 -0.059 9.067
+   angles 0 -150.069 0
+  }
+  StaticModelEntity {
+   ID "5CCCBEEECFFEB9E3"
+   coords -6.035 -0.053 9.214
+   angles 0 -58.341 0
   }
  }
 }
