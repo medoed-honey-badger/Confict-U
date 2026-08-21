@@ -278,14 +278,14 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_aIncludedEditableEntityLabels {
-     TRAIT_PASSENGERS_SMALL
+     TRAIT_REFUELING
     }
     m_aExcludedEditableEntityLabels +{
     }
    }
   }
-  coords 5114.46 314.873 4713.93
-  angles 0 -88.876 0
+  coords 5699.775 2.187 8256.607
+  angles 0 -104.494 0
  }
  {
   components {
@@ -295,17 +295,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 4920.655 -59.864 6494.315
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_aIncludedEditableEntityLabels {
-     VEHICLE_CAR
-    }
-   }
-  }
-  coords 1720.623 118.953 5480.621
+  coords 5925.168 42.41 7999.464
  }
  {
   components {
@@ -320,7 +310,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 6544.116 -98.872 2756.075
+  coords 7548.629 3.402 4261.224
   angles 0 117.523 0
  }
  {
@@ -331,7 +321,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 5493.079 -77.788 2359.384
+  coords 6497.592 24.486 3864.533
   angles 0 180 0
  }
  {
@@ -346,7 +336,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     m_bRequireAllIncludedLabels 1
    }
   }
-  coords 10368.574 -15.001 9002.994
+  coords 11373.087 87.273 10508.144
   angles 0 -90 0
  }
  {
@@ -361,7 +351,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 6789.1 209.851 6511.427
+  coords 7793.613 312.125 8016.576
  }
  {
   components {
@@ -375,7 +365,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     m_bRequireAllIncludedLabels 1
    }
   }
-  coords 5900.833 334.58 5222.021
+  coords 6905.346 436.854 6727.17
   angles 0 51.316 0
  }
  {
@@ -390,7 +380,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     m_bRequireAllIncludedLabels 1
    }
   }
-  coords 4713.408 319.163 5339.713
+  coords 5717.921 421.437 6844.862
   angles 0 -129.428 0
  }
  {
@@ -405,7 +395,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 8713.33 26.949 8663.785
+  coords 9717.844 129.223 10168.935
   angles 0 164.115 0
  }
  {
@@ -420,7 +410,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     m_bRequireAllIncludedLabels 1
    }
   }
-  coords 10094.754 -99.691 8434.693
+  coords 11099.267 2.583 9939.843
  }
  {
   components {
@@ -431,7 +421,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 6418.7 207.919 4954.309
+  coords 7423.213 310.193 6459.458
   angles 1.551 -94.773 -92.792
  }
  {
@@ -445,7 +435,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 2923.806 267.676 4883.876
+  coords 3928.319 369.95 6389.025
   angles 0 16.946 0
  }
  {
@@ -458,7 +448,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     m_bRequireAllIncludedLabels 1
    }
   }
-  coords 6008.758 -97.638 2337.048
+  coords 7013.271 4.636 3842.197
   angles 0 -75 0
  }
  {
@@ -474,7 +464,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     m_bRequireAllIncludedLabels 1
    }
   }
-  coords 7010.774 80.714 6221.526
+  coords 8015.287 182.988 7726.675
   angles 0 180 0
  }
  {
@@ -487,7 +477,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 5210.745 -89.681 6834.437
+  coords 6215.258 12.593 8339.586
   angles 0 138.079 0
  }
  {
@@ -500,7 +490,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 4843.816 311.295 4277.455
+  coords 5848.329 413.569 5782.604
   angles 0 -45 0
  }
  {
@@ -515,7 +505,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 8175.862 -4.016 7940.618
+  coords 9180.375 98.258 9445.767
  }
  {
   components {
@@ -530,7 +520,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 5529.717 391.101 5135.919
+  coords 6534.23 493.375 6641.068
   angles 0 -125.123 0
  }
  {
@@ -545,7 +535,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 3699.093 60.014 5963.718
+  coords 4703.606 162.288 7468.867
   angles 0 35.135 0
  }
  {
@@ -556,7 +546,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 3648.02 67.088 5962.164
+  coords 4652.533 169.362 7467.313
  }
  {
   components {
@@ -570,7 +560,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 7618.828 -6.542 7804.218
+  coords 8623.341 95.732 9309.367
   angles 0 -42.818 0
  }
  {
@@ -585,7 +575,7 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 8605.785 -90.712 7141.441
+  coords 9610.298 11.562 8646.59
   angles 0 -140.17 0
  }
  {
@@ -600,7 +590,20 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
     }
    }
   }
-  coords 1745.159 8.783 5964.298
+  coords 2749.672 111.057 7469.447
   angles 0 86.909 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+    }
+    m_aExcludedEditableEntityLabels +{
+    }
+   }
+  }
+  coords 6118.973 417.147 6219.079
+  angles 0 -88.876 0
  }
 }
