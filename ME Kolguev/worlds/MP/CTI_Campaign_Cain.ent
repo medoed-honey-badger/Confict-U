@@ -1,6 +1,3 @@
 SubScene {
  Parent "{1EA95DAE3230BEB0}worlds/Cain/Cain.ent"
 }
-Layer default {
- Index 0
-}
