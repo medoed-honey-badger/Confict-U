@@ -129,6 +129,12 @@ BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/G
 SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
  coords 9219.886 1.707 7883.652
 }
+SCR_CampaignSpawnPointGroup : "{666BC730F10EE097}Prefabs/MP/Campaign/CampaignSpawnpoint_FIA.et" {
+ coords 9216.219 1.605 7892.29
+}
+SCR_CampaignSpawnPointGroup : "{8C4E2CD043831EF5}Prefabs/MP/Campaign/CampaignSpawnpoint_RNGD.et" {
+ coords 9215.906 1.624 7892.92
+}
 MusicManager : "{A867D3EE4A35D38F}Prefabs/Sounds/Music/MusicManager_Campaign_Kolguyev.et" {
  coords 9214.145 1.864 7892.451
 }

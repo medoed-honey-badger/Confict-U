@@ -2,7 +2,29 @@ GenericEntity : "{2F0CCC459889B8EE}PrefabsEditable/EffectsModules/Mine/EffectMod
  coords 4838.344 307.448 6983.088
  angles 0 25.654 0
 }
-GenericEntity : "{B86FFB24E23D8055}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_Rect_Row_USSR.et" {
- coords 4870.225 307.633 6983.32
- angles 0 -16.913 0
+$grp GenericEntity : "{B86FFB24E23D8055}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_Rect_Row_USSR.et" {
+ {
+  coords 4870.225 307.633 6983.32
+  angles 0 -16.913 0
+ }
+ {
+  coords 6936.263 80.419 4728.293
+  angles 0 -73.497 0
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_sModuleEntityPrefab "{CA61FDD71E40C749}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4_EffectModuleEntity.et"
+     m_iMinProjectilesEachBarrage 7
+     m_iMaxProjectilesEachBarrage 8
+    }
+   }
+  }
+  coords 6931.266 77.928 4706.411
+ }
+ {
+  coords 5062.966 24.975 3168.354
+  angles 0 21.944 0
+ }
 }

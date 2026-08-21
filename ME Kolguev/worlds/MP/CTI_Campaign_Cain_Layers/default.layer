@@ -1,36 +1,4 @@
-GenericEntity : "{1739B43A3702BB84}Prefabs/Systems/MilitaryBase/ConflictSourceBase_Airfield.et" {
- components {
-  SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
-   m_sBaseNameUpper "#AR-Campaign_Arland_MapLocation_Airport-UC"
-  }
- }
- coords 2645.922 24.218 5366.674
- {
-  GenericEntity {
-   ID "62388D8F13AD0811"
-   coords 0 0.001 12.966
-  }
-  GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
-   coords -9.033 0.001 -12.571
-  }
-  GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
-   coords 0.111 0.001 -14.395
-  }
- }
-}
-GenericEntity : "{1ED8F6D056701E7E}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_RadioStation_FIA_01.et" {
- coords 5055.907 698.848 6328.133
- angles 0 36.226 0
-}
-GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
- coords 6067.964 424.598 6538.073
- angles 0 -14.969 0
-}
 $grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
- {
-  coords 5112.112 4.284 2856.115
-  angles 0 90 0
- }
  {
   coords 7687.563 316.614 8076.02
   angles 0 -90 0
@@ -39,25 +7,6 @@ $grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMed
   coords 4415.218 20.148 2928.181
   angles 0 103.685 0
  }
-}
-GenericEntity : "{2F0CCC459889B8EE}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_AP_Small_USSR.et" {
- coords 9193.233 11.281 8309.867
- angles 0 -78.831 0
-}
-GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
- coords 5151.427 21.898 3097.068
- angles 0 -17.46 0
-}
-SCR_CampaignSpawnPointGroup : "{666BC730F10EE097}Prefabs/MP/Campaign/CampaignSpawnpoint_FIA.et" {
- coords 9216.219 1.605 7892.29
-}
-GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
- coords 5117.713 5.084 2844.637
- angles 0 -21.661 0
-}
-GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
- coords 7454.259 2.619 4094.728
- angles 0 -50.868 0
 }
 $grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
  {
@@ -72,201 +21,10 @@ $grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSma
   coords 7553.501 27.295 5120.729
  }
 }
-SCR_CampaignSpawnPointGroup : "{8C4E2CD043831EF5}Prefabs/MP/Campaign/CampaignSpawnpoint_RNGD.et" {
- coords 9215.906 1.624 7892.92
-}
-$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType FIRETEAM
-   }
-  }
-  coords 6444.802 453.01 6444.387
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_iSpawnDistanceOverride 500
-    m_iDespawnDistanceOverride 600
-   }
-  }
-  coords 7629.228 5.2 4507.584
-  {
-   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
-    {
-     coords 8.461 0 2.288
-    }
-    {
-     coords 48.65 -1.842 -90.672
-    }
-    {
-     coords -22.948 -3.004 -290.652
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType PARTISAN_TEAM
-    m_iSpawnDistanceOverride 450
-    m_iDespawnDistanceOverride 500
-   }
-  }
-  coords 7428.928 310.345 6465.502
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType PARTISAN_TEAM
-    m_iSpawnDistanceOverride 200
-    m_iDespawnDistanceOverride 250
-   }
-  }
-  coords 6898.968 85.186 4719.291
-  angles 0 114.658 0
-  {
-   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-    coords 0 0 0
-   }
-  }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_SNIPER
-    m_iSpawnDistanceOverride 500
-    m_iDespawnDistanceOverride 600
-   }
-  }
-  coords 4786.988 344.399 6906.916
-  {
-   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-    coords 0 0 0
-   }
-  }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType PARTISAN_TEAM
-    m_iSpawnDistanceOverride 250
-    m_iDespawnDistanceOverride 400
-   }
-  }
-  coords 4688.669 286.399 7019.083
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_SNIPER
-    m_iSpawnDistanceOverride 350
-    m_iDespawnDistanceOverride 400
-   }
-  }
-  coords 5151.278 22.13 3095.797
-  {
-   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-    coords 0 0 0
-   }
-  }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_AT
-    m_iSpawnDistanceOverride 150
-    m_iDespawnDistanceOverride 200
-   }
-  }
-  coords 4413.17 20.281 2908.248
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_AT
-    m_iSpawnDistanceOverride 250
-    m_iDespawnDistanceOverride 300
-   }
-  }
-  coords 2712.249 24.219 5509.095
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_iSpawnDistanceOverride 300
-    m_iDespawnDistanceOverride 350
-   }
-  }
-  coords 4233.854 232.904 4674.071
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType FIRETEAM
-    m_iSpawnDistanceOverride 400
-    m_iDespawnDistanceOverride 500
-   }
-  }
-  coords 4643.443 170.155 7458.041
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType PARTISAN_TEAM
-    m_iSpawnDistanceOverride 250
-    m_iDespawnDistanceOverride 300
-   }
-  }
-  coords 9642.527 87.281 9690.606
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_iSpawnDistanceOverride 350
-    m_iDespawnDistanceOverride 400
-   }
-  }
-  coords 5122.338 6.35 2845.52
-  {
-   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-    coords 0 0 0
-   }
-  }
- }
- {
-  coords 7454.58 2.287 4094.191
-  {
-   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-    coords 0 0 0
-   }
-  }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType PARTISAN_TEAM
-    m_iSpawnDistanceOverride 150
-    m_iDespawnDistanceOverride 200
-   }
-  }
-  coords 9177.234 14.374 8334.939
-  {
-   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-    coords 0 0 0
-   }
-  }
- }
-}
 $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  {
   coords 2468.359 200.895 7092.326
   angles 0 -157.847 0
- }
- {
-  coords 9192.821 11.281 8310.094
-  angles 0 39.695 0
  }
  {
   coords 8154.078 105.482 7114.907
@@ -284,28 +42,6 @@ $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSma
 GenericEntity : "{AF770C825EA592CF}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_US_01.et" {
  coords 10460.518 1.937 9578.974
  angles 0 -41.63 0
-}
-$grp GenericEntity : "{B86FFB24E23D8055}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_Rect_Row_USSR.et" {
- {
-  coords 6936.263 80.419 4728.293
-  angles 0 -73.497 0
- }
- {
-  components {
-   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
-    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
-     m_sModuleEntityPrefab "{CA61FDD71E40C749}Prefabs/Weapons/Explosives/Mine_PMN4/Mine_PMN4_EffectModuleEntity.et"
-     m_iMinProjectilesEachBarrage 7
-     m_iMaxProjectilesEachBarrage 8
-    }
-   }
-  }
-  coords 6931.266 77.928 4706.411
- }
- {
-  coords 5062.966 24.975 3168.354
-  angles 0 21.944 0
- }
 }
 $grp GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
  {
@@ -334,10 +70,6 @@ $grp GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSma
  {
   coords 7555.725 27.126 5116.39
   angles 0 -161.768 0
- }
- {
-  coords 7615.183 3.713 4276.237
-  angles 1.997 30.004 0.12
  }
  {
   coords 7468.936 309.54 6742.997

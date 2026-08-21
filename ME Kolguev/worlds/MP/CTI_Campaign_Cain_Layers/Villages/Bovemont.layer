@@ -16,6 +16,10 @@ GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicl
  coords 6066.152 418.607 6236.999
  angles 0 115.689 0
 }
+GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
+ coords 6067.964 424.598 6538.073
+ angles 0 -14.969 0
+}
 $grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
  {
   coords 6080.693 418.75 6216.814

@@ -1,3 +1,7 @@
+GenericEntity : "{1ED8F6D056701E7E}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_RadioStation_FIA_01.et" {
+ coords 5055.907 698.848 6328.133
+ angles 0 36.226 0
+}
 GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
  components {
   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
