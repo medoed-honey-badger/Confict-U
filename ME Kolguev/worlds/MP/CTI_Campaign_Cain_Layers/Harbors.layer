@@ -1,0 +1,236 @@
+$grp GenericEntity : "{0226331FB6A8249A}Prefabs/Systems/MilitaryBase/ConflictSourceBase_T3Harbor.et" {
+ {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Pier_Komsomolsk"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Pier_Komsomolsk-UC"
+   }
+  }
+  coords 8582.869 3.906 10185.977
+  angles 0 -7.508 0
+  {
+   GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+    coords -11.938 0.087 8.101
+    angles 0 -89.697 0
+    {
+     GenericEntity {
+      ID "5E330D6C9FDD1551"
+      coords -3.651 -0.117 -5.675
+      angles -1.539 -167.748 0.005
+     }
+    }
+   }
+   GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+    coords 25.236 -0.074 -3.774
+    angles 0 -177.167 0
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Cain_MusselCove"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Cain_MusselCove-UC"
+   }
+  }
+  coords 6045.544 2.242 8443.501
+  angles 0 32.617 0
+  {
+   GenericEntity : "{962EB289CF844AA2}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_06.et" {
+    coords -24.153 -0.077 -12.649
+    angles 0 -113.617 0
+    {
+     GenericEntity {
+      ID "5D1ED92199D182AF"
+      coords 0.695 -0.108 4.464
+      angles 0 -4.819 0
+     }
+     GenericEntity {
+      ID "5D1ED92199D1824C"
+      coords 1.665 -0.124 3.786
+      angles 0 51.904 0
+     }
+     GenericEntity {
+      ID "5D1ED92199D1825C"
+      coords 1.561 -0.14 5.114
+      angles 0 -59.899 0
+     }
+     GenericEntity {
+      ID "5D1ED92199D1827B"
+      coords 2.494 -0.18 5.424
+     }
+     GenericEntity {
+      ID "5D1ED92199D18226"
+      coords 2.237 -0.167 4.532
+      angles 0 39.053 0
+     }
+     GenericEntity {
+      ID "5D1ED92199D183D2"
+      coords 3.258 -0.206 3.731
+      angles 0 -4.275 0
+     }
+     GenericEntity {
+      ID "5D1ED92199D182C3"
+      coords -2.585 -0.016 4.523
+     }
+     GenericEntity {
+      ID "5D1ED92199D182D3"
+      coords -4.063 0.165 4.504
+      angles 0 -4.021 0
+     }
+     StaticModelEntity {
+      ID "5D1ED92199D18213"
+      coords -6.523 0.693 3.823
+      angles 8.238 -81.334 0
+     }
+     StaticModelEntity {
+      ID "5D1ED92199D1823E"
+      coords 3.62 -0.24 4.883
+      angles 0 14.646 0
+     }
+    }
+   }
+   GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+    coords -12.993 -0.024 -7.598
+    angles 0 154.668 0
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Cain_SosnovyMys"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Cain_SosnovyMys-UC"
+   }
+  }
+  coords 4355.792 2.555 8144.114
+  angles 0 -40.118 0
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 19.218 -0.975 -7.259
+    angles 0 -175.036 0
+    {
+     GenericEntity {
+      ID "5E330D6C348F7D49"
+      coords -2.678 0.191 1.551
+      angles 0 -7 0
+     }
+     GenericEntity {
+      ID "5E330D6CA3AAA53F"
+      coords -3.305 0.308 2.236
+      angles 0.672 5.24 -1.037
+     }
+     GenericEntity {
+      ID "5D1ED92C4DD6AE43"
+      coords -1.627 0.258 1.509
+      angles 0 2.319 0
+     }
+     GenericEntity {
+      ID "5D1ED92C4DD6AFC6"
+      coords -6.879 -0.105 0.095
+      angles 0 -87.649 0
+     }
+     GenericEntity {
+      ID "5D1ED92C4DD6AFE6"
+      coords -6.527 0.017 0.959
+      angles 0 -60.109 0
+     }
+     GenericEntity {
+      ID "5D1ED92C4DD6AFF8"
+      coords -6.147 -0.085 0.245
+      angles 0 -11.182 0
+     }
+     GenericEntity {
+      ID "5D1ED92C4DD6AE02"
+      coords -6.402 -0.356 -1.967
+      angles 0 -87.961 0
+     }
+     GenericEntity {
+      ID "5D1ED92C4DD6AE2E"
+      coords -6.418 -0.226 -0.808
+      angles 0 -2.806 0
+     }
+     GenericEntity {
+      ID "5D45393876460D01"
+      {
+       GenericEntity {
+        ID "5D453938619FC380"
+        coords 2.508 -0.371 -2.179
+        angles 1.056 91.688 4.605
+       }
+       GenericEntity {
+        ID "5D453938619FC381"
+        coords -1.957 -0.326 0.232
+        angles 4.171 0 0
+       }
+       GenericEntity {
+        ID "5D453938619FC383"
+        coords 2.712 -0.088 0.48
+        angles 0 92.564 6.002
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Pier_Michurino"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Pier_Michurino-UC"
+   }
+  }
+  coords 3743.4 2.278 3726.342
+  angles 0 43.751 0
+  {
+   GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+    coords 12.537 1.558 22.999
+    angles 0 -81.972 0
+   }
+  }
+ }
+ {
+  components {
+   SCR_CampaignSourceBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "#AR-Campaign_MapLocation_Pier_Twin"
+    m_sBaseNameUpper "#AR-Campaign_MapLocation_Pier_Twin-UC"
+   }
+  }
+  coords 10053.58 7.97 10859.773
+  angles 0 -56.797 0
+  {
+   GenericEntity : "{1FE6CA907FA552E7}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_04.et" {
+    coords 3.084 -1.158 -7.388
+    angles 0 3.799 0
+    {
+     GenericEntity {
+      ID "5D1ED92353BB9FF4"
+      coords -11.942 0.066 -2.725
+      angles 0 0.819 0
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9F82"
+      coords -12.256 0.181 1.851
+      angles 0 -90 0
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9F95"
+      coords -12.157 0.168 0.354
+      angles 0 -88.159 0
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9FE3"
+      coords -12.097 0.114 -1.563
+      angles 0 176.173 0
+     }
+     GenericEntity {
+      ID "5D1ED92353BB9E3E"
+      coords 0.36 0.014 -1.038
+      angles 0 4.513 0
+     }
+    }
+   }
+  }
+ }
+}

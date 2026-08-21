@@ -1,0 +1,128 @@
+SCR_AIWorld : "{672531FAC0834C06}Prefabs/AI/SCR_AIWorld_Cain.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F9E52831}" : "{A8BF06F28121542F}Configs/Navmesh/Navmesh_CTI_Cain_Soldier.conf" {
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F3B4EE8A}" : "{5DE5D92BD2231C41}Configs/Navmesh/Navmesh_CTI_Cain_Vehicle.conf" {
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}
+RadioManagerEntity {
+ coords 12635.195 4.435 10669.189
+}
+SCR_GameModeCampaign GameMode_CampaignHQC : "{2AFDAA8D7947F559}Prefabs/MP/Modes/Conflict/GameMode_CampaignHQC.et" {
+ components {
+  SCR_CacheManagerComponent "{691E6E472CBA6978}" {
+   m_iAmount 3
+   m_sTerrainConfig "{D5469AF52A1ECCB6}Configs/Campaign/CampaignCachePool/CampaignCachePool_Cain.conf"
+  }
+  SCR_DebriefingScreenComponent "{5D349E302A88E42C}" {
+   m_sHeaderTitle "AR-Campaign_HQC_ScenarioName_Cain"
+   m_BaseLayout SCR_DebriefingScreenUnevenFourTiles "{5D349E3023E18896}" {
+    m_TopRightTile SCR_DebriefingScreenFinishedObjectivesContent "{5D349E305DB53338}" {
+     m_iMaxNumberOfObjectives 5
+    }
+   }
+  }
+  SCR_RandomSpawnManagerComponent "{691E6E47C8A2B7AE}" {
+   m_aBlacklistZones {
+    SCR_SpawnPointBlacklistZone "{691E6E23D83D1172}" {
+     m_vCenter 11392.4 35 2089
+     m_fRadius 2000
+    }
+    SCR_SpawnPointBlacklistZone "{691E6E23D85C28B6}" {
+     m_vCenter 2147.781 11.286 942.941
+    }
+    SCR_SpawnPointBlacklistZone "{691E6E23D8666C12}" {
+     m_vCenter 9427.771 26.48 12469.094
+    }
+    SCR_SpawnPointBlacklistZone "{691E6E23D9885598}" {
+     m_vCenter 5055.518 26.48 10181.168
+    }
+    SCR_SpawnPointBlacklistZone "{691E6E23D9AFF16F}" {
+     m_vCenter 1936.707 26.48 6421.833
+    }
+    SCR_SpawnPointBlacklistZone "{691E6E23D9B087C3}" {
+     m_vCenter 2036.425 26.48 5594.042
+    }
+    SCR_SpawnPointBlacklistZone "{691E6E23D9D586F5}" {
+     m_vCenter 3036.258 26.48 4113.604
+    }
+    SCR_SpawnPointBlacklistZone "{691E6E23D9FEFE13}" {
+     m_vCenter 5295.306 26.48 2291.592
+    }
+    SCR_SpawnPointBlacklistZone "{691E6E23D9076D09}" {
+     m_vCenter 5785.847 26.48 2545.789
+    }
+    SCR_SpawnPointBlacklistZone "{691E6E23D92BE300}" {
+     m_vCenter 6973.869 26.48 2763.181
+    }
+    SCR_SpawnPointBlacklistZone "{691E6E23D94C005A}" {
+     m_vCenter 7854.981 26.48 3770.345
+     m_fRadius 600
+    }
+    SCR_SpawnPointBlacklistZone "{691E6E23D9515273}" {
+     m_vCenter 8148.577 26.48 4123.817
+     m_fRadius 600
+    }
+    SCR_SpawnPointBlacklistZone "{691E6E23D971B7B8}" {
+     m_vCenter 8544.983 26.48 4837.643
+     m_fRadius 600
+    }
+    SCR_SpawnPointBlacklistZone "{691E6E23DA9FC8F2}" {
+     m_vCenter 8710.919 26.48 5758.916
+     m_fRadius 600
+    }
+   }
+  }
+  SCR_WelcomeScreenComponent "{5D349E3E9CC39991}" {
+   m_sHeaderTitle "Conflict - Kolgujev"
+   m_BaseLayout SCR_WelcomeScreenThreeHorizontalColumns "{5D349E3E90D4315E}" {
+    m_RightColumn SCR_WelcomeScreenIntroductionContent "{5D349E3E89289BE9}" {
+     m_aIntroduction {
+      SCR_WelcomeScreenIntroduction "{5D349E3F6FF705DE}" {
+       m_sContentImage "{744DEEECF650BF7C}UI/Textures/FieldManual/MPModes/Conflict/Images/Conflict_CaptureHold.edds"
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 9219.751 1.734 7888.372
+ m_iControlPointsThreshold 5
+ m_fAcceptableDistanceBetweenFactionHQs 3000
+ m_fPreferredDistanceBetweenFactionHQs 4000
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 9220.82 1.674 7883.699
+}
+SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ coords 9217.333 1.769 7891.63
+ Factions {
+  SCR_CampaignFaction "{56F0C3A6336375DC}" {
+   m_bIsPlayable 1
+  }
+ }
+}
+ItemPreviewManagerEntity ItemPreviewManagerEntity1 {
+ coords 9215.633 1.917 7887.168
+ PreviewWorld "{4391FE7994EE6FE2}Prefabs/World/Game/InventoryPreviewWorld.et"
+ DefaultRenderAttributes PreviewRenderAttributes "{6244DC984DF5E2FC}" {
+ }
+}
+SCR_MapLocator {
+ coords 9220.104 1.756 7882.396
+ m_WorldDirections SCR_MapLocationQuadHint "{6646763DCAA0E1E3}" : "{D88D1AE761D521FB}Configs/Map/MapLocatorHints/LocationHintsKolguyev.conf" {
+ }
+}
+BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
+ coords 9219.24 1.745 7884.434
+}
