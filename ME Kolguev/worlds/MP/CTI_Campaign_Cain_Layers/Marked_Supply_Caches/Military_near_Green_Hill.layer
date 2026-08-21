@@ -1,0 +1,116 @@
+GenericEntity : "{1804DADC1C7C9893}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign_HQC.et" {
+ coords 6921.785 435.674 6836.666
+ angles 0 135.99 0
+}
+GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ coords 6862.212 438.422 6734.334
+}
+GenericEntity : "{2EA9E10F2E9C0A36}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign_HQC.et" {
+ coords 6759.018 441.812 6801.709
+ angles 0 -136.156 0
+}
+GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ components {
+  SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+   Transceivers {
+    RelayTransceiver "{5C727AD73024FB39}" {
+    }
+   }
+  }
+  SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+   m_sBaseName "#AR-MapLocation_BARSRelayTower"
+   m_sBaseNameUpper "#AR-MapLocation_BARSRelayTower-UC"
+  }
+ }
+ coords 6860.168 435.587 6781.308
+ angles 0 -94.075 0
+}
+GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign_HQC.et" {
+ coords 6959.42 436.687 6771.66
+ angles 0 -45.97 0
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+   }
+  }
+  coords 6840.529 439.156 6757.227
+  angles 0 -77.696 0
+ }
+ {
+  coords 6832.295 437.214 6638.859
+  angles 0 -77.696 0
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 6976.184 437.37 6829.903
+  angles 0 -130.666 0
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 0 0 0
+    }
+    {
+     coords -2.688 1.037 146.934
+    }
+    {
+     coords -45.893 0.062 225.977
+    }
+    {
+     coords 9.462 5.324 267.783
+    }
+    {
+     coords 82.833 4.443 219.332
+    }
+    {
+     coords 49.531 2.032 149.713
+    }
+    {
+     coords 177.733 0.412 156.303
+    }
+    {
+     coords 41.369 -2.39 -10.619
+    }
+   }
+  }
+ }
+ {
+  coords 6974.8 437.241 6842.11
+  angles 0 -77.696 0
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 4.819 0.254 2.797
+   }
+  }
+ }
+ {
+  coords 6725.146 438.407 6851.82
+  angles 0 -77.696 0
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 0 0
+   }
+  }
+ }
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    VEHICLE_TRUCK
+   }
+   m_aExcludedEditableEntityLabels +{
+    TRAIT_RADIO
+   }
+   m_bRequireAllIncludedLabels 1
+  }
+ }
+ coords 6905.346 436.854 6727.17
+ angles 0 51.316 0
+}
