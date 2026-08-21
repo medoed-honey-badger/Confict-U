@@ -2096,10 +2096,6 @@ $grp GenericEntity : "{7A40BF128BB47EFD}Prefabs/Compositions/Slotted/SlotFlatSma
    }
   }
  }
- {
-  coords 4927.867 323.568 6940.891
-  angles 0 -64.585 0
- }
 }
 GenericEntity : "{7BDAD0F4A6195C01}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Repair_Helipad_BoundingBox.et" {
  coords 2022.259 129.469 7327.398
@@ -3154,21 +3150,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 6898.968 85.186 4719.291
   angles 0 114.658 0
-  {
-   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-    coords 0 0 0
-   }
-  }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_MG
-    m_iSpawnDistanceOverride 500
-    m_iDespawnDistanceOverride 550
-   }
-  }
-  coords 4931.123 323.943 6940.12
   {
    SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
     coords 0 0 0
