@@ -1038,10 +1038,6 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
 }
 $grp GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
  {
-  coords 5131.635 419.667 5460.389
-  angles 0 66.151 0
- }
- {
   coords 6541.833 493.453 6629.055
   angles 0 60 0
  }
@@ -2072,10 +2068,6 @@ $grp GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSma
  {
   coords 9531.225 13.5 8582.732
   angles 0 180 0
- }
- {
-  coords 5124.85 419.532 5456.114
-  angles 0 161.442 0
  }
  {
   coords 3671.793 185.937 5302
@@ -3697,36 +3689,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
  {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_MG_ELITE
-    m_iSpawnDistanceOverride 400
-    m_iDespawnDistanceOverride 450
-   }
-  }
-  coords 5130.756 419.691 5460.494
-  {
-   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-    coords 0 0 0
-   }
-  }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_SNIPER
-    m_iSpawnDistanceOverride 350
-    m_iDespawnDistanceOverride 400
-   }
-  }
-  coords 5121.779 419.67 5455.883
-  {
-   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-    coords 0 0 0
-   }
-  }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType PARTISAN_TEAM
     m_iSpawnDistanceOverride 350
     m_iDespawnDistanceOverride 400
@@ -3815,16 +3777,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     coords 0 0 0
    }
   }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType PARTISAN_TEAM
-    m_iSpawnDistanceOverride 300
-    m_iDespawnDistanceOverride 350
-   }
-  }
-  coords 5061.894 410.248 5309.788
  }
  {
   components {
@@ -4115,16 +4067,8 @@ $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSma
   angles 6.885 -105 0
  }
  {
-  coords 5274.047 410 5385.161
-  angles 0 60 0
- }
- {
   coords 7270.821 341.671 6493.184
   angles -18.306 81.755 11.002
- }
- {
-  coords 5216.413 409.969 5355.888
-  angles 0 -120 0
  }
  {
   coords 6551.688 468.929 6749.71
