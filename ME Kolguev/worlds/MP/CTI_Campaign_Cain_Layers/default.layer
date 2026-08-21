@@ -562,9 +562,6 @@ $grp GenericEntity : "{1804DADC1C7C9893}Prefabs/MP/Campaign/SupplyDepots/SupplyC
   angles 0 135.99 0
  }
  {
-  coords 2758.247 110.906 7457.146
- }
- {
   coords 6057.055 182.299 4575
   angles 0 137.864 0
  }
@@ -627,9 +624,6 @@ $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupp
  }
  {
   coords 7096.844 313.958 6013.782
- }
- {
-  coords 2758.748 110.906 7446.163
  }
  {
   coords 5414.747 64.126 3378.158
@@ -924,20 +918,6 @@ $grp GenericEntity : "{2EA9E10F2E9C0A36}Prefabs/MP/Campaign/SupplyDepots/SupplyC
  {
   coords 6759.018 441.812 6801.709
   angles 0 -136.156 0
- }
- {
-  coords 2748.567 110.952 7430.085
-  angles 0 95.009 0
-  {
-   GenericEntity {
-    ID "5D1ED92353BB9FA0"
-    coords -4.302 0 0.913
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9F49"
-    coords -7.266 0.025 -0.163
-   }
-  }
  }
  {
   coords 5634.136 421.615 6867.048
@@ -3799,38 +3779,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
   coords 7133.769 314.213 6033.704
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType PARTISAN_TEAM
-   }
-  }
-  coords 2741.25 111.563 7414.343
-  {
-   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
-    {
-     coords 0 0.394 1.895
-    }
-    {
-     coords -25.074 -0.474 23.112
-    }
-    {
-     coords -2.558 -0.657 44.396
-    }
-    {
-     coords 20.077 -0.657 30.054
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_MG
-   }
-  }
-  coords 2680.436 109.819 7504.384
  }
  {
   components {
