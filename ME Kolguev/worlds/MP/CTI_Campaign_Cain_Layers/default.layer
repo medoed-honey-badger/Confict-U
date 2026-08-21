@@ -595,9 +595,6 @@ $grp GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSma
 }
 $grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
  {
-  coords 9620.853 11.562 8665.408
- }
- {
   coords 5414.747 64.126 3378.158
  }
  {
@@ -805,67 +802,34 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
   }
  }
 }
-$grp GenericEntity : "{2EA9E10F2E9C0A36}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign_HQC.et" {
+GenericEntity : "{2EA9E10F2E9C0A36}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign_HQC.et" {
+ coords 5093.512 688.317 6362.414
+ angles 0 75.238 0
  {
-  coords 5093.512 688.317 6362.414
-  angles 0 75.238 0
-  {
-   GenericEntity {
-    ID "5D1ED92353BB9FF4"
-    coords -1.931 0.79 -1.123
-    angles 0 0.819 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9F82"
-    coords -3.24 -0.14 5.252
-    angles 0 -175.569 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9F95"
-    coords -1.74 -0.238 5.236
-    angles 0 -173.728 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9FE3"
-    coords 0.177 -0.109 5.148
-    angles 0 90.604 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9E3E"
-    coords -10.502 -2.664 -2.523
-    angles 0 4.513 0
-   }
+  GenericEntity {
+   ID "5D1ED92353BB9FF4"
+   coords -1.931 0.79 -1.123
+   angles 0 0.819 0
   }
- }
- {
-  coords 9634.033 11.636 8707.537
-  angles 0 132.86 0
-  {
-   GenericEntity {
-    ID "5D1ED92353BB9FF4"
-    coords -13.434 0 1.778
-    angles 0 92.205 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9F82"
-    coords -8.854 0 1.979
-    angles 0 1.386 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9F95"
-    coords -10.354 0 1.916
-    angles 0 3.227 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9FE3"
-    coords -12.271 0 1.901
-    angles 0 -92.441 0
-   }
-   GenericEntity {
-    ID "5D1ED92353BB9E3E"
-    coords -10.381 0 0.182
-    angles 0 95.899 0
-   }
+  GenericEntity {
+   ID "5D1ED92353BB9F82"
+   coords -3.24 -0.14 5.252
+   angles 0 -175.569 0
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9F95"
+   coords -1.74 -0.238 5.236
+   angles 0 -173.728 0
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9FE3"
+   coords 0.177 -0.109 5.148
+   angles 0 90.604 0
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9E3E"
+   coords -10.502 -2.664 -2.523
+   angles 0 4.513 0
   }
  }
 }
@@ -1695,15 +1659,9 @@ GenericEntity : "{5F76887813B86AD4}Prefabs/Props/Military/AmmoBoxes/EquipmentBox
  coords 2007.128 129.68 7328.734
  angles 0 178.972 0
 }
-$grp GenericEntity : "{6010D9A8FCCB7E38}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign_HQC.et" {
- {
-  coords 5321.902 65.468 3359.857
-  angles 0 -24.7 0
- }
- {
-  coords 9648.803 11.636 8709.078
-  angles 0 -126.091 0
- }
+GenericEntity : "{6010D9A8FCCB7E38}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign_HQC.et" {
+ coords 5321.902 65.468 3359.857
+ angles 0 -24.7 0
 }
 $grp GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
  {
@@ -1877,10 +1835,6 @@ $grp GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSma
  {
   coords 7007.438 4.632 3854.249
   angles 0 -58.433 0
- }
- {
-  coords 9531.225 13.5 8582.732
-  angles 0 180 0
  }
  {
   coords 3671.793 185.937 5302
@@ -3221,14 +3175,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
  {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_MG
-   }
-  }
-  coords 9536.014 13.738 8583.921
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_eGroupType FIRETEAM
     m_iSpawnDistanceOverride 350
     m_iDespawnDistanceOverride 400
@@ -3377,14 +3323,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     coords 0 0 0
    }
   }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType FIRETEAM
-   }
-  }
-  coords 9628.642 11.562 8667.139
  }
  {
   components {

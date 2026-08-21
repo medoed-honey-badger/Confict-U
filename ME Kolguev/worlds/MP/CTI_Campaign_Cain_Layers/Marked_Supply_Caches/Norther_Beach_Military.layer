@@ -1,0 +1,61 @@
+GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ coords 9620.853 11.562 8665.408
+}
+GenericEntity : "{2EA9E10F2E9C0A36}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign_HQC.et" {
+ coords 9634.033 11.636 8707.537
+ angles 0 132.86 0
+ {
+  GenericEntity {
+   ID "5D1ED92353BB9FF4"
+   coords -13.434 0 1.778
+   angles 0 92.205 0
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9F82"
+   coords -8.854 0 1.979
+   angles 0 1.386 0
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9F95"
+   coords -10.354 0 1.916
+   angles 0 3.227 0
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9FE3"
+   coords -12.271 0 1.901
+   angles 0 -92.441 0
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9E3E"
+   coords -10.381 0 0.182
+   angles 0 95.899 0
+  }
+ }
+}
+GenericEntity : "{6010D9A8FCCB7E38}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign_HQC.et" {
+ coords 9648.803 11.636 8709.078
+ angles 0 -126.091 0
+}
+GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+   m_eGroupType FIRETEAM
+  }
+ }
+ coords 9628.642 11.562 8667.139
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    TRAIT_PASSENGERS_SMALL
+    TRAIT_PASSENGERS_LARGE
+   }
+   m_aExcludedEditableEntityLabels +{
+    VEHICLE_HELICOPTER
+   }
+  }
+ }
+ coords 9610.298 11.562 8646.59
+ angles 0 -140.17 0
+}
