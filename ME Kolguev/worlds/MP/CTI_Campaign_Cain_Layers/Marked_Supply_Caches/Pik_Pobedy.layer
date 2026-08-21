@@ -1,0 +1,223 @@
+GenericEntity : "{0D77C4A6D4704C2A}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_Small_FIA_01_V1.et" {
+ coords 5056.579 698.759 6329.551
+ angles 0 156.226 0
+}
+GenericEntity : "{1804DADC1C7C9893}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign_HQC.et" {
+ coords 5088.132 688.627 6346.958
+ angles 0 -118.709 0
+}
+GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ coords 5098.243 688.43 6353.583
+ angles 0 -24.316 0
+}
+GenericEntity : "{2EA9E10F2E9C0A36}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_04_Campaign_HQC.et" {
+ coords 5093.512 688.317 6362.414
+ angles 0 75.238 0
+ {
+  GenericEntity {
+   ID "5D1ED92353BB9FF4"
+   coords -1.931 0.79 -1.123
+   angles 0 0.819 0
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9F82"
+   coords -3.24 -0.14 5.252
+   angles 0 -175.569 0
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9F95"
+   coords -1.74 -0.238 5.236
+   angles 0 -173.728 0
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9FE3"
+   coords 0.177 -0.109 5.148
+   angles 0 90.604 0
+  }
+  GenericEntity {
+   ID "5D1ED92353BB9E3E"
+   coords -10.502 -2.664 -2.523
+   angles 0 4.513 0
+  }
+ }
+}
+$grp GenericEntity : "{53D74CD446A87F13}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongHighBurlap_S_USSR_01.et" {
+ {
+  coords 5060.106 693.705 6293.856
+  angles 0 27.087 0
+ }
+ {
+  coords 5118.674 667.179 6417.172
+  angles -4.249 -20.688 0
+ }
+ {
+  coords 5096.632 688.286 6334.902
+  angles 0 -37.696 0
+ }
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  coords 5057.061 691.424 6285.903
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+   }
+  }
+  coords 5097.578 688.421 6338.331
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 5117.119 667.767 6413.843
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_MG_ELITE
+   }
+  }
+  coords 5007.588 682.987 6370.548
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_SNIPER
+   }
+  }
+  coords 5058.9 698.628 6323.335
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords -0.393 0.105 2.278
+   }
+  }
+ }
+ {
+  coords 5061.716 694.183 6296.826
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_MG
+   }
+  }
+  coords 5173.071 662.965 6403.243
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 5021.048 684.677 6366.933
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 0 0 0
+    }
+    {
+     coords 12.852 6.695 -42.922
+    }
+    {
+     coords 36.143 6.804 -80.204
+    }
+    {
+     coords 68.067 3.367 -40.075
+    }
+    {
+     coords 155.149 -13.709 2.26
+    }
+    {
+     coords 138.858 -18.283 54.429
+    }
+    {
+     coords 56.323 -9.832 32.833
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{D97548C9D0454530}Prefabs/Compositions/Misc/FreeRoamBuilding/Emplacement_MG_USSR_01_NSV_SPP.et" {
+ {
+  coords 5063.348 693.863 6294.302
+  angles 0 150.611 0
+ }
+ {
+  coords 5115.34 667.417 6417.219
+  angles -12.445 -28.595 0
+ }
+ {
+  coords 5099.977 688.178 6336.342
+  angles -12.535 127.215 0.073
+ }
+}
+GenericEntity : "{DFBF655559915333}Prefabs/Compositions/Slotted/SlotFlatSmall/GuardTower_S_USSR_01.et" {
+ coords 5061.898 697.662 6319.997
+ angles 0 134.71 0
+}
+$grp GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_bUseBinoculars 1
+    m_eLoiterAnimation NONE
+   }
+  }
+  coords 5174.647 662.564 6404.532
+  angles 0 0 0
+ }
+ {
+  coords 5174.043 662.971 6407.314
+  angles 0 170.484 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation SMOKING
+   }
+  }
+  coords 5073.241 694.663 6331.645
+  angles 0 -56.167 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation NONE
+   }
+  }
+  coords 5051.843 699.22 6322.006
+  angles 0 0 0
+ }
+ {
+  coords 5006.458 682.869 6370.193
+  angles 0 0 0
+ }
+}
+GenericEntity : "{EDB539C08A95005B}Prefabs/Compositions/Misc/FreeRoamBuilding/Emplacement_MG_USSR_01_PKM.et" {
+ coords 5057.047 691.451 6282.772
+ angles 0 177.822 0
+}

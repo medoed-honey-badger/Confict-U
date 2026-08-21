@@ -1,0 +1,30 @@
+GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ components {
+  SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+   Transceivers {
+    RelayTransceiver "{5C727AD73024FB39}" {
+     "Transmitting Range" 8500
+    }
+   }
+  }
+  SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+   m_sBaseName "#AR-MapLocation_PeakRelayTower"
+   m_sBaseNameUpper "#AR-MapLocation_PeakRelayTower-UC"
+   m_bIsResupplyTaskCreationEnabled 0
+  }
+ }
+ coords 5056.424 699.747 6327.998
+ angles 0 -12.284 0
+ {
+  GenericEntity {
+   ID "5C727AD606EB0C1C"
+   coords 0 0 0
+   {
+    GenericEntity {
+     ID "6282C0828CE8416F"
+     coords 0 0 0
+    }
+   }
+  }
+ }
+}
