@@ -1,24 +1,4 @@
 $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et" {
- CP_Crossroad {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_sBaseName "#AR-Campaign_MapLocation_NorthernCrossroad_Base"
-    m_sBaseNameUpper "#AR-Campaign_MapLocation_NorthernCrossroad_Base-UC"
-   }
-  }
-  coords 8558.84 96.042 9375.523
-  angles 0 137.162 0
-  {
-   GenericEntity {
-    ID "622086ACB9D1E3B2"
-    coords -0.486 -0.136 17.145
-   }
-   GenericEntity {
-    ID "622086ACBB849B49"
-    coords 34.508 0.116 0.06
-   }
-  }
- }
  CP_Gorshkovo {
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
