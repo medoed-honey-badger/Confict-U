@@ -1,0 +1,13 @@
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    TRAIT_REFUELING
+   }
+   m_aExcludedEditableEntityLabels +{
+   }
+  }
+ }
+ coords 4695.262 -100.087 6751.458
+ angles 0 -104.494 0
+}
