@@ -3495,16 +3495,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
  {
   components {
    SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType PARTISAN_TEAM
-    m_iSpawnDistanceOverride 150
-    m_iDespawnDistanceOverride 200
-   }
-  }
-  coords 3227.075 270.162 6820.753
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
     m_iSpawnDistanceOverride 500
     m_iDespawnDistanceOverride 600
    }
@@ -3766,26 +3756,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     coords 0 0 0
    }
   }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType FIRETEAM
-    m_iSpawnDistanceOverride 150
-    m_iDespawnDistanceOverride 200
-   }
-  }
-  coords 3260.656 271.329 6998.256
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType SQUAD_RIFLE
-    m_iSpawnDistanceOverride 150
-    m_iDespawnDistanceOverride 200
-   }
-  }
-  coords 3304.391 269.104 6842.158
  }
  {
   components {

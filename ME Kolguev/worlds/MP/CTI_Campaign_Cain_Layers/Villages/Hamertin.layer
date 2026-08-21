@@ -1,0 +1,60 @@
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_CAR
+    }
+    m_aExcludedEditableEntityLabels +{
+    }
+   }
+  }
+  coords 3365.813 267.584 6860.028
+  angles 0 88.905 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_CAR
+    }
+    m_aExcludedEditableEntityLabels +{
+    }
+   }
+  }
+  coords 3255.84 269.355 6840.555
+  angles 0 88.905 0
+ }
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType PARTISAN_TEAM
+    m_iSpawnDistanceOverride 150
+    m_iDespawnDistanceOverride 200
+   }
+  }
+  coords 3227.075 270.162 6820.753
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+    m_iSpawnDistanceOverride 150
+    m_iDespawnDistanceOverride 200
+   }
+  }
+  coords 3260.656 271.329 6998.256
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iSpawnDistanceOverride 150
+    m_iDespawnDistanceOverride 200
+   }
+  }
+  coords 3304.391 269.104 6842.158
+ }
+}
