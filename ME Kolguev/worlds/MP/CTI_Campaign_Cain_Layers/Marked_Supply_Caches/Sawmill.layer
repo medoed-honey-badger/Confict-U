@@ -52,3 +52,18 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   coords 2680.436 109.819 7504.384
  }
 }
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    TRAIT_PASSENGERS_SMALL
+    TRAIT_PASSENGERS_LARGE
+   }
+   m_aExcludedEditableEntityLabels +{
+    VEHICLE_HELICOPTER
+   }
+  }
+ }
+ coords 2749.672 111.057 7469.447
+ angles 0 86.909 0
+}

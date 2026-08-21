@@ -1,12 +1,6 @@
-$grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
- {
-  coords 7687.563 316.614 8076.02
-  angles 0 -90 0
- }
- {
-  coords 4415.218 20.148 2928.181
-  angles 0 103.685 0
- }
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 4415.218 20.148 2928.181
+ angles 0 103.685 0
 }
 $grp GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
  {
@@ -29,10 +23,6 @@ $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSma
  {
   coords 8154.078 105.482 7114.907
   angles 4.891 -141.044 -1.785
- }
- {
-  coords 9177.279 97.943 9449.282
-  angles 6.885 -105 0
  }
  {
   coords 7270.821 341.671 6493.184
@@ -72,15 +62,8 @@ $grp GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSma
   angles 0 -161.768 0
  }
  {
-  coords 7468.936 309.54 6742.997
- }
- {
   coords 6842.963 233.773 5661.461
   angles -8.82 -149.864 1.037
- }
- {
-  coords 7794.796 311.906 8041.302
-  angles 0 -165 0
  }
  {
   coords 10151 7 9324.157

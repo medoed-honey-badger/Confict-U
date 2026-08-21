@@ -44,19 +44,6 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_aIncludedEditableEntityLabels {
-     VEHICLE_CAR
-    }
-    m_aExcludedEditableEntityLabels +{
-    }
-   }
-  }
-  coords 11797.962 7.219 10961.617
-  angles 0 -176.24 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_aIncludedEditableEntityLabels {
      VEHICLE_TRUCK
     }
     m_aExcludedEditableEntityLabels +{
@@ -181,90 +168,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
     }
     {
      coords -20.527 1.401 78.139
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType SQUAD_RIFLE
-   }
-  }
-  coords 12080.642 2.186 10437.7
-  {
-   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
-    {
-     coords 0 0 0
-    }
-    {
-     coords -79.309 0.918 471.117
-    }
-    {
-     coords -284.085 4.64 498.412
-    }
-    {
-     coords -26.346 -0.031 223.868
-    }
-    {
-     coords -103.257 1.436 245.003
-    }
-   }
-  }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType PARTISAN_SNIPER
-   }
-  }
-  coords 12065.103 20.623 10616.049
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_MG_ELITE
-   }
-  }
-  coords 12057.158 14.432 10421.47
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_eGroupType TEAM_MG
-    m_iSpawnDistanceOverride 500
-    m_iDespawnDistanceOverride 600
-   }
-  }
-  coords 11950.16 17.128 10446.612
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_iSpawnDistanceOverride 500
-    m_iDespawnDistanceOverride 600
-   }
-  }
-  coords 12082.082 2.216 10456.433
-  {
-   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
-    {
-     coords 0 0 0
-    }
-    {
-     coords -113.185 5.187 -9.529
-    }
-    {
-     coords -111.933 5.471 27.749
-    }
-    {
-     coords -203.421 12.323 -13.727
-    }
-    {
-     coords -305.057 32.798 -59.306
-    }
-    {
-     coords -348.428 32.477 -8.442
     }
    }
   }

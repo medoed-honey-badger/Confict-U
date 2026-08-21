@@ -1,17 +1,33 @@
-GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
- components {
-  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-   m_aIncludedEditableEntityLabels {
-    TRAIT_PASSENGERS_SMALL
-    VEHICLE_CAR
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     VEHICLE_CAR
+    }
+    m_aExcludedEditableEntityLabels +{
+    }
+    m_bRequireAllIncludedLabels 1
    }
-   m_aExcludedEditableEntityLabels +{
-   }
-   m_bRequireAllIncludedLabels 1
   }
+  coords 6038.799 6.569 3091.804
+  angles 0 60 0
  }
- coords 6038.799 6.569 3091.804
- angles 0 60 0
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_CAR
+    }
+    m_aExcludedEditableEntityLabels +{
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 7466.663 309.421 6757.07
+  angles 0 -165 0
+ }
 }
 $grp GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
  {
@@ -34,9 +50,15 @@ GenericEntity : "{1DF9835399B603EB}PrefabsEditable/Auto/Compositions/Slotted/Slo
  coords 3055.311 26.586 4931.362
  angles 1.251 143.162 0
 }
-GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
- coords 5112.112 4.284 2856.115
- angles 0 90 0
+$grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ {
+  coords 5112.112 4.284 2856.115
+  angles 0 90 0
+ }
+ {
+  coords 7687.563 316.614 8076.02
+  angles 0 -90 0
+ }
 }
 GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
  coords 6033.457 7.123 3097.753
@@ -120,10 +142,6 @@ $grp GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMed
   angles 0 -135 0
  }
  {
-  coords 7624.292 5.223 4454.855
-  angles 0 -73.646 0
- }
- {
   coords 7107.115 19.094 4313.308
   angles 0 65.033 0
  }
@@ -142,6 +160,10 @@ $grp GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMed
  {
   coords 7816.523 306.456 8245.965
   angles -3.133 11.868 -2.483
+ }
+ {
+  coords 6132.403 3.34 8390.973
+  angles 0 92.43 0
  }
 }
 GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
@@ -256,20 +278,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
   coords 7788.081 32.894 5573.086
-  {
-   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-    coords 0 0 0
-   }
-  }
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_iSpawnDistanceOverride 500
-    m_iDespawnDistanceOverride 600
-   }
-  }
-  coords 7624.126 5.17 4453.146
   {
    SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
     coords 0 0 0
@@ -466,6 +474,15 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
  }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_iSpawnDistanceOverride 600
+    m_iDespawnDistanceOverride 650
+   }
+  }
+  coords 6131.371 3.401 8391.694
+ }
 }
 $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
  {
@@ -526,6 +543,10 @@ $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSma
   coords 9192.821 11.281 8310.094
   angles 0 39.695 0
  }
+ {
+  coords 9177.279 97.943 9449.282
+  angles 6.885 -105 0
+ }
 }
 $grp GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
  {
@@ -576,18 +597,75 @@ GenericEntity : "{C7D38772154D45BB}Prefabs/Compositions/Slotted/SlotFlatSmall/Bu
   }
  }
 }
-GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
- components {
-  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-   m_aIncludedEditableEntityLabels {
-    TRAIT_PASSENGERS_SMALL
-   }
-   m_aExcludedEditableEntityLabels +{
+$grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+    }
+    m_aExcludedEditableEntityLabels +{
+    }
    }
   }
+  coords 5848.329 413.569 5782.604
+  angles 0 -45 0
  }
- coords 5848.329 413.569 5782.604
- angles 0 -45 0
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     TRAIT_REFUELING
+    }
+    m_aExcludedEditableEntityLabels +{
+    }
+   }
+  }
+  coords 5699.775 2.187 8256.607
+  angles 0 -104.494 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels +{
+     VEHICLE_HELICOPTER
+    }
+   }
+  }
+  coords 7793.613 312.125 8016.576
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     VEHICLE_CAR
+    }
+    m_aExcludedEditableEntityLabels +{
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 11099.267 2.583 9939.843
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     TRAIT_PASSENGERS_LARGE
+    }
+    m_aExcludedEditableEntityLabels {
+     VEHICLE_HELICOPTER
+    }
+   }
+  }
+  coords 9180.375 98.258 9445.767
+ }
 }
 $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mine_TM62M.et" {
  {
@@ -597,10 +675,16 @@ $grp GenericEntity : "{D6EF54367CECE1D9}Prefabs/Weapons/Explosives/Mine_TM62M/Mi
   coords 3425.729 26.681 4378.861
  }
 }
+$grp GenericEntity : "{E660DE914A7211EB}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_US_01.et" {
+ {
+  coords 7468.936 309.54 6742.997
+ }
+ {
+  coords 7794.796 311.906 8041.302
+  angles 0 -165 0
+ }
+}
 GenericEntity : "{E74D2F51CD4F03D0}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_US_01.et" {
  coords 6798.747 195.644 5508.429
  angles 0.76 -121.894 -0.474
-}
-SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
- coords 7630.325 5.2 4450.415
 }

@@ -6,35 +6,19 @@ GenericEntity : "{0D5F3D3C5246BEE8}Prefabs/Compositions/Misc/FreeRoamBuilding/Sa
  coords 6666.595 26.118 3898.734
  angles 0 -44.085 0
 }
-$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_aIncludedEditableEntityLabels {
-     VEHICLE_TRUCK
-    }
-    m_aExcludedEditableEntityLabels +{
-    }
-    m_bRequireAllIncludedLabels 1
+GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    VEHICLE_TRUCK
    }
-  }
-  coords 6709.253 27.719 4000.324
-  angles 0 137.108 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_aIncludedEditableEntityLabels {
-     VEHICLE_TRUCK
-    }
-    m_aExcludedEditableEntityLabels +{
-    }
-    m_bRequireAllIncludedLabels 1
+   m_aExcludedEditableEntityLabels +{
    }
+   m_bRequireAllIncludedLabels 1
   }
-  coords 6750.165 2.913 3496.342
-  angles 0 -42.482 0
  }
+ coords 6709.253 27.719 4000.324
+ angles 0 137.108 0
 }
 GenericEntity : "{144F1136AB4DB0E8}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_FIA_01.et" {
  coords 6650.169 25.576 3894.236

@@ -25,3 +25,16 @@ $grp GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBas
   angles 4.009 171.252 -3.324
  }
 }
+GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    VEHICLE_TRUCK
+   }
+   m_aExcludedEditableEntityLabels {
+    TRAIT_RADIO
+   }
+  }
+ }
+ coords 10521.203 22.407 9725.952
+}

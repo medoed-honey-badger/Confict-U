@@ -161,25 +161,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
   }
   coords 1938.474 132.515 7402.461
  }
- {
-  coords 1693.837 112.995 7357.739
-  {
-   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
-    {
-     coords 0 0 0
-    }
-    {
-     coords 126.493 11.03 38.781
-    }
-    {
-     coords 293.56 15.674 -60.956
-    }
-    {
-     coords 456.001 20.636 -85.796
-    }
-   }
-  }
- }
 }
 GenericEntity : "{9B7F08BF4C938AD2}Prefabs/Structures/Military/Camps/Canvas_Covers/Soviet/CanvasCover_Medium_Soviet.et" {
  coords 2005.499 129.882 7323.775
