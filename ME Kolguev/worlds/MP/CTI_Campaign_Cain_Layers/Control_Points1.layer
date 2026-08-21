@@ -1,24 +1,4 @@
 $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et" {
- CP_Gorshkovo {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_sBaseName "#AR-Campaign_MapLocation_Cain_Gorshkovo"
-    m_sBaseNameUpper "#AR-Campaign_MapLocation_Cain_Gorshkovo-UC"
-   }
-  }
-  coords 8422.396 22.727 6591.912
-  angles 0 13.99 0
-  {
-   GenericEntity {
-    ID "622086ACB9D1E3B2"
-    coords 12.026 0 10.779
-   }
-   GenericEntity {
-    ID "622086ACBB849B49"
-    coords 16.132 1.049 -17.214
-   }
-  }
- }
  CP_Mine {
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {

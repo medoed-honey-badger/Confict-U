@@ -126,6 +126,9 @@ SCR_MapLocator {
 BasePreloadManager PreloadManager_Campaign1 : "{32BFDCDE99092FCE}Prefabs/World/Game/PreloadManager_Campaign.et" {
  coords 9219.24 1.745 7884.434
 }
+SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 9219.886 1.707 7883.652
+}
 MusicManager : "{A867D3EE4A35D38F}Prefabs/Sounds/Music/MusicManager_Campaign_Kolguyev.et" {
  coords 9214.145 1.864 7892.451
 }

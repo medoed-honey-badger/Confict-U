@@ -1,0 +1,231 @@
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     TRAIT_PASSENGERS_SMALL
+     VEHICLE_CAR
+    }
+    m_aExcludedEditableEntityLabels +{
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 8539.748 15.051 6565.144
+  angles 0 -77.442 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_TRUCK
+    }
+    m_aExcludedEditableEntityLabels +{
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 8274.667 49.685 6766.559
+  angles 0 -171.32 0
+ }
+}
+GenericEntity : "{144F1136AB4DB0E8}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_FIA_01.et" {
+ coords 8421.001 22.718 6571.99
+ angles 0 14.611 0
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ components {
+  SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+   m_bOrientChildrenToTerrain 0
+  }
+ }
+ coords 8405.243 28.879 6662.354
+ angles 0 -47.783 0
+ {
+  GenericEntity {
+   ID "5CC6B499BAC8A7E5"
+   {
+    GenericEntity {
+     ID "5DB68EF62AC701CB"
+     coords 0.674 0.508 -1.027
+     angles 15.034 -87.268 -1.978
+    }
+    GenericEntity {
+     ID "5CB0D990A16A1126"
+     coords -2.909 0.981 0.125
+     angles 35.537 -62.791 4.716
+    }
+    StaticModelEntity {
+     ID "5CB0D990A16A5AAF"
+     coords -3.932 0.748 0.363
+     angles 0 30.193 0
+    }
+   }
+  }
+ }
+}
+GenericEntity CP_Gorshkovo : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+   m_sBaseName "#AR-Campaign_MapLocation_Cain_Gorshkovo"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Cain_Gorshkovo-UC"
+  }
+ }
+ coords 8422.396 22.727 6591.912
+ angles 0 13.99 0
+ {
+  GenericEntity {
+   ID "622086ACB9D1E3B2"
+   coords 12.026 0 10.779
+  }
+  GenericEntity {
+   ID "622086ACBB849B49"
+   coords 16.132 1.049 -17.214
+  }
+ }
+}
+GenericEntity : "{3D72BF835223B352}Prefabs/Compositions/Slotted/SlotFlatSmall/VehicleMaintenance_S_FIA_01.et" {
+ coords 8529.646 15.118 6533.559
+ angles 0 15.725 0
+ {
+  GameEntity {
+   ID "5D22B96A3EA1AC01"
+   coords 5.332 -0.056 -3.017
+   angles 0 156.07 0
+  }
+ }
+}
+Turret : "{3EA26CFD7A202636}Prefabs/Weapons/Tripods/6T7/Tripod_6T7_NSV_SPP.et" {
+ coords 8302.408 69.311 6731.397
+ angles -2.005 118.196 0
+}
+GenericEntity : "{53D74CD446A87F13}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongHighBurlap_S_USSR_01.et" {
+ coords 8392.553 29.875 6660.676
+ angles 0 6.909 0
+}
+GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ coords 8541.12 13.956 6605.277
+ angles 0 18.175 0
+}
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ coords 8392.014 29.875 6662.776
+ angles 0 -174.801 0
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType PARTISAN_SNIPER
+   }
+  }
+  coords 8300.899 69.159 6732.253
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+   }
+  }
+  coords 8500.858 17.77 6523.855
+  angles 0 19.112 0
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 11.791 0 0
+    }
+    {
+     coords 11.166 -0.855 -62.151
+    }
+    {
+     coords -129.967 12.258 -76.872
+    }
+    {
+     coords -140.958 12.136 82.761
+    }
+    {
+     coords 6.143 -4.075 100.71
+    }
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_MG
+   }
+  }
+  coords 8541.731 13.711 6605.193
+ }
+ {
+  coords 8397.125 29.875 6657.277
+ }
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 8397.578 29.846 6660.361
+ angles 0 -4.049 0
+ {
+  GenericEntity {
+   ID "5CC6B48B9C8C2BDB"
+   coords -4.278 0.029 -0.658
+   angles 0 -69.67 0
+  }
+  GenericEntity {
+   ID "5CC6B4BF288B3FF4"
+   coords -5.313 0 -0.363
+  }
+ }
+}
+GenericEntity : "{A0A4E4587FEABF83}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeKnifeRest_S_US_01.et" {
+ components {
+  SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+   m_bOrientChildrenToTerrain 0
+  }
+ }
+ coords 8296.973 68.641 6736.243
+ angles 0 13.855 0
+}
+GenericEntity : "{B86FFB24E23D8055}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_Rect_Row_USSR.et" {
+ components {
+  SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+   m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+    m_ModuleZoneData SCR_EffectsModulePositionData_Rectangle "{618EBC0A84615572}" {
+     m_fLength 14
+    }
+    m_iMinProjectilesEachBarrage 8
+    m_iMaxProjectilesEachBarrage 9
+   }
+  }
+ }
+ coords 8394.573 29.64 6710.486
+ angles 0 -7.069 0
+ {
+  GenericEntity {
+   ID "616C96D8967A1736"
+   components {
+    SCR_EffectsModuleAreaMeshComponent "{616C96D8B05B3D1F}" {
+     m_fLenght 14
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{BE2B14A482E169F7}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_Large_Top_FIA_01_V1.et" {
+ coords 8487.738 19.747 6529.229
+ angles 0 94.156 0
+}
+GenericEntity : "{C7A49C5B54C86903}Prefabs/Props/Military/Sandbags/Sandbag_01_single_burlap.et" {
+ coords 8302.984 69.213 6731.155
+ angles 0 -59.476 0
+}
+GenericEntity : "{CFFEB23FBEA00322}Prefabs/Props/Military/Sandbags/Sandbag_01_short_burlap.et" {
+ coords 8302.114 68.66 6731.224
+ angles 0 -79.158 0
+}
+GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ coords 8486.767 19.907 6527.498
+ angles 0 -74.852 0
+}
+GenericEntity : "{FB26A800AC01D85A}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_FIA_01.et" {
+ coords 8453.081 22.022 6595.92
+ angles 0 -68.677 0
+}
