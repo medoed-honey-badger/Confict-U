@@ -1,7 +1,7 @@
 GameProject {
- ID "MEKolguev"
+ ID "ME_Kolguev"
  GUID "6A2A8EE10CBB495F"
- TITLE "ME Kolguev"
+ TITLE "ME_Kolguev"
  Dependencies {
   "58D0FB3206B6F859"
  }
