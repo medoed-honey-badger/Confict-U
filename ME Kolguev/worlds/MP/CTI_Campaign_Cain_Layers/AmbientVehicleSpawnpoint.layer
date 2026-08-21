@@ -45,21 +45,6 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_aIncludedEditableEntityLabels {
-     TRAIT_PASSENGERS_SMALL
-     VEHICLE_CAR
-    }
-    m_aExcludedEditableEntityLabels +{
-    }
-    m_bRequireAllIncludedLabels 1
-   }
-  }
-  coords 6066.152 418.607 6236.999
-  angles 0 115.689 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_aIncludedEditableEntityLabels {
      VEHICLE_CAR
     }
     m_aExcludedEditableEntityLabels +{
@@ -485,19 +470,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_aIncludedEditableEntityLabels {
      TRAIT_PASSENGERS_SMALL
-    }
-    m_aExcludedEditableEntityLabels +{
-    }
-   }
-  }
-  coords 5848.329 413.569 5782.604
-  angles 0 -45 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_aIncludedEditableEntityLabels {
-     TRAIT_PASSENGERS_SMALL
      TRAIT_PASSENGERS_LARGE
     }
     m_aExcludedEditableEntityLabels {
@@ -592,18 +564,5 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   }
   coords 2749.672 111.057 7469.447
   angles 0 86.909 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_aIncludedEditableEntityLabels {
-     TRAIT_PASSENGERS_SMALL
-    }
-    m_aExcludedEditableEntityLabels +{
-    }
-   }
-  }
-  coords 6118.973 417.147 6219.079
-  angles 0 -88.876 0
  }
 }

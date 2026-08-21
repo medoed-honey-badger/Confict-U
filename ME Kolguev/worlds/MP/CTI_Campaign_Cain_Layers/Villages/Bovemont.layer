@@ -1,0 +1,230 @@
+GenericEntity : "{0C923757B8B8306B}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeTriple_S_USSR_01.et" {
+ coords 6084.338 419.568 6198.877
+}
+GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    TRAIT_PASSENGERS_SMALL
+    VEHICLE_CAR
+   }
+   m_aExcludedEditableEntityLabels +{
+   }
+   m_bRequireAllIncludedLabels 1
+  }
+ }
+ coords 6066.152 418.607 6236.999
+ angles 0 115.689 0
+}
+$grp GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ {
+  coords 6080.693 418.75 6216.814
+  angles 0 -66.518 0
+ }
+ {
+  coords 6120.966 416.995 6233.324
+  angles 0 -178.833 0
+ }
+ {
+  coords 6067.542 418.656 6235.186
+  angles 0 -67.277 0
+ }
+}
+$grp GenericEntity : "{2F0CCC459889B8EE}PrefabsEditable/EffectsModules/Mine/EffectModule_MineField_AP_Small_USSR.et" {
+ {
+  coords 6074.872 418.749 6198.066
+  angles 0 8.931 0
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5D22CCE8F9AEE06D}" {
+     m_iMinProjectilesEachBarrage 29
+     m_iMaxProjectilesEachBarrage 33
+    }
+   }
+  }
+  coords 6083.671 418.562 6238.916
+  angles 0 59.977 0
+ }
+ {
+  coords 6057.469 420.213 6227.229
+  angles 0 20.696 0
+ }
+}
+$grp GenericEntity : "{53D74CD446A87F13}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongHighBurlap_S_USSR_01.et" {
+ {
+  components {
+   SCR_SlotCompositionComponent "{52CAE30B655050CF}" {
+    m_bOrientChildrenToTerrain 0
+   }
+  }
+  coords 6128.133 416.892 6231.205
+  {
+   GenericEntity {
+    ID "5D6CFDF279517B23"
+    coords -1.228 -0.258 -0.534
+    angles 0 -83.157 0
+   }
+  }
+ }
+ {
+  coords 6085.895 419.41 6198.33
+  angles 0 -92.892 0
+ }
+}
+Turret : "{723870DBB19D30B0}Prefabs/Weapons/Tripods/Tripod_6T5_PKM.et" {
+ coords 6126.847 417.868 6231.113
+ angles 0 -85.568 0
+}
+GenericEntity : "{83A10E8547281E58}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_USSR_01.et" {
+ coords 6205.966 413.326 6228.688
+ angles 0 -81.884 0
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType PARTISAN_SNIPER
+    m_iSpawnDistanceOverride 350
+    m_iDespawnDistanceOverride 400
+   }
+  }
+  coords 6067.878 424.466 6540.019
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType PARTISAN_SNIPER
+    m_iSpawnDistanceOverride 350
+    m_iDespawnDistanceOverride 400
+   }
+  }
+  coords 6109.279 421.468 6253.817
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 1.275 0
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_eGroupType PARTISAN_TEAM
+    m_iSpawnDistanceOverride 250
+    m_iDespawnDistanceOverride 300
+   }
+  }
+  coords 6128.463 417.107 6229.968
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 -0.215 -2.855
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_AT
+    m_iSpawnDistanceOverride 300
+    m_iDespawnDistanceOverride 350
+   }
+  }
+  coords 6068.996 418.717 6247.038
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords -5.546 0 1.559
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType PARTISAN_TEAM
+    m_iSpawnDistanceOverride 250
+    m_iDespawnDistanceOverride 300
+   }
+  }
+  coords 6099.256 418.143 6216.928
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords -6.609 1.201 -18.208
+   }
+  }
+ }
+}
+GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSmall/Checkpoint_S_USSR_01.et" {
+ coords 6093.633 417.879 6273.739
+ angles 0 1.319 0
+}
+GenericEntity : "{B6F0B7461EDFD186}Prefabs/Compositions/Misc/FreeRoamBuilding/FloodlightGenerator_S_USSR_01.et" {
+ coords 6079.552 418.34 6256.077
+ angles 0 146.212 0
+}
+GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    TRAIT_PASSENGERS_SMALL
+   }
+   m_aExcludedEditableEntityLabels +{
+   }
+  }
+ }
+ coords 6118.973 417.147 6219.079
+ angles 0 -88.876 0
+}
+$grp GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_eLoiterAnimation NONE
+   }
+  }
+  coords 6066.309 424.595 6539.551
+  angles 0 -12.97 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_iCharacterStance CROUCH
+    m_eLoiterAnimation NONE
+   }
+  }
+  coords 6067.702 424.595 6539.049
+  angles 0 -103.961 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_fLookDirectionRange 60
+    m_eLoiterAnimation NONE
+   }
+  }
+  coords 6070.903 418.989 6246.178
+  angles 0 27.375 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_fLookDirectionRange 60
+   }
+  }
+  coords 6069.794 418.989 6244.038
+  angles 0 27.375 0
+ }
+ {
+  coords 6108.167 421.253 6255.125
+  angles 0 0 0
+ }
+}
+GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
+ coords 6109.718 421.1 6252.56
+ angles 0 13.628 0
+}
