@@ -1,0 +1,330 @@
+GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ coords 6654.521 26.375 3934.52
+ angles 0 46.873 0
+}
+GenericEntity : "{0D5F3D3C5246BEE8}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongBurlap_S_USSR_01.et" {
+ coords 6666.595 26.118 3898.734
+ angles 0 -44.085 0
+}
+$grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_TRUCK
+    }
+    m_aExcludedEditableEntityLabels +{
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 6709.253 27.719 4000.324
+  angles 0 137.108 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_TRUCK
+    }
+    m_aExcludedEditableEntityLabels +{
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 6750.165 2.913 3496.342
+  angles 0 -42.482 0
+ }
+}
+GenericEntity : "{144F1136AB4DB0E8}Prefabs/Compositions/Slotted/SlotFlatSmall/LivingArea_S_FIA_01.et" {
+ coords 6650.169 25.576 3894.236
+ angles 0 -40.396 0
+}
+GenericEntity : "{22D2EFA80AC9DBD0}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_03.et" {
+ coords 6653.139 26.312 3926.446
+ angles 0 134.144 0
+}
+GenericEntity : "{27F6A0815E6FF6EF}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_USSR_01.et" {
+ coords 6636.436 26.158 3925.905
+ angles 0 -24.774 0
+}
+GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ coords 6645.843 26.338 3932.804
+ angles 0 -43.493 0
+}
+GenericEntity CP_Ugoldar : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et" {
+ components {
+  SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
+   m_iRadius 200
+  }
+  SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+   m_iRadius 200
+   m_sBaseName "#AR-Campaign_MapLocation_Cain_Ugoldar"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Cain_Ugoldar-UC"
+  }
+ }
+ coords 6641.521 25.849 3906.74
+ angles 0 140.263 0
+ {
+  GenericEntity {
+   ID "622086ACB9D1E3B2"
+   coords -23.377 0.469 6.371
+  }
+  GenericEntity {
+   ID "622086ACBB849B49"
+   coords 1.366 -0.133 3.003
+  }
+ }
+}
+$grp GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
+ {
+  coords 6675.477 26.343 3910.834
+  angles 0 47.648 0
+ }
+ {
+  coords 6661.449 25.866 3897.041
+  angles 0 135.221 0
+ }
+}
+$grp GenericEntity : "{53D74CD446A87F13}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongHighBurlap_S_USSR_01.et" {
+ {
+  coords 6649.491 26.375 3934.252
+  angles 0 -41.109 0
+ }
+ {
+  coords 6673.478 26.375 3916.374
+  angles 0 47.988 0
+ }
+}
+GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    TRAIT_MEDICAL
+   }
+  }
+ }
+ coords 6667.115 26.375 3923.413
+ angles 0 10.709 0
+}
+GenericEntity : "{7492BAA88AFCEDCE}Prefabs/Compositions/Slotted/SlotFlatSmall/Bunker_S_USSR_01.et" {
+ coords 7007.438 4.632 3854.249
+ angles 0 -58.433 0
+}
+GenericEntity : "{760BD4105816358C}Prefabs/Compositions/Slotted/SlotFlatMedium/FieldHospital_M_FIA_01.et" {
+ coords 6660.353 26.229 3912.261
+ angles 0 -42.998 0
+}
+GenericEntity : "{7C85836D444E3797}Prefabs/Compositions/Slotted/SlotRoadMedium/Checkpoint_M_USSR_01.et" {
+ coords 6729.478 28.343 4049.475
+ angles 1.264 48.304 0.073
+}
+GenericEntity : "{8E1DF47DD56E69E6}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_01.et" {
+ coords 6670.235 26.217 3903.627
+ angles 0 137.445 0
+}
+GenericEntity : "{917158017F425567}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_US_01.et" {
+ coords 6487.764 24.25 3843.679
+ angles 0 -72.403 0
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType PARTISAN_SNIPER
+   }
+  }
+  coords 6592.039 39.048 3872.212
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 6727.542 28.326 4049.301
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ {
+  coords 6481.493 24.154 3828.374
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType PARTISAN_TEAM
+   }
+  }
+  coords 6717.455 23.329 3832.789
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords -18.15 5.901 28.4
+   }
+  }
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+   }
+  }
+  coords 6525.438 24.688 3750.756
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 0 0 0
+    }
+    {
+     coords 35.797 -0.032 5.437
+    }
+    {
+     coords 118.391 -0.032 81.555
+    }
+    {
+     coords 173.102 -5.984 18.811
+    }
+    {
+     coords 252.477 -6.08 88.238
+    }
+    {
+     coords 194.83 1.657 151.409
+    }
+    {
+     coords 254.055 2.16 212.493
+    }
+    {
+     coords 188.488 3.405 281.739
+    }
+    {
+     coords 44.637 1.031 159.052
+    }
+   }
+  }
+ }
+ {
+  coords 6558.881 21.739 3680.202
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 0 0 0
+    }
+    {
+     coords 102.469 -8.159 -2.755
+    }
+    {
+     coords 57.03 -18.552 -188.474
+    }
+   }
+  }
+ }
+ {
+  coords 6856.076 30.344 4142.13
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_sDefaultWaypointPrefab "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et"
+    m_eGroupType TEAM_SNIPER
+   }
+  }
+  coords 6703.277 39.704 4054.282
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 0 0 0
+   }
+  }
+ }
+}
+GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {
+ coords 6481.084 24.152 3826.614
+ angles -1.264 -131.587 -0.075
+}
+GenericEntity : "{B6F0B7461EDFD186}Prefabs/Compositions/Misc/FreeRoamBuilding/FloodlightGenerator_S_USSR_01.et" {
+ coords 6670.386 26.344 3918.731
+ angles 0 -130.58 0
+}
+$grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     VEHICLE_APC
+    }
+   }
+  }
+  coords 6497.592 24.486 3864.533
+  angles 0 180 0
+ }
+ {
+  components {
+   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+    m_aIncludedEditableEntityLabels {
+     TRAIT_ARMED
+     TRAIT_PASSENGERS_SMALL
+    }
+    m_bRequireAllIncludedLabels 1
+   }
+  }
+  coords 7013.271 4.636 3842.197
+  angles 0 -75 0
+ }
+}
+$grp GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
+ {
+  coords 6706.013 38.971 4053.029
+  angles 0 49.629 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_iCharacterStance CROUCH
+    m_bUseBinoculars 1
+    m_eLoiterAnimation NONE
+   }
+  }
+  coords 6709.321 39.305 4055.809
+  angles 0 0 0
+ }
+}
+$grp GenericEntity : "{F76BD5785C7FE191}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_ObservationPoint.et" {
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_fLookDirectionRange 45
+    m_iCharacterStance PRONE
+   }
+  }
+  coords 6591.729 38.674 3873.197
+  angles 0 -41.655 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_iCharacterStance CROUCH
+   }
+  }
+  coords 6707.609 38.864 4057.967
+  angles 0 -16.335 0
+ }
+}
+GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
+ coords 6643.797 26.15 3921.593
+ angles 0 -134.441 0
+}
+GenericEntity : "{FB26A800AC01D85A}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_FIA_01.et" {
+ coords 6626.811 25.248 3904.949
+ angles 0 139.579 0
+}
+$grp GenericEntity : "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et" {
+ {
+  coords 6482.083 24.25 3836.852
+  angles 0 -60 0
+ }
+ {
+  coords 6483.905 24.283 3838.301
+  angles 0 45 0
+ }
+}

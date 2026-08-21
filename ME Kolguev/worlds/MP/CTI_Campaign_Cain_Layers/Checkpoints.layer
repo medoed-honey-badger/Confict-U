@@ -1,3 +1,18 @@
+GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    TRAIT_PASSENGERS_SMALL
+    VEHICLE_CAR
+   }
+   m_aExcludedEditableEntityLabels +{
+   }
+   m_bRequireAllIncludedLabels 1
+  }
+ }
+ coords 6038.799 6.569 3091.804
+ angles 0 60 0
+}
 $grp GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMedium/Barricade_M_US_01.et" {
  {
   coords 8963.617 101.119 8684.585
@@ -18,6 +33,10 @@ $grp GenericEntity : "{172D03072FE6ECAB}Prefabs/Compositions/Slotted/SlotRoadMed
 GenericEntity : "{1DF9835399B603EB}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadMedium/E_Checkpoint_M_USSR_01.et" {
  coords 3055.311 26.586 4931.362
  angles 1.251 143.162 0
+}
+GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ coords 6033.457 7.123 3097.753
+ angles 0 -30 0
 }
 GenericEntity : "{53D74CD446A87F13}Prefabs/Compositions/Misc/FreeRoamBuilding/SandbagLongHighBurlap_S_USSR_01.et" {
  coords 7797.219 30.125 5559.592
@@ -449,6 +468,10 @@ $grp GenericEntity : "{9483333BFD9E2D0F}Prefabs/Compositions/Slotted/SlotRoadSma
     angles 0 103.572 0
    }
   }
+ }
+ {
+  coords 6208.596 9.797 3247.553
+  angles 0 -45.665 0
  }
 }
 $grp GenericEntity : "{9F9924B626C5FA2C}Prefabs/Compositions/Slotted/SlotRoadLarge/Checkpoint_L_USSR_01.et" {

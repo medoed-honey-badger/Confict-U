@@ -38,30 +38,6 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    }
   }
  }
- CP_Ugoldar {
-  components {
-   SCR_CampaignSeizingComponent "{621EB97024DABABE}" {
-    m_iRadius 200
-   }
-   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_iRadius 200
-    m_sBaseName "#AR-Campaign_MapLocation_Cain_Ugoldar"
-    m_sBaseNameUpper "#AR-Campaign_MapLocation_Cain_Ugoldar-UC"
-   }
-  }
-  coords 6641.521 25.849 3906.74
-  angles 0 140.263 0
-  {
-   GenericEntity {
-    ID "622086ACB9D1E3B2"
-    coords -23.377 0.469 6.371
-   }
-   GenericEntity {
-    ID "622086ACBB849B49"
-    coords 1.366 -0.133 3.003
-   }
-  }
- }
  CP_Villa {
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
