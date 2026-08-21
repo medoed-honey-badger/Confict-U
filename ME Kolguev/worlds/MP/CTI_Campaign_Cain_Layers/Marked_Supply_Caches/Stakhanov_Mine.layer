@@ -1,0 +1,136 @@
+GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    VEHICLE_TRUCK
+   }
+   m_aExcludedEditableEntityLabels +{
+   }
+   m_bRequireAllIncludedLabels 1
+  }
+ }
+ coords 6066.954 182.31 4560.095
+ angles 0 47.646 0
+}
+GenericEntity : "{1804DADC1C7C9893}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign_HQC.et" {
+ coords 6057.055 182.299 4575
+ angles 0 137.864 0
+}
+GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ coords 6057.426 182.339 4577.451
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  coords 6006.006 180.771 4511.571
+  {
+   $grp SCR_AIWaypoint : "{FBA8DC8FDA0E770D}Prefabs/AI/Waypoints/AIWaypoint_Patrol_Hierarchy.et" {
+    {
+     coords 0 0 0
+    }
+    {
+     coords 9.668 0.17 32.318
+    }
+    {
+     coords 30.845 1.041 57.804
+    }
+    {
+     coords 83.179 2.126 96.593
+    }
+   }
+  }
+ }
+ {
+  coords 6060.65 182.458 4574.005
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType PARTISAN_TEAM
+   }
+  }
+  coords 6039.806 183.21 4554.691
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_MG_ELITE
+   }
+  }
+  coords 5885.378 225.092 4654.631
+  {
+   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
+    coords 11.912 -2.97 -5.65
+   }
+  }
+ }
+}
+GenericEntity : "{B3DB90408A32E22A}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_06_Campaign_HQC.et" {
+ coords 6053.001 181.982 4566.27
+ angles 0 134.574 0
+ {
+  GenericEntity {
+   ID "5D1ED92199D182AF"
+   coords 1.783 0 -11.015
+  }
+  GenericEntity {
+   ID "5D1ED92199D1824C"
+   coords 2.753 0 -11.693
+  }
+  GenericEntity {
+   ID "5D1ED92199D1825C"
+   coords 2.648 0 -10.365
+  }
+  GenericEntity {
+   ID "5D1ED92199D1827B"
+   coords 3.581 0 -10.055
+  }
+  GenericEntity {
+   ID "5D1ED92199D18226"
+   coords 3.325 0 -10.947
+  }
+  GenericEntity {
+   ID "5D1ED92199D183D2"
+   coords 4.345 0 -11.749
+  }
+  GenericEntity {
+   ID "5D1ED92199D182C3"
+   coords -1.498 0 -10.957
+  }
+  GenericEntity {
+   ID "5D1ED92199D182D3"
+   coords -2.976 0 -10.975
+  }
+  GenericEntity {
+   ID "5E5CB30FE628C08D"
+   coords -4.577 0 -12.733
+  }
+  StaticModelEntity {
+   ID "5D1ED92199D18213"
+   coords -4.334 0 -11.824
+  }
+  StaticModelEntity {
+   ID "5D1ED92199D1823E"
+   coords 0.2 0 -10.323
+  }
+ }
+}
+GenericEntity : "{CBCF93346A850481}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_02_Campaign_HQC.et" {
+ coords 6064.502 182.585 4583.101
+ angles 0 129.959 0
+}
+$grp GenericEntity : "{E105D2F87098E1D8}Prefabs/Systems/Compositions/PatrolPoint/PatrolPoint_LoiterPoint.et" {
+ {
+  coords 5905.4 222.426 4645.687
+  angles 0 0 0
+ }
+ {
+  components {
+   SCR_AISmartActionSentinelComponent "{5CB0DBCC796A6F1C}" {
+    m_bUseBinoculars 1
+    m_eLoiterAnimation NONE
+   }
+  }
+  coords 5901.512 222.426 4641.75
+  angles 0 40.731 0
+ }
+}
