@@ -62,22 +62,6 @@ GenericEntity : "{B04F2A9C5356C02D}Prefabs/Compositions/Slotted/SlotFlatSmall/Sa
  coords 6480.686 486.467 6680.121
  angles -16.226 -31.759 -6.24
 }
-GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_FIA.et" {
- components {
-  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-   m_aIncludedEditableEntityLabels {
-    TRAIT_PASSENGERS_LARGE
-    TRAIT_PASSENGERS_SMALL
-   }
-   m_aExcludedEditableEntityLabels {
-    VEHICLE_APC
-    VEHICLE_HELICOPTER
-   }
-  }
- }
- coords 6534.23 493.375 6641.068
- angles 0 -125.123 0
-}
 GenericEntity : "{E249C09D69AAE6C8}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_02.et" {
  coords 6538.647 493.704 6620.345
  angles 0 120 0

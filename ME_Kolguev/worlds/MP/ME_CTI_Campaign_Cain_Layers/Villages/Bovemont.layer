@@ -1,21 +1,6 @@
 GenericEntity : "{0C923757B8B8306B}Prefabs/Compositions/Misc/FreeRoamBuilding/BarbedTapeTriple_S_USSR_01.et" {
  coords 6084.338 419.568 6198.877
 }
-GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_CIV.et" {
- components {
-  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-   m_aIncludedEditableEntityLabels {
-    TRAIT_PASSENGERS_SMALL
-    VEHICLE_CAR
-   }
-   m_aExcludedEditableEntityLabels +{
-   }
-   m_bRequireAllIncludedLabels 1
-  }
- }
- coords 6066.152 418.607 6236.999
- angles 0 115.689 0
-}
 GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
  coords 6067.964 424.598 6538.073
  angles 0 -14.969 0
