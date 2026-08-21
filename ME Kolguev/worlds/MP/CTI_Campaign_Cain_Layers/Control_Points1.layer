@@ -1,38 +1,16 @@
-$grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et" {
- CP_Mine {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_sBaseName "#AR-Campaign_MapLocation_Cain_KrasnyyOktyabrMine"
-    m_sBaseNameUpper "#AR-Campaign_MapLocation_Cain_KrasnyyOktyabrMine-UC"
-   }
-  }
-  coords 3673.705 179.84 5223.48
-  angles 0 -22.276 0
-  {
-   GenericEntity {
-    ID "622086ACB9D1E3B2"
-    coords 3.745 -0.171 2.973
-   }
-   GenericEntity {
-    ID "622086ACBB849B49"
-    coords 12.131 -0.628 24.466
-   }
+GenericEntity CP_Villa : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictControlPoint.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+   m_sBaseName "#AR-Campaign_MapLocation_Cain_Villa"
+   m_sBaseNameUpper "#AR-Campaign_MapLocation_Cain_Villa-UC"
   }
  }
- CP_Villa {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_sBaseName "#AR-Campaign_MapLocation_Cain_Villa"
-    m_sBaseNameUpper "#AR-Campaign_MapLocation_Cain_Villa-UC"
-   }
-  }
-  coords 1950.652 132.837 7401.3
-  angles 0 -89.557 0
-  {
-   GenericEntity {
-    ID "622086ACBB849B49"
-    coords 26.914 1.365 8.287
-   }
+ coords 1950.652 132.837 7401.3
+ angles 0 -89.557 0
+ {
+  GenericEntity {
+   ID "622086ACBB849B49"
+   coords 26.914 1.365 8.287
   }
  }
 }
