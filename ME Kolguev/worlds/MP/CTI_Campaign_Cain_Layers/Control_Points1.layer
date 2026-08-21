@@ -39,26 +39,6 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    }
   }
  }
- CP_Kamensk {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_sBaseName "#AR-Campaign_MapLocation_Cain_Kamensk"
-    m_sBaseNameUpper "#AR-Campaign_MapLocation_Cain_Kamensk-UC"
-   }
-  }
-  coords 11866.496 8.292 10679.665
-  angles -2.121 -15.205 2.43
-  {
-   GenericEntity {
-    ID "622086ACB9D1E3B2"
-    coords -1.47 -0.386 7.776
-   }
-   GenericEntity {
-    ID "622086ACBB849B49"
-    coords 14.95 2.272 49.554
-   }
-  }
- }
  CP_Mine {
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {

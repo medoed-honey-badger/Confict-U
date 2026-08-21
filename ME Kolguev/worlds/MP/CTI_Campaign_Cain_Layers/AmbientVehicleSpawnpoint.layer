@@ -88,75 +88,12 @@ $grp GenericEntity : "{0DDAFCA92FF4451C}Prefabs/Systems/AmbientVehicles/AmbientV
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_aIncludedEditableEntityLabels {
-     VEHICLE_CAR
-    }
-    m_aExcludedEditableEntityLabels +{
-    }
-   }
-  }
-  coords 11929.143 4.541 10710.589
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_aIncludedEditableEntityLabels {
      VEHICLE_HELICOPTER
     }
    }
   }
   coords 2022.832 129.834 7327.672
   angles 0 -46.694 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_aIncludedEditableEntityLabels {
-     VEHICLE_CAR
-    }
-    m_aExcludedEditableEntityLabels +{
-    }
-   }
-  }
-  coords 12009.234 6.609 10463.459
-  angles 0 88.905 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_aIncludedEditableEntityLabels {
-     VEHICLE_TRUCK
-    }
-    m_aExcludedEditableEntityLabels +{
-    }
-   }
-  }
-  coords 12054.612 2.156 10336.925
-  angles 0 179.289 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_aIncludedEditableEntityLabels {
-     VEHICLE_CAR
-    }
-    m_aExcludedEditableEntityLabels +{
-    }
-   }
-  }
-  coords 11797.962 7.219 10961.617
-  angles 0 -176.24 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_aIncludedEditableEntityLabels {
-     VEHICLE_CAR
-    }
-    m_aExcludedEditableEntityLabels +{
-    }
-   }
-  }
-  coords 11729.555 44.384 10373.146
  }
  {
   components {
