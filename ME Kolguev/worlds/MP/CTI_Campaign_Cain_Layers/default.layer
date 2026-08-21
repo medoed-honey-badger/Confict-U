@@ -483,10 +483,6 @@ $grp GenericEntity : "{144F1136AB4DB0E8}Prefabs/Compositions/Slotted/SlotFlatSma
 }
 $grp GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
  {
-  coords 3922.857 369.304 6420.875
-  angles 0.131 21.638 1.805
- }
- {
   coords 6916.781 93.502 4801.938
   angles 8.691 6.694 3.684
  }
@@ -3157,20 +3153,6 @@ $grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPat
    }
   }
   coords 7428.928 310.345 6465.502
- }
- {
-  components {
-   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
-    m_iSpawnDistanceOverride 350
-    m_iDespawnDistanceOverride 400
-   }
-  }
-  coords 3939.263 369.453 6414.391
-  {
-   SCR_DefendWaypoint : "{AAE8882E0DE0761A}Prefabs/AI/Waypoints/AIWaypoint_Defend_Hierarchy.et" {
-    coords -13.767 0 0.736
-   }
-  }
  }
  {
   components {
