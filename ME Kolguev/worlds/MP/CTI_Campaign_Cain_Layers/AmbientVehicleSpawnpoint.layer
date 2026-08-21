@@ -357,21 +357,6 @@ $grp GenericEntity : "{D4A604DD154470CD}Prefabs/Systems/AmbientVehicles/AmbientV
   components {
    SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
     m_aIncludedEditableEntityLabels {
-     VEHICLE_TRUCK
-     TRAIT_REFUELING
-    }
-    m_aExcludedEditableEntityLabels +{
-    }
-    m_bRequireAllIncludedLabels 1
-   }
-  }
-  coords 5717.921 421.437 6844.862
-  angles 0 -129.428 0
- }
- {
-  components {
-   SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
-    m_aIncludedEditableEntityLabels {
      TRAIT_PASSENGERS_SMALL
      TRAIT_PASSENGERS_LARGE
     }
