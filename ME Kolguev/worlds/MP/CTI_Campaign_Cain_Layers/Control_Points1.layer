@@ -19,25 +19,6 @@ $grp GenericEntity : "{2E4F096844CDC14B}Prefabs/Systems/MilitaryBase/ConflictCon
    }
   }
  }
- CP_Mineraly {
-  components {
-   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
-    m_sBaseName "#AR-Campaign_MapLocation_Cain_Mineraly"
-    m_sBaseNameUpper "#AR-Campaign_MapLocation_Cain_Mineraly-UC"
-   }
-  }
-  coords 6321.753 37.374 8011.786
-  {
-   GenericEntity {
-    ID "622086ACB9D1E3B2"
-    coords -11.035 0.126 26.671
-   }
-   GenericEntity {
-    ID "622086ACBB849B49"
-    coords -1.686 -0.146 3.003
-   }
-  }
- }
  CP_Villa {
   components {
    SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
