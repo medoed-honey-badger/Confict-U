@@ -1,0 +1,16 @@
+GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ components {
+  SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+   Transceivers {
+    RelayTransceiver "{5C727AD73024FB39}" {
+    }
+   }
+  }
+  SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+   m_sBaseName "#AR-MapLocation_BARSRelayTower"
+   m_sBaseNameUpper "#AR-MapLocation_BARSRelayTower-UC"
+  }
+ }
+ coords 6860.168 435.587 6781.308
+ angles 0 -94.075 0
+}

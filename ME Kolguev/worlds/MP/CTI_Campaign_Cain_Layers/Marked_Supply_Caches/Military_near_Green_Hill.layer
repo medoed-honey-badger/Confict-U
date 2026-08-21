@@ -9,22 +9,6 @@ GenericEntity : "{2EA9E10F2E9C0A36}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_
  coords 6759.018 441.812 6801.709
  angles 0 -136.156 0
 }
-GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
- components {
-  SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
-   Transceivers {
-    RelayTransceiver "{5C727AD73024FB39}" {
-    }
-   }
-  }
-  SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
-   m_sBaseName "#AR-MapLocation_BARSRelayTower"
-   m_sBaseNameUpper "#AR-MapLocation_BARSRelayTower-UC"
-  }
- }
- coords 6860.168 435.587 6781.308
- angles 0 -94.075 0
-}
 GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign_HQC.et" {
  coords 6959.42 436.687 6771.66
  angles 0 -45.97 0
