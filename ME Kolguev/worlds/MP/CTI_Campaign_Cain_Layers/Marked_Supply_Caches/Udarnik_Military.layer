@@ -1,0 +1,42 @@
+GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ coords 5414.747 64.126 3378.158
+}
+GenericEntity : "{6010D9A8FCCB7E38}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_05_Campaign_HQC.et" {
+ coords 5321.902 65.468 3359.857
+ angles 0 -24.7 0
+}
+GenericEntity : "{644AEC5C537E03F0}Prefabs/Systems/AmbientVehicles/AmbientVehicleSpawnpoint_USSR.et" {
+ components {
+  SCR_AmbientVehicleSpawnPointComponent "{5D5E85F932F777FA}" {
+   m_aIncludedEditableEntityLabels {
+    VEHICLE_CAR
+    VEHICLE_TRUCK
+   }
+  }
+ }
+ coords 5368.482 65 3403.092
+ angles 0 -2.34 0
+}
+GenericEntity : "{8576AB93B8D2708F}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_03_Campaign_HQC.et" {
+ coords 5332.838 65.338 3365.459
+ angles 0 -24.987 0
+}
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+   }
+  }
+  coords 5434.391 64.244 3364.267
+ }
+ {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType FIRETEAM
+   }
+  }
+  coords 5352.526 65.022 3387.406
+  angles 0 109.932 0
+ }
+}
